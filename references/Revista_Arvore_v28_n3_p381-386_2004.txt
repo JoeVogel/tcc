@@ -1,0 +1,17 @@
+@article{santos2004utilizaccao,
+  title={Utiliza{\c{c}}{\~a}o de um sistema de aquisi{\c{c}}{\~a}o autom{\'a}tica de dados para avalia{\c{c}}{\~a}o dos n{\'\i}veis de ru{\'\i}do de um trator agr{\'\i}cola de pneus},
+  author={Santos Filho, Paulo Fernando dos and Fernandes, Haroldo Carlos and Queiroz, Daniel Mar{\c{c}}al de and Souza, Amaury Paulo de and Camilo, Arlindo Jos{\'e}},
+  year={2004},
+  publisher={Sociedade de Investiga{\c{c}}{\~o}es Florestais}
+}
+
+
+
+
+SANTOS FILHO, Paulo Fernando dos et al. Utilização de um sistema de aquisição automática de dados para avaliação dos níveis de ruído de um trator agrícola de pneus. 2004.
+
+
+
+
+site:
+http://www.sifloresta.ufv.br/handle/123456789/12942

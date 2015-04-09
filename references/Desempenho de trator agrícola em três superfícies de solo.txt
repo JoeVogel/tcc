@@ -1,0 +1,14 @@
+@article{filho2010desempenho,
+  title={Desempenho de trator agr{\'\i}cola em tr{\^e}s superf{\'\i}cies de solo e quatro velocidades de deslocamento},
+  author={Filho, Antonio Gabriel and Lan{\c{c}}as, Kleber P and Leite, Fabr{\'\i}cio and Acosta, Juan JB and Jesuino, Paulo R},
+  journal={R. Bras. Eng. Agr{\'\i}c. Ambiental},
+  volume={14},
+  number={3},
+  pages={333--339},
+  year={2010},
+  publisher={SciELO Brasil}
+}
+
+
+
+FILHO, Antonio Gabriel et al. Desempenho de trator agrícola em três superfícies de solo e quatro velocidades de deslocamento. R. Bras. Eng. Agríc. Ambiental, v. 14, n. 3, p. 333-339, 2010.

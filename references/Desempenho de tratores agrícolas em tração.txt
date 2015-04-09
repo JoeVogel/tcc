@@ -1,0 +1,18 @@
+@article{serrano2007desempenho,
+  title={Desempenho de tratores agr{\'\i}colas em tra{\c{c}}{\~a}o},
+  author={SERRANO, JMPR},
+  journal={Pesquisa agropecu{\'a}ria brasileira},
+  volume={42},
+  number={07},
+  pages={1021--1027},
+  year={2007},
+  publisher={SciELO Brasil}
+}
+
+
+
+
+
+
+
+SERRANO, JMPR. Desempenho de tratores agrícolas em tração. Pesquisa agropecuária brasileira, v. 42, n. 07, p. 1021-1027, 2007.
