@@ -1,0 +1,10 @@
+INAMASU, Ricardo Y.; DE CAMPOS BERNARDI, Alberto C. Agricultura de Precisão. Embrapa Pecuária Sudeste-Capítulo em livro técnico-científico (ALICE), 2014.
+
+
+@article{inamasu2014agricultura,
+  title={Agricultura de Precis{\~a}o},
+  author={Inamasu, Ricardo Y and de Campos Bernardi, Alberto C},
+  journal={Embrapa Pecu{\'a}ria Sudeste-Cap{\'\i}tulo em livro t{\'e}cnico-cient{\'\i}fico (ALICE)},
+  year={2014},
+  publisher={In: BERNARDI, AC de C.; NAIME, J. de M.; RESENDE, AV de; BASSOI, LH; INAMASU, RY (Ed.). Agricultura de precis{\~a}o: resultados de um novo olhar. Bras{\'\i}lia, DF: Embrapa, 2014.}
+}

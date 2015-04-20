@@ -1,0 +1,13 @@
+JUNIOR, Marcos Monteiro; NUNES, Renato Ongarato; CELINSKI, Victor George. AVALIAÇÃO DA UTILIZAÇÃO DE UM MICROCONTROLADOR NA PLATAFORMA ARDUINO NA LEITURA DE SENSORES CONDUTIVIDADE ELETROLÍTICA DO SOLO DE BAIXO CUSTOletrolítica do Solo de Baixo Custo. Revista de Engenharia e Tecnologia, v. 4, n. 2, p. Páginas 52-57, 2012.
+
+
+
+@article{junior2012avaliaccao,
+  title={AVALIA{\c{C}}{\~A}O DA UTILIZA{\c{C}}{\~A}O DE UM MICROCONTROLADOR NA PLATAFORMA ARDUINO NA LEITURA DE SENSORES CONDUTIVIDADE ELETROL{\'I}TICA DO SOLO DE BAIXO CUSTOletrol{\'\i}tica do Solo de Baixo Custo},
+  author={Junior, Marcos Monteiro and Nunes, Renato Ongarato and Celinski, Victor George},
+  journal={Revista de Engenharia e Tecnologia},
+  volume={4},
+  number={2},
+  pages={P{\'a}ginas--52},
+  year={2012}
+}

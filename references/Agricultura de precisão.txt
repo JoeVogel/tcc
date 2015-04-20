@@ -1,0 +1,9 @@
+COELHO, José Castro et al. Agricultura de precisão. Prefácio, Lisboa, 2004.
+
+
+@article{coelho2004agricultura,
+  title={Agricultura de precis{\~a}o},
+  author={Coelho, Jos{\'e} Castro and SILVA, Lu{\'\i}s Mira and TRISTANY, Miguel and NETO, Miguel de Castro and PINTO, Pedro Aguiar},
+  journal={Pref{\'a}cio, Lisboa},
+  year={2004}
+}

@@ -1,0 +1,10 @@
+PARREIRA, Renato Hildebrando et al. DESENVOLVIMENTO DE UM PROTÓTIPO PARA AUTOMAÇÃO DE COBERTURAS COM SENSOR DE CHUVA UTILIZANDO PLATAFORMA MICROCONTROLADORA ARDUINO. In: Proceedings of World Congress on Systems Engineering and Information Technology. 2013. p. 198-202.
+
+@inproceedings{parreira2013desenvolvimento,
+  title={DESENVOLVIMENTO DE UM PROT{\'O}TIPO PARA AUTOMA{\c{C}}{\~A}O DE COBERTURAS COM SENSOR DE CHUVA UTILIZANDO PLATAFORMA MICROCONTROLADORA ARDUINO},
+  author={Parreira, Renato Hildebrando and De Souza, Grasiele Borges and dos Santos Souza, Juan Jos{\'e} and Muniz, Marcelo Nogueira},
+  booktitle={Proceedings of World Congress on Systems Engineering and Information Technology},
+  volume={1},
+  pages={198--202},
+  year={2013}
+}
