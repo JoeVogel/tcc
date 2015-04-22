@@ -1,0 +1,8 @@
+BOONSAWAT, Vongsagon et al. XBee wireless sensor networks for temperature monitoring. In: the second conference on application research and development (ECTI-CARD 2010), Chon Buri, Thailand. 2010.
+
+@inproceedings{boonsawat2010xbee,
+  title={XBee wireless sensor networks for temperature monitoring},
+  author={Boonsawat, Vongsagon and Ekchamanonta, Jurarat and Bumrungkhet, Kulwadee and Kittipiyakul, Somsak},
+  booktitle={the second conference on application research and development (ECTI-CARD 2010), Chon Buri, Thailand},
+  year={2010}
+}
