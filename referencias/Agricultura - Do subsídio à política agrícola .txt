@@ -1,0 +1,6 @@
+@article{tenorio2011agricultura,
+  title={Agricultura - Do subs{\'i}dio {\`a} pol{\'i}tica agr{\'i}cola },
+  author={TENÓRIO, Roberto},
+  journal={Desafios do Desenvolvimento},
+  year={2011}
+}

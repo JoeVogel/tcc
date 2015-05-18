@@ -1,0 +1,195 @@
+%twoside frente e verso do contrário oneside
+\documentclass[msc, oneside]{ppgiathesis}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{bigstrut}
+\usepackage{float}
+%Referências no Formato ABNT:
+\usepackage[alf]{abntcite}
+\usepackage[latin1]{inputenc}
+\usepackage[Algoritmo]{algorithm}
+\usepackage{algorithmic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hifenizacao
+
+\hyphenation{co-nhe-ci-men-to tra-ba-lhan-do com-pos-to
+a-pli-ca-do}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Nome do Aluno
+\author{JOE JONAS VOGEL}
+
+% Titulo da dissertação
+\title{DISPOSITIVO PARA TELEMETRIA DOS DADOS DE OPERAÇÂO DE EQUIPAMENTOS AGRÍCOLAS COM MICROCONTROLADOR ARDUINO E XBEE}
+
+% Orientador
+\adviser{Manfred Heil Júnior}
+
+% Co-Orientador (Retirar se não existir)
+\coadviser{Luciano de Souza Ribeiro Bueno}
+
+% Cidade
+\address{Jaraguá do Sul}
+
+% Data
+\date{2015}
+
+% Área de Concentração
+\majorfield{Ciência da Computação}
+
+\begin{document}
+
+% Folha de Rosto
+\frontpage
+
+
+% Informações
+\informations{Vogel}{Joe Jonas Vogel}{Telemetria}{Agricultura de Precisão}{Arduino}{XBEE}
+
+% Dedicatória
+\begin{dedicatory}
+    %Aqui vai a dedicatória
+\end{dedicatory}
+
+
+% Agradecimentos
+\acknowledgements
+
+%Aqui vai os agradecimentos
+
+% Sumário (não alterar)
+\tableofcontents
+
+% Lista de Figuras (Retirar se não existir)
+\listoffigures
+
+% Lista de Tabelas (Retirar se não existir)
+\listoftables
+
+% Lista de Símbolos (Retirar se não existir)
+\listofsymbols
+
+% Lista de Abreviações (Retirar se não existir)
+\listofabreviations
+
+% Resumo
+\resumo
+
+% \noindent para não criar parágrafo (Retirar se existir parágrafo)
+\noindent %Resumo
+\begin{keywords}
+    Telemetria, Agricultura de Precisão, Arduino, XBEE.
+\end{keywords}
+
+% Abstract
+\abstract
+
+% \noindent para não criar parágrafo (Retirar se existir parágrafo)
+\noindent %Abstract
+
+\begin{keywords}
+    Telemetry, Precision Agriculture, Arduino, XBEE.
+\end{keywords}
+
+% Não remover
+\mainmatter
+
+% Muda a posição e o algorísmo das páginas e reinicia o contador
+\changepage
+
+\chapter{Introdução}\label{cap_1}
+
+A Agricultura de Precisão vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP (Agricultura de Precisão) vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite {pires2004discutindo}
+
+A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros. \cite {pires2004discutindo}
+
+Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Ainda assim, o Brasil é o quinto maior produtor agrícola do mundo, com produção somando cerca de US$ 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Ficando atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão. \cite{tenorio2011agricultura}
+
+Mesmo com todo o território e condição climática que o Brasil possui, o seu resultado é  muito próximo de países como Japão e Índia que possuem condições geográficas mais hostis para a agricultura.
+
+Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta, utilizadas por outros países. Um exemplo são os tratores agrícolas utilizados no Brasil, estes não conseguem entregar os resultados esperados para eles. O motivo disso, é que as fabricantes de tratores são de fora do Brasil, e essas empresas testam seus equipamentos nas condições de trabalho de seus países. No Brasil apenas temos montadoras dessas fabricantes, os tratores são montados de acordo com o que foi especificado. Porém, na hora de usar este trator, ele acaba não conseguindo exercer a atividade como deveria, isso é devido a fatores como: as condições climáticas, de solo, de combustível, entre outras que ele enfrenta no Brasil não são como as testadas pelo fabricante. Isso implica consideravelmente no desempenho do aparelho.
+
+Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
+
+O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{sesc2015sustentabilidade} ?O conceito de sustentabilidade tem sua origem relacionada ao termo ?desenvolvimento sustentável?, definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades.?
+
+O presente estudo terá abordagem exploratória para o seu desenvolvimento, uma vez que dentro do objetivo estabelecido, visto que este assunto ainda é pouco explorado. Deverá ser aplicado um processo de sondagem, com vistas a aprimorar ideias, descobrir intuições e, posteriormente, construir hipóteses.
+
+\section{Desafio}
+
+O intuito deste artigo é atacar uma área ainda pouco explorada no Brasil que é a adequação de tratores agrícolas. Como descrito anteriormente, a situação atual é pouco avançada, tendo seus testes feitos de forma manual e assim gerando dados propensos a erros. Isso gera a necessidade de melhorar este processo adicionando mais veracidade e também facilidade a tomada de dados. 
+
+O objetivo é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e XBEE para envio dos dados coletados para a análise. Para a devida execução deste objetivo, alguns objetivos específicos são necessários, sendo eles: estudar e entender mais a fundo os conceitos de Interrupção no Arduino; Estudar e entender melhor o funcionamento do XBEE; Compreender o conhecimento necessário sobre os sensores que serão instalados nos tratores a fim de melhor gerenciar eles com o dispositivo a ser desenvolvido; Conhecer as informações básicas sobre o funcionamento do trator a fim de visualizar as situações a qual o dispositivo será submetido; Identificar as boas práticas para engenharia de sistemas; Desenvolver o dispositivo, software e documentação  aplicando boas práticas de engenharia de sistemas; Analisar os resultados alcançados ? definir melhor como ressaltar a relevância do resultado esperado.
+
+\chapter{Título do Capítulo (Times Roman 20 pt negrito)}\label{cap_2}
+
+%Conteúdo do capítulo
+
+\section{Seção (Times Roman 14 pt negrito)}
+
+%Conteúdo da seção
+
+\subsection{Subseção (Time Roman 12 pt negrito)}
+
+%Conteudo da subseção
+
+\section{Conclusão}
+
+%Cada capítulo deve conter uma breve conclusão (vide doc exemplo)
+
+\chapter{Conclusão}
+
+%Conclusão
+
+
+\chapter{Sobre as Referências no padrão ABNT}
+
+%Capitulo exemplo de citações (Deverá ser removido)
+
+Para utilizar o pacote abnt-alf é necessário instalar o
+Abntex\footnote{Disponível em: http://abntex.codigolivre.org.br/}
+e estudar como utilizá-lo, visto que ele adota o padrão um pouco
+diferente para alguns campos dos arquivos .bib convencionais e
+inclui alguns novos para poder atender as normas.
+
+Alguns exemplos:
+
+\begin{itemize}
+
+\item Citação de Artigo: \cite{Pachet:2003};
+
+\item Citação de Artigo publicado em Congresso:
+\cite{Fingerhut:1999};
+
+\item Citação de Livro: \cite{Kuncheva:2004};
+
+\item Citação de Fonte on-line: \cite{Lyman:2003};
+
+\end{itemize}
+
+%Referencias:
+\bibliographystyle{abnt-alf}
+\bibliography{exemplo}
+
+\appendix
+
+\chapter{Título do Apêndice}
+
+%Apêndices
+
+\section{Seção}
+
+%Primeira seção do apendice
+
+\subsection{Sub-Seção}
+
+%Subsessão da sessão
+
+
+\end{document}

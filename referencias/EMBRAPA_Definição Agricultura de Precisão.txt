@@ -1,0 +1,8 @@
+PIRES, João Leonardo Fernandes et al. Discutindo agricultura de precisão-aspectos gerais. Embrapa Trigo, 2004.
+
+@book{pires2004discutindo,
+  title={Discutindo agricultura de precis{\~a}o-aspectos gerais},
+  author={Pires, Jo{\~a}o Leonardo Fernandes and da Cunha, Gilberto Rocca and Pasinato, Aldemir and Fran{\c{c}}a, Solange and Rambo, Lisandro},
+  year={2004},
+  publisher={Embrapa Trigo}
+}
