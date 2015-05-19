@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  18 MAY 2015 16:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  19 MAY 2015 09:00
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -258,27 +258,240 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
+("C:\Program Files\MikTex\tex\latex\abntex2\abntex2cite.sty"
+Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
 
-! LaTeX Error: File `abntcite.sty' not found.
+("C:\Program Files\MikTex\tex\latex\abntex2\abntex2abrev.sty")
+("C:\Program Files\MikTex\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\minimumbiblabelwidth=\skip53
+\ABCIauxlen=\skip54
+\c@ABCIaux=\count110
+\c@ABCImax=\count111
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+("C:\Program Files\MikTex\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MikTex\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+\biblabelsep=\skip55
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks22
+)
+("C:\Program Files\MikTex\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks23
+\c@algorithm=\count112
+)
+("C:\Program Files\MikTex\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count113
+\c@ALC@line=\count114
+\c@ALC@rem=\count115
+\c@ALC@depth=\count116
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+)
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+\c@lstlisting=\count117
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.14 \usepackage
-                [latin1]{inputenc}
-*** (cannot \read from terminal in nonstop modes)
+("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen124
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks25
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 49.
+ [1
 
- 
+
+{C:/Users/joejonas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+
+ []
+
+[1
+
+] [2
+
+
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.toc)
+\tf@toc=\write3
+
+[3
+
+
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lof)
+\tf@lof=\write4
+ [4
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lot)
+\tf@lot=\write5
+ [5
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.los)
+\tf@los=\write6
+ [6
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.loa)
+\tf@loa=\write7
+ [7
+
+
+] [8
+
+
+]
+[9
+
+
+]
+
+LaTeX Warning: Citation `pires2004discutindo' on page 1 undefined on input line
+ 108.
+
+
+LaTeX Warning: Citation `pires2004discutindo' on page 1 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `tenorio2011agricultura' on page 1 undefined on input l
+ine 112.
+
+[1
+
+
+
+]
+
+LaTeX Warning: Citation `sesc2015sustentabilidade' on page 2 undefined on input
+ line 120.
+
+[2] [3] [4
+
+
+] [5
+
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 156.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 156.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 165.
+
+ ("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+
+
+LaTeX Warning: Citation `Pachet:2003' on page 6 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Fingerhut:1999' on page 6 undefined on input line 168.
+
+
+
+LaTeX Warning: Citation `Kuncheva:2004' on page 6 undefined on input line 170.
+
+
+LaTeX Warning: Citation `Lyman:2003' on page 6 undefined on input line 172.
+
+No file Monografia.bbl.
+[6
+
+
+] [7
+
+
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4264 strings out of 493921
- 65480 string characters out of 3148877
- 126755 words of memory out of 3000000
- 7506 multiletter control sequences out of 15000+200000
- 3938 words of font info for 15 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 44i,0n,42p,325b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 5445 strings out of 493921
+ 81409 string characters out of 3148877
+ 147152 words of memory out of 3000000
+ 8615 multiletter control sequences out of 15000+200000
+ 10656 words of font info for 37 fonts, out of 3000000 for 9000
+ 845 hyphenation exceptions out of 8191
+ 44i,9n,42p,1074b,257s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MikTe
+x/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTex/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10
+.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Monografia.pdf (20 pages, 116071 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

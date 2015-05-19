@@ -10,7 +10,7 @@
 \usepackage{bigstrut}
 \usepackage{float}
 %Referências no Formato ABNT:
-\usepackage[alf]{abntcite}
+\usepackage[alf]{abntex2cite}
 \usepackage[latin1]{inputenc}
 \usepackage[Algoritmo]{algorithm}
 \usepackage{algorithmic}
@@ -50,18 +50,18 @@ a-pli-ca-do}
 
 
 % Informações
-\informations{Vogel}{Joe Jonas Vogel}{Telemetria}{Agricultura de Precisão}{Arduino}{XBEE}
+\informations{VOGEL}{Joe Jonas}{Telemetria}{Agricultura de Precisão}{Arduino}{XBEE}
 
 % Dedicatória
 \begin{dedicatory}
-    %Aqui vai a dedicatória
+    Aqui vai a dedicatória
 \end{dedicatory}
 
 
 % Agradecimentos
 \acknowledgements
 
-%Aqui vai os agradecimentos
+	Aqui vai os agradecimentos
 
 % Sumário (não alterar)
 \tableofcontents
@@ -105,11 +105,11 @@ a-pli-ca-do}
 
 \chapter{Introdução}\label{cap_1}
 
-A Agricultura de Precisão vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP (Agricultura de Precisão) vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite {pires2004discutindo}
+A \abrevpuc{AP}{Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite{pires2004discutindo}
 
-A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros. \cite {pires2004discutindo}
+A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros. \cite{pires2004discutindo}
 
-Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Ainda assim, o Brasil é o quinto maior produtor agrícola do mundo, com produção somando cerca de US$ 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Ficando atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão. \cite{tenorio2011agricultura}
+Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Ainda assim, o Brasil é o quinto maior produtor agrícola do mundo, com produção somando cerca de US{\$} 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Ficando atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão. \cite{tenorio2011agricultura}
 
 Mesmo com todo o território e condição climática que o Brasil possui, o seu resultado é  muito próximo de países como Japão e Índia que possuem condições geográficas mais hostis para a agricultura.
 
@@ -117,7 +117,7 @@ Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta
 
 Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
 
-O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{sesc2015sustentabilidade} ?O conceito de sustentabilidade tem sua origem relacionada ao termo ?desenvolvimento sustentável?, definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades.?
+O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{sesc2015sustentabilidade} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
 
 O presente estudo terá abordagem exploratória para o seu desenvolvimento, uma vez que dentro do objetivo estabelecido, visto que este assunto ainda é pouco explorado. Deverá ser aplicado um processo de sondagem, com vistas a aprimorar ideias, descobrir intuições e, posteriormente, construir hipóteses.
 
@@ -127,7 +127,7 @@ O intuito deste artigo é atacar uma área ainda pouco explorada no Brasil que é a
 
 O objetivo é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e XBEE para envio dos dados coletados para a análise. Para a devida execução deste objetivo, alguns objetivos específicos são necessários, sendo eles: estudar e entender mais a fundo os conceitos de Interrupção no Arduino; Estudar e entender melhor o funcionamento do XBEE; Compreender o conhecimento necessário sobre os sensores que serão instalados nos tratores a fim de melhor gerenciar eles com o dispositivo a ser desenvolvido; Conhecer as informações básicas sobre o funcionamento do trator a fim de visualizar as situações a qual o dispositivo será submetido; Identificar as boas práticas para engenharia de sistemas; Desenvolver o dispositivo, software e documentação  aplicando boas práticas de engenharia de sistemas; Analisar os resultados alcançados ? definir melhor como ressaltar a relevância do resultado esperado.
 
-\chapter{Título do Capítulo (Times Roman 20 pt negrito)}\label{cap_2}
+\chapter{Arduino}\label{cap_2}
 
 %Conteúdo do capítulo
 
@@ -175,7 +175,7 @@ Alguns exemplos:
 
 %Referencias:
 \bibliographystyle{abnt-alf}
-\bibliography{exemplo}
+\bibliography{myReferences}
 
 \appendix
 

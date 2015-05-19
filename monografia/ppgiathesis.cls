@@ -306,7 +306,7 @@
 
       \begin{flushright}
          \begin{minipage}{80mm}
-            \@texttype\ apresentada no curso de Pós-Graduação do \@university\ como requisito parcial para obtenção do certificado do curso.
+            \@texttype\ apresentada no curso de Bacharelado em Sistemas de Informação do \@university\ como requisito parcial para obtenção do certificado do curso.
             \vskip2\baselineskip
             {Área de Concentração:} \@majorfield
             \vskip2\baselineskip
@@ -325,7 +325,7 @@
 
 %%%%%% INFORMATIONS %%%%%%
 
-\newcommand\informations[5]{%
+\newcommand\informations[6]{%
    \if@twoside
      \clearpage
    \else
@@ -345,7 +345,7 @@
          \framebox[140mm]{%
             \vbox{%
            \noindent #1, #2\\\@title. \@address, \@date. \vskip2\baselineskip
-           \@texttype\ - \@university . \vskip2\baselineskip 1. #3 2. #4 3. #5 I.\@university. Curso de Bacharaledo em Sistemas de Informação. Curso de Pós-Graduação em Engenharia de Software.
+           \@texttype\ - \@university . \vskip2\baselineskip 1. #3 2. #4 3. #5 4. #6 I.\@university. Curso de Bacharaledo em Sistemas de Informação.
             }
          }
       \end{minipage}
