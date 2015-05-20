@@ -17,8 +17,7 @@
 \contentsline {section}{\numberline {2.2}Conclus\~ao}{4}
 \contentsline {beforechapter}{Cap\'{\i }tulo~3}{5}
 \contentsline {chapter}{Conclus\~ao}{5}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{6}
-\contentsline {chapter}{Sobre as Refer\^encias no padr\~ao ABNT}{6}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{6}
 \contentsline {beforechapter}{Ap\^endice~A}{7}
 \contentsline {chapter}{T\IeC {\'\i }tulo do Ap\^endice}{7}
 \contentsline {section}{\numberline {A.1}Se\c c\~ao}{7}

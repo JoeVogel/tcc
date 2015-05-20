@@ -26,7 +26,7 @@ a-pli-ca-do}
 \author{JOE JONAS VOGEL}
 
 % Titulo da dissertação
-\title{DISPOSITIVO PARA TELEMETRIA DOS DADOS DE OPERAÇÂO DE EQUIPAMENTOS AGRÍCOLAS COM MICROCONTROLADOR ARDUINO E XBEE}
+\title{DISPOSITIVO PARA TELEMETRIA DOS DADOS DE OPERAÇÂO DE EQUIPAMENTOS AGRÍCOLAS}
 
 % Orientador
 \adviser{Manfred Heil Júnior}
@@ -105,11 +105,11 @@ a-pli-ca-do}
 
 \chapter{Introdução}\label{cap_1}
 
-A \abrevpuc{AP}{Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite{pires2004discutindo}
+A \abrevpuc{AP}{Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite{Pires2004}
 
-A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros. \cite{pires2004discutindo}
+A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros. \cite{Pires2004}
 
-Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Ainda assim, o Brasil é o quinto maior produtor agrícola do mundo, com produção somando cerca de US{\$} 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Ficando atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão. \cite{tenorio2011agricultura}
+Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Ainda assim, o Brasil é o quinto maior produtor agrícola do mundo, com produção somando cerca de US{\$} 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Ficando atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão. \cite{TENORIO2011}
 
 Mesmo com todo o território e condição climática que o Brasil possui, o seu resultado é  muito próximo de países como Japão e Índia que possuem condições geográficas mais hostis para a agricultura.
 
@@ -117,7 +117,7 @@ Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta
 
 Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
 
-O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{sesc2015sustentabilidade} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
+O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{SESC2015} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
 
 O presente estudo terá abordagem exploratória para o seu desenvolvimento, uma vez que dentro do objetivo estabelecido, visto que este assunto ainda é pouco explorado. Deverá ser aplicado um processo de sondagem, com vistas a aprimorar ideias, descobrir intuições e, posteriormente, construir hipóteses.
 
@@ -147,35 +147,9 @@ O objetivo é desenvolver um dispositivo para captação de dados relevantes ao fun
 
 %Conclusão
 
-
-\chapter{Sobre as Referências no padrão ABNT}
-
-%Capitulo exemplo de citações (Deverá ser removido)
-
-Para utilizar o pacote abnt-alf é necessário instalar o
-Abntex\footnote{Disponível em: http://abntex.codigolivre.org.br/}
-e estudar como utilizá-lo, visto que ele adota o padrão um pouco
-diferente para alguns campos dos arquivos .bib convencionais e
-inclui alguns novos para poder atender as normas.
-
-Alguns exemplos:
-
-\begin{itemize}
-
-\item Citação de Artigo: \cite{Pachet:2003};
-
-\item Citação de Artigo publicado em Congresso:
-\cite{Fingerhut:1999};
-
-\item Citação de Livro: \cite{Kuncheva:2004};
-
-\item Citação de Fonte on-line: \cite{Lyman:2003};
-
-\end{itemize}
-
 %Referencias:
-\bibliographystyle{abnt-alf}
-\bibliography{myReferences}
+\bibliographystyle{abntex2-alf}
+\bibliography{Monografia}
 
 \appendix
 
