@@ -14,6 +14,8 @@
 \usepackage[latin1]{inputenc}
 \usepackage[Algoritmo]{algorithm}
 \usepackage{algorithmic}
+
+\graphicspath{ {images/} }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Hifenizacao
 
@@ -103,7 +105,7 @@ a-pli-ca-do}
 % Muda a posição e o algorísmo das páginas e reinicia o contador
 \changepage
 
-\chapter{Introdução}\label{cap_1}
+\chapter{Introdução}\label{cap_intro}
 
 A \abrevpuc{AP}{Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados. \cite{Pires2004}
 
@@ -113,57 +115,105 @@ Com todo este avanço da AP, o Brasil ainda não está no mesmo ritmo de países ond
 
 Mesmo com todo o território e condição climática que o Brasil possui, o seu resultado é  muito próximo de países como Japão e Índia que possuem condições geográficas mais hostis para a agricultura.
 
-Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta, utilizadas por outros países. Um exemplo são os tratores agrícolas utilizados no Brasil, estes não conseguem entregar os resultados esperados para eles. O motivo disso, é que as fabricantes de tratores são de fora do Brasil, e essas empresas testam seus equipamentos nas condições de trabalho de seus países. No Brasil apenas temos montadoras dessas fabricantes, os tratores são montados de acordo com o que foi especificado. Porém, na hora de usar este trator, ele acaba não conseguindo exercer a atividade como deveria, isso é devido a fatores como: as condições climáticas, de solo, de combustível, entre outras que ele enfrenta no Brasil não são como as testadas pelo fabricante. Isso implica consideravelmente no desempenho do aparelho.
+Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta, utilizadas por outros países. Um exemplo são os tratores agrícolas utilizados no Brasil, estes não conseguem entregar os resultados esperados para eles. O motivo disso, é que as fabricantes de tratores são de fora do Brasil, e essas empresas testam seus equipamentos nas condições de trabalho de seus países. No Brasil apenas temos montadoras dessas fabricantes, os tratores são montados de acordo com o que foi especificado. 
+
+Uma das principais funções dos tratores agrícolas é transformar a energia contida no combustível e fornecê-la, através da barra de tração, para tracionar maquinas e implementos agrícolas. O desempenho na barra de tração depende de diversos fatores como potencia do motor, transmissão, entre outros. Entre os fatores que interferem na tração, a condição do solo é muito importante. \cite{filho2010desempenho}
+
+Porém, na hora de usar este trator, ele acaba não conseguindo exercer a atividade como deveria, isso é devido a fatores como: as condições climáticas, de solo, de combustível, entre outras que ele enfrenta no Brasil não são como as testadas pelo fabricante. Isso implica consideravelmente no desempenho do aparelho.
 
 Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
 
 O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{SESC2015} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
 
-O presente estudo terá abordagem exploratória para o seu desenvolvimento, uma vez que dentro do objetivo estabelecido, visto que este assunto ainda é pouco explorado. Deverá ser aplicado um processo de sondagem, com vistas a aprimorar ideias, descobrir intuições e, posteriormente, construir hipóteses.
-
 \section{Desafio}
 
-O intuito deste artigo é atacar uma área ainda pouco explorada no Brasil que é a adequação de tratores agrícolas. Como descrito anteriormente, a situação atual é pouco avançada, tendo seus testes feitos de forma manual e assim gerando dados propensos a erros. Isso gera a necessidade de melhorar este processo adicionando mais veracidade e também facilidade a tomada de dados. 
+Vários estudos já foram feitos sobre o desempenho de tratores agrícolas nas mais variadas condições para analisar por exemplo a perda de potência devido aos tipos de solo, pneu utilizado, lastragem e da velocidade de deslocamento. Os dados para essas análises são obtidos por meio de instrumentação e monitoramento dos tratores, permitindo a detecção de fatores diretamente envolvidos com a eficiência de trabalho do trator.\cite{filho2010desempenho}
 
-O objetivo é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e XBEE para envio dos dados coletados para a análise. Para a devida execução deste objetivo, alguns objetivos específicos são necessários, sendo eles: estudar e entender mais a fundo os conceitos de Interrupção no Arduino; Estudar e entender melhor o funcionamento do XBEE; Compreender o conhecimento necessário sobre os sensores que serão instalados nos tratores a fim de melhor gerenciar eles com o dispositivo a ser desenvolvido; Conhecer as informações básicas sobre o funcionamento do trator a fim de visualizar as situações a qual o dispositivo será submetido; Identificar as boas práticas para engenharia de sistemas; Desenvolver o dispositivo, software e documentação  aplicando boas práticas de engenharia de sistemas; Analisar os resultados alcançados ? definir melhor como ressaltar a relevância do resultado esperado.
+Porém, estes dados ainda são obtidos de formas manuais e exaustivas, tendo seus testes feitos de forma manual e assim gerando dados propensos a erros. Isso gera a necessidade de melhorar este processo adicionando mais veracidade e também facilidade a tomada de dados. 
 
-\chapter{Arduino}\label{cap_2}
+O desafio é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e XBEE para envio dos dados coletados para a análise. Para a devida execução deste objetivo, alguns objetivos específicos são necessários, sendo eles:
 
-%Conteúdo do capítulo
+\begin{itemize}
 
-\section{Seção (Times Roman 14 pt negrito)}
+\item Estudar e entender mais a fundo os conceitos de Interrupção no Arduino;
 
-%Conteúdo da seção
+\item Estudar e entender melhor o funcionamento do XBEE;
 
-\subsection{Subseção (Time Roman 12 pt negrito)}
+\item Compreender o conhecimento necessário sobre os sensores que serão instalados nos tratores a fim de melhor gerenciar eles com o dispositivo a ser desenvolvido;
 
-%Conteudo da subseção
+\item Conhecer as informações básicas sobre o funcionamento do trator a fim de visualizar as situações a qual o dispositivo será submetido;
+
+\item Identificar as boas práticas para engenharia de sistemas;
+
+\item Desenvolver o dispositivo, software e documentação  aplicando boas práticas de engenharia de sistemas;
+
+\item Analisar os resultados alcançados para definir melhor como ressaltar a relevância do resultado esperado.
+
+\end{itemize}
+
+
+\chapter{Arduino}\label{cap_arduino}
+
+O Arduino é uma plataforma eletrônica de código aberto baseado em hardware e software de fácil utilização. \cite{ARDUINO2015}
+
+Sua programação é feita em sua maioria nas linguagens C e C++, porém não se limita a elas. Como o Arduino é de código aberto, podemos encontrar vários experimentos utilizando outras linguagens de programação como: Java, JavaScript, Go, entre outras.
+
+O Arduino detecta o ambiente por meio de entradas provenientes dos mais variados tipos de sensores, e atua sobre o ambiente por meio de atuadores como: leds, motores, entre outros. Atualmente existem várias placas Arduino, elas variam em tamanho, memória, clock, portas, etc. Desta forma elas podem atender as mais variadas necessidades. \cite{ARDUINO2015}
+
+\section{Arduino Mega 2560}
+
+Para este dispositivo foram utilizados dois Arduinos Mega 2560 devido a quantidades de portas disponiveis para utilização.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=ArduinoMega2560_R3_Front_450px.eps}
+  \caption{Arduino Mega 2560 R3}
+  \label{fig_megaFrente}
+\end{figure}
+
+O Arduino Mega 2560 é uma placa controladora baseada no microcontrolador ATMega2560 da Atmel Corporation. Ele possui cinquenta e quatro (54) portas digitais de entrada / saída (dos quais quinze (15) podem ser utilizadas como PWM e seis (6) como portas de interrupção), dezesseis (16) analógicas e quatro (4) UARTs. O Arduino possui tudo que é necessário para suportar o microcontrolador. \cite{ARDUINOMEGA2015}
 
 \section{Conclusão}
 
-%Cada capítulo deve conter uma breve conclusão (vide doc exemplo)
+A plataforma Arduino facilita muito a vida de intusiastas que não contemplam conhecimentos mais avançados na área de microcontroladores, pois ele já vem com o hardware preparado para o uso. A plataforma Arduino associa, principalmente, a facilidade de programação com a disponibilidade de inúmeros periféricos na forma de módulos.
 
-\chapter{Conclusão}
+Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e Internet das Coisas por exemplo. Devido a isso, este foi o microcontrolador escolhido para este projeto.
 
-%Conclusão
+A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, se deu devido a fatores como quantidade de portas disponíveis e processamento necessário aliado ao custo.
+
+\chapter{XBEE}\label{cap_xbee}
+
+\section{Xbee Escolhi(verificar modelo)}
+
+\section{Conclusão}
+
+\chapter{Sensores}\label{cap_sensores}
+
+\section{Encoder}
+
+\section{Termopar}
+
+\section{Ultrassonico}
+
+\section{Conclusão}
+
+
+
+
+%\chapter{Conclusão}
+
 
 %Referencias:
 \bibliographystyle{abntex2-alf}
 \bibliography{Monografia}
 
-\appendix
+%\appendix
 
-\chapter{Título do Apêndice}
+%\chapter{Título do Apêndice}
 
-%Apêndices
+%\section{Seção}
 
-\section{Seção}
-
-%Primeira seção do apendice
-
-\subsection{Sub-Seção}
-
-%Subsessão da sessão
+%\subsection{Sub-Seção}
 
 
 \end{document}

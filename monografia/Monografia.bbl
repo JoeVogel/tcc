@@ -3,7 +3,26 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.2 }
+\abntbstabout{v-1.9.3 }
+
+\bibitem[ARDUINO 2015]{ARDUINOMEGA2015}
+\abntrefinfo{ARDUINO}{ARDUINO}{2015a}
+{ARDUINO. \emph{Arduino Mega 2560}. 2015.
+Online, acessado em 20/Maio/2015.
+Dispon{\'\i}vel em: \url{http://www.arduino.cc/en/Main/ArduinoBoardMega2560}.}
+
+\bibitem[ARDUINO 2015]{ARDUINO2015}
+\abntrefinfo{ARDUINO}{ARDUINO}{2015b}
+{ARDUINO. \emph{What is Arduino?} 2015.
+Online, acessado em 20/Maio/2015.
+Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
+
+\bibitem[Filho et al. 2010]{filho2010desempenho}
+\abntrefinfo{Filho et al.}{FILHO et al.}{2010}
+{FILHO, A.~G. et al. Desempenho de trator agr{\'\i}cola em tr{\^e}s
+  superf{\'\i}cies de solo e quatro velocidades de deslocamento.
+\emph{R. Bras. Eng. Agr{\'\i}c. Ambiental}, SciELO Brasil, v.~14, n.~3, p.
+  333--339, 2010.}
 
 \bibitem[Pires et al. 2004]{Pires2004}
 \abntrefinfo{Pires et al.}{PIRES et al.}{2004}

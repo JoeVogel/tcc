@@ -1,16 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.4.2)  19 MAY 2015 23:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  20 MAY 2015 17:01
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **Monografia.tex
-(./Monografia.tex
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./ppgiathesis.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\ppgiathesis.cls
 Document Class: ppgiathesis 
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+("C:\Program Files\MikTex\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+("C:\Program Files\MikTex\tex\latex\base\bk12.clo"
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,21 +33,27 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+("C:\Program Files\MikTex\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MikTex\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MikTex\tex\generic\babel\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+("C:\Program Files\MikTex\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files\MikTex\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count89
 \calc@Bcount=\count90
@@ -53,38 +66,38 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files\MikTex\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+("C:\Program Files\MikTex\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/theorem.sty
+("C:\Program Files\MikTex\tex\latex\tools\theorem.sty"
 Package: theorem 1995/11/23 v2.2c Theorem extension package (FMi)
 \theorem@style=\toks16
 \theorem@bodyfont=\toks17
 \theorempreskipamount=\skip46
 \theorempostskipamount=\skip47
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/thp.sty
+("C:\Program Files\MikTex\tex\latex\tools\thp.sty"
 File: thp.sty 1995/11/23 v2.2c Theorem extension package (FMi)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+("C:\Program Files\MikTex\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+("C:\Program Files\MikTex\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files\MikTex\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Program Files\MikTex\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MikTex\tex\latex\listings\listings.sty"
+("C:\Program Files\MikTex\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
@@ -101,54 +114,59 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count97
 \lst@maxwidth=\dimen109
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+("C:\Program Files\MikTex\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count98
 \lst@skipnumbers=\count99
 \lst@framebox=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+("C:\Program Files\MikTex\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MikTex\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MikTex\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvips.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+("C:\Program Files\MikTex\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MikTex\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+("C:\Program Files\MikTex\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MikTex\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MikTex\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MikTex\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MikTex\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+("C:\Program Files\MikTex\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+("C:\Program Files\MikTex\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Program Files\MikTex\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen112
@@ -159,56 +177,50 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen117
 \caption@hangindent=\dimen118
 )
-\c@ContinuedFloat=\count100
+\c@ContinuedFloat=\count101
 Package caption Info: listings package is loaded.
 )
-\c@KVtest=\count101
+\c@KVtest=\count102
 \sf@farskip=\skip48
 \sf@captopadj=\dimen119
 \sf@capskip=\skip49
 \sf@nearskip=\skip50
-\c@subfigure=\count102
-\c@subfigure@save=\count103
-\c@lofdepth=\count104
-\c@subtable=\count105
-\c@subtable@save=\count106
-\c@lotdepth=\count107
+\c@subfigure=\count103
+\c@subfigure@save=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@subtable@save=\count107
+\c@lotdepth=\count108
 \sf@top=\skip51
 \sf@bottom=\skip52
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+("C:\Program Files\MikTex\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen120
 \epsfysize=\dimen121
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files\MikTex\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files\MikTex\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MikTex\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))
+("C:\Program Files\MikTex\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -217,122 +229,138 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MikTex\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
-
-Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
-
-)) (/usr/share/texlive/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MikTex\tex\latex\multirow\bigstrut.sty"
 \bigstrutjot=\dimen122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MikTex\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
+\c@float@type=\count109
 \float@exts=\toks20
 \float@box=\box28
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
+("C:\Program Files\MikTex\tex\latex\abntex2\abntex2cite.sty"
+Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
 
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MikTex\tex\latex\abntex2\abntex2abrev.sty")
+("C:\Program Files\MikTex\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \minimumbiblabelwidth=\skip53
 \ABCIauxlen=\skip54
-\c@ABCIaux=\count109
-\c@ABCImax=\count110
+\c@ABCIaux=\count110
+\c@ABCImax=\count111
 
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MikTex\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("C:\Program Files\MikTex\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip55
-LaTeX Info: Redefining \newblock on input line 675.
-LaTeX Info: Redefining \cite on input line 702.
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+("C:\Program Files\MikTex\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks23
-\c@algorithm=\count111
+\c@algorithm=\count112
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+("C:\Program Files\MikTex\tex\latex\algorithms\algorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count112
-\c@ALC@line=\count113
-\c@ALC@rem=\count114
-\c@ALC@depth=\count115
+\c@ALC@unique=\count113
+\c@ALC@line=\count114
+\c@ALC@rem=\count115
+\c@ALC@depth=\count116
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
-(./Monografia.aux)
-\openout1 = `Monografia.aux'.
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+\c@lstlisting=\count117
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-\c@lstlisting=\count116
+("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen124
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks25
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 51.
  [1
 
 
-] [2
+{C:/Users/joejonas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 53--53
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 55--55
 [][] 
  []
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
@@ -341,77 +369,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 ] [2
 
 
-] (./Monografia.toc)
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.toc
+[3
+
+
+])
 \tf@toc=\write3
-\openout3 = `Monografia.toc'.
-
- [3
-
-
-] (./Monografia.lof)
+ [4] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lof)
 \tf@lof=\write4
-\openout4 = `Monografia.lof'.
-
- [4
-
-
-] (./Monografia.lot)
-\tf@lot=\write5
-\openout5 = `Monografia.lot'.
-
 
 [5
 
 
-] (./Monografia.los)
-\tf@los=\write6
-\openout6 = `Monografia.los'.
-
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lot)
+\tf@lot=\write5
  [6
 
 
-] (./Monografia.loa
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.los)
+\tf@los=\write6
+ [7
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.loa
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 1--2
 [] [] 
  []
 
 )
 \tf@loa=\write7
-\openout7 = `Monografia.loa'.
-
- [7
-
-
-] [8
+ [8
 
 
 ] [9
+
+
+] [10
 
 
 ] [1
 
 
 
-] [2] [3] [4
+]
+
+LaTeX Warning: Citation `filho2010desempenho' on page 2 undefined on input line
+ 120.
 
 
-] (./Monografia.bbl [5
+LaTeX Warning: Citation `filho2010desempenho' on page 2 undefined on input line
+ 130.
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+
+ ("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+ [3]
+Package epstopdf Info: Source file: <images/ArduinoMega2560_R3_Front_450px.eps>
+
+(epstopdf)                    date: 2015-05-20 13:52:11
+(epstopdf)                    size: 833507 bytes
+(epstopdf)             Output file: <images/ArduinoMega2560_R3_Front_450px-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 14:21:59
+(epstopdf)                    size: 24546 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/ArduinoMega2560_R3_F
+ront_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=60, 135.50626pt
+ x 89.33376pt>
+File: images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf>
+Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
+.pdf used on input line 169.
+(pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
+ [4
 
 
-]) [6
+ <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3_F
+ront_450px-eps-converted-to.pdf>] [5] [6
 
 
-] [7
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [7
 
 
-] (./Monografia.aux) ) 
+]) [8
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5161 strings out of 493305
- 77686 string characters out of 6139898
- 144071 words of memory out of 5000000
- 8502 multiletter control sequences out of 15000+600000
- 10656 words of font info for 37 fonts, out of 8000000 for 9000
- 961 hyphenation exceptions out of 8191
- 44i,9n,42p,1074b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5477 strings out of 493921
+ 82139 string characters out of 3148877
+ 145388 words of memory out of 3000000
+ 8642 multiletter control sequences out of 15000+200000
+ 10656 words of font info for 37 fonts, out of 3000000 for 9000
+ 845 hyphenation exceptions out of 8191
+ 44i,9n,42p,939b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
+x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
+msfonts/cm/cmti12.pfb>
+Output written on Monografia.pdf (22 pages, 120115 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Monografia.dvi (20 pages, 19372 bytes).
