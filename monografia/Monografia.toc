@@ -22,6 +22,7 @@
 \contentsline {chapter}{Sensores}{7}
 \contentsline {section}{\numberline {4.1}Encoder}{7}
 \contentsline {section}{\numberline {4.2}Termopar}{7}
-\contentsline {section}{\numberline {4.3}Ultrassonico}{7}
-\contentsline {section}{\numberline {4.4}Conclus\~ao}{7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{8}
+\contentsline {subsection}{\numberline {4.2.1}Termopar Tipo K}{8}
+\contentsline {section}{\numberline {4.3}Ultrassonico}{8}
+\contentsline {section}{\numberline {4.4}Conclus\~ao}{8}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{9}

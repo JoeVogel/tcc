@@ -52,7 +52,7 @@ a-pli-ca-do}
 
 
 % Informações
-\informations{VOGEL}{Joe Jonas}{Telemetria}{Agricultura de Precisão}{Arduino}{XBEE}
+\informations{VOGEL}{Joe Jonas}{Telemetria}{Agricultura de Precisão}{Arduino}
 
 % Dedicatória
 \begin{dedicatory}
@@ -84,9 +84,9 @@ a-pli-ca-do}
 \resumo
 
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
-\noindent %Resumo
+\noindent %Resumo (Não esquecer de especificar o tipo do trator)
 \begin{keywords}
-    Telemetria, Agricultura de Precisão, Arduino, XBEE.
+    Telemetria, Agricultura de Precisão, Arduino.
 \end{keywords}
 
 % Abstract
@@ -96,7 +96,7 @@ a-pli-ca-do}
 \noindent %Abstract
 
 \begin{keywords}
-    Telemetry, Precision Agriculture, Arduino, XBEE.
+    Telemetry, Precision Agriculture, Arduino.
 \end{keywords}
 
 % Não remover
@@ -192,6 +192,41 @@ A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, s
 \section{Encoder}
 
 \section{Termopar}
+
+Em 1821, o físico Thomas Johann Seebeck descobriu que em um circuito fechado, feito com fios de dois metais heterogêneos, uma corrente elétrica fluirá se a temperatura de uma junção T1 estiver acima da temperatura da outra extremidade T2. \cite{thomazini2005sensores}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=Circuito_de_Seebeck.eps}
+  \caption{Circuito de Seebeck}
+  \label{fig_circuitoSeebeck}
+\end{figure}
+
+Este circuito gera uma \abrevpuc{FEM}{Força Eletro-Motriz} que é relacionada com o campo elétrico formado pelo aquecimento que é a função do gradiente de temperatura neste ponto. Baseado no efeito de Seebeck, a FEM gerada é o fenômeno em que ocorre uma circulação de corrente em um circuito formado por dois metais heterogêneos, quando há uma diferença de temperatura entre as duas junções. \cite{thomazini2005sensores}
+
+Um termopar funciona medindo a diferença de potencial causada pelos fios diferentes. Dessa forma, pode-se medir diretamente a diferença entre temperaturas ou medir a temperatura absoluta, colocando em uma junção a temperatura conhecida. \cite{thomazini2005sensores}
+
+Os termopares são os sensores de temperatura mais utilizados atualmente. Isso se deve a sua simplicidade e confiabilidade dos mesmos. \cite{moreira2002mediccao}
+
+Os termopares são divididos em três categorias: termopares padronizados de metal nobre (R, S, B), termopares padronizados de metal base(K, J, N, E e T) e termopares não definidos por letras. Termopares de metal nobre contém platina e os termopares de metal base contém níquel. \cite{moreira2002mediccao}
+
+Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
+
+\begin{itemize}
+
+\item Temperatura do combustível na entrada do motor;
+
+\item Temperatura do combustível do retorno do motor;
+
+\item Temperatura do ar do motor;
+
+\item Temperatura dos gases do escapamento;
+
+\item Temperatura da água do arrefecimento do motor.
+
+\end{itemize}
+
+\subsection{Termopar Tipo K}
 
 \section{Ultrassonico}
 

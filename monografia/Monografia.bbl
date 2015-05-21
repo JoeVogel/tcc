@@ -24,6 +24,11 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 \emph{R. Bras. Eng. Agr{\'\i}c. Ambiental}, SciELO Brasil, v.~14, n.~3, p.
   333--339, 2010.}
 
+\bibitem[Moreira 2002]{moreira2002mediccao}
+\abntrefinfo{Moreira}{MOREIRA}{2002}
+{MOREIRA, L. Medi{\c{c}}{\~a}o de temperatura usando-se termopar.
+\emph{Cer{\^a}mica Industrial}, v.~7, n.~5, p. 51--53, 2002.}
+
 \bibitem[Pires et al. 2004]{Pires2004}
 \abntrefinfo{Pires et al.}{PIRES et al.}{2004}
 {PIRES, J. L.~F. et al. \emph{Discutindo agricultura de precis{\~{a}}o-aspectos
@@ -41,5 +46,11 @@ Dispon{\'\i}vel em:
 {TEN{\'{O}}RIO, R. Agricultura - do subs{\'{\i}}dio {\`{a}} pol{\'{\i}}tica
   agr{\'{\i}}cola.
 \emph{Desafios do Desenvolvimento}, 2011.}
+
+\bibitem[Thomazini e Albuquerque 2005]{thomazini2005sensores}
+\abntrefinfo{Thomazini e Albuquerque}{THOMAZINI; ALBUQUERQUE}{2005}
+{THOMAZINI, D.; ALBUQUERQUE, P. U. B.~d. Sensores industriais--fundamentos e
+  aplica{\c{c}}{\~o}es.
+\emph{S{\~a}o Paulo}, v.~3, 2005.}
 
 \end{thebibliography}
