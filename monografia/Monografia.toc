@@ -9,20 +9,19 @@
 \contentsline {chapter}{Abstract}{x}
 \contentsline {beforechapter}{Cap\'{\i }tulo~1}{1}
 \contentsline {chapter}{Introdu\c c\~ao}{1}
-\contentsline {section}{\numberline {1.1}Desafio}{2}
+\contentsline {section}{\numberline {1.1}Desafios}{2}
+\contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{3}
+\contentsline {section}{\numberline {1.3}Objetivos}{3}
+\contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{3}
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\IeC {\'\i }ficos}{3}
+\contentsline {section}{\numberline {1.4}Organiza\c c\~ao do Trabalho}{3}
 \contentsline {beforechapter}{Cap\'{\i }tulo~2}{4}
-\contentsline {chapter}{Arduino}{4}
-\contentsline {section}{\numberline {2.1}Arduino Mega 2560}{4}
-\contentsline {section}{\numberline {2.2}Conclus\~ao}{5}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{6}
-\contentsline {chapter}{XBEE}{6}
-\contentsline {section}{\numberline {3.1}Xbee Escolhi(verificar modelo)}{6}
-\contentsline {section}{\numberline {3.2}Conclus\~ao}{6}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{7}
-\contentsline {chapter}{Sensores}{7}
-\contentsline {section}{\numberline {4.1}Encoder}{7}
-\contentsline {section}{\numberline {4.2}Termopar}{7}
-\contentsline {subsection}{\numberline {4.2.1}Termopar Tipo K}{8}
-\contentsline {section}{\numberline {4.3}Ultrassonico}{8}
-\contentsline {section}{\numberline {4.4}Conclus\~ao}{8}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{9}
+\contentsline {chapter}{Fundamenta\c c\~ao}{4}
+\contentsline {section}{\numberline {2.1}Arduino}{4}
+\contentsline {section}{\numberline {2.2}XBEE}{5}
+\contentsline {section}{\numberline {2.3}Sensores}{5}
+\contentsline {subsection}{\numberline {2.3.1}Encoder}{5}
+\contentsline {subsection}{\numberline {2.3.2}Termopar}{5}
+\contentsline {subsection}{\numberline {2.3.3}Ultrassonico}{6}
+\contentsline {section}{\numberline {2.4}Conclus\~ao}{6}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{7}
