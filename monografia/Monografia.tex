@@ -28,7 +28,7 @@ a-pli-ca-do}
 \author{JOE JONAS VOGEL}
 
 % Titulo da dissertação
-\title{DISPOSITIVO PARA TELEMETRIA DOS DADOS DE OPERAÇÂO DE EQUIPAMENTOS AGRÍCOLAS}
+\title{DISPOSITIVO PARA TELEMETRIA DOS DADOS DE OPERAÇÂO DE TRATORES AGRÍCOLAS}
 
 % Orientador
 \adviser{Manfred Heil Júnior}
@@ -146,6 +146,50 @@ O desafio é desenvolver um dispositivo para captação de dados relevantes ao func
 \chapter{Fundamentação}\label{cap_fundamentacao}
 
 Completar com introdução ao capítulo...
+.
+.
+.
+.
+.
+.
+
+\section{Agricultura de Precisão}
+
+Normalmente a AP é associada ao uso de equipamentos de alta tecnologia para avaliar, ou monitorizar, as condições numa determinada parcela de terreno. Com essa avaliação é feita a aplicação de sementes, fertilizantes, fitofármacos, reguladores de crescimento, água, etc. de forma otimizada.\cite{coelho2004agricultura}
+
+Tanto a monitoria quanto a aplicação diferenciada exigem a utilização de tecnologias recentes,
+como os sistemas de posicionamento global (GPS - Global Positioning System), os
+sistemas de informação geográfica (SIG) e os sensores eletrônicos. \cite{coelho2004agricultura}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=GPS.eps}
+  \caption{GPS na Agricultura de Precisão}
+  \label{fig_gpsNaAP}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=solucoes_sig.eps}
+  \caption{componentes de um SIG (Sistema de Informação Geográfica)}
+  \label{fig_sig}
+\end{figure}
+
+Com a concepção do GPS (Global Position System) em 1995, viabilizou-se a instalação de receptores em colhedoras, possibilitando armazenar dados de produção instantânea associada à coordenada geográfica. Em 1996, surge no mercado, colhedoras com capacidade de mapeamento da produção, gerando o boom da Agricultura de Precisão no mundo, tornando possível a prática de mapeamento e aplicação de insumos à taxa variada por meio de máquinas. \cite{inamasu2014agricultura}
+
+A AP pode ser entendida então como uma forma de gestão da lavoura que leva em conta a variabilidade espacial. Pois, em tese, a variação pode ser suficientemente reduzida para que a lavoura seja considerada próxima do uniforme. O retorno econômico, portanto, depende de cada lavoura e dos processos de cada produtor. \cite{inamasu2014agricultura}
+
+
+
+\section{Avaliação de desempenho de tratores agrícolas}
+
+Uma das principais funções dos tratores agrícolas é transformar a energia contida no combustível e fornecê-la, através da barra de tração, para tracionar maquinas e implementos agrícolas. O desempenho na barra de tração depende de diversos fatores como potencia do motor, transmissão, entre outros. Entre os fatores que interferem na tração, a condição do solo é muito importante. \cite{filho2010desempenho}
+
+Vários estudos já foram feitos por outros autores nessa área para analisar a perda de potência de tratores devido aos tipos de solo, pneu utilizado, lastragem e da velocidade de deslocamento. Os dados para essas análises são obtidos por meio de instrumentação e monitoramento dos tratores, permitindo a detecção de fatores diretamente envolvidos com a eficiência de trabalho do trator.\cite{filho2010desempenho}
+
+Outro exemplo de análise de desempenho de tratores é o artigo de \cite{serrano2007desempenho} que faz a análise de parâmetros como: o regime do motor, a velocidade teórica e a velocidade real de avanço, o consumo horário de combustível e a força de tração na barra de tração. Também foram realizados testes dos tratores com um freio dinamométrico ligado à tomada de potência. Os resultados validam a relação linear entre a força de tração por unidade de largura de trabalho do implemento e o consumo de combustível por hectare, indicador do dimensionamento do conjunto trator-implemento. Os dados obtidos também evidenciam as vantagens de se selecionarem marchas altas e baixa rotação do motor. 
+
+No caso acima, o autor utilizou parte da infraestrutura do sistema de informação do próprio trator que apenas exibe os dados e para superar o fato de a informação não ficar registrada, foi desenvolvido um sistema de aquisição de dados (SAD). A instalação de uma tomada em T, na ligação entre o computador e o painel do sistema de informação, permitiu derivar os sinais dos sensores referidos para um circuito eletrônico constituído por: uma caixa de terminais (com oito canais) e de condicionamento de sinal, para converter sinais analógicos registrados pelos sensores em sinais digitais; uma placa de aquisição de dados, como interface para um computador portátil, sistema de armazenamento e tratamento de dados. Além dos sensores referidos, foi instalada uma célula de carga, interposta na ligação trator-implemento. \cite{serrano2007desempenho}
 
 \section{Arduino}
 

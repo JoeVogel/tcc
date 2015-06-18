@@ -17,11 +17,13 @@
 \contentsline {section}{\numberline {1.4}Organiza\c c\~ao do Trabalho}{3}
 \contentsline {beforechapter}{Cap\'{\i }tulo~2}{4}
 \contentsline {chapter}{Fundamenta\c c\~ao}{4}
-\contentsline {section}{\numberline {2.1}Arduino}{4}
-\contentsline {section}{\numberline {2.2}XBEE}{5}
-\contentsline {section}{\numberline {2.3}Sensores}{5}
-\contentsline {subsection}{\numberline {2.3.1}Encoder}{5}
-\contentsline {subsection}{\numberline {2.3.2}Termopar}{5}
-\contentsline {subsection}{\numberline {2.3.3}Ultrassonico}{6}
-\contentsline {section}{\numberline {2.4}Conclus\~ao}{6}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{7}
+\contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{4}
+\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de desempenho de tratores agr\IeC {\'\i }colas}{5}
+\contentsline {section}{\numberline {2.3}Arduino}{6}
+\contentsline {section}{\numberline {2.4}XBEE}{7}
+\contentsline {section}{\numberline {2.5}Sensores}{7}
+\contentsline {subsection}{\numberline {2.5.1}Encoder}{7}
+\contentsline {subsection}{\numberline {2.5.2}Termopar}{7}
+\contentsline {subsection}{\numberline {2.5.3}Ultrassonico}{8}
+\contentsline {section}{\numberline {2.6}Conclus\~ao}{8}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{9}

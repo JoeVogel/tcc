@@ -3,7 +3,7 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.2 }
+\abntbstabout{v-1.9.3 }
 
 \bibitem[ARDUINO 2015]{ARDUINOMEGA2015}
 \abntrefinfo{ARDUINO}{ARDUINO}{2015a}
@@ -17,12 +17,26 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/en/Main/ArduinoBoardMega2560}.}
 Online, acessado em 20/Maio/2015.
 Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 
+\bibitem[Coelho et al. 2004]{coelho2004agricultura}
+\abntrefinfo{Coelho et al.}{COELHO et al.}{2004}
+{COELHO, J.~C. et al. Agricultura de precis{\~a}o.
+\emph{Pref{\'a}cio, Lisboa}, 2004.}
+
 \bibitem[Filho et al. 2010]{filho2010desempenho}
 \abntrefinfo{Filho et al.}{FILHO et al.}{2010}
 {FILHO, A.~G. et al. Desempenho de trator agr{\'\i}cola em tr{\^e}s
   superf{\'\i}cies de solo e quatro velocidades de deslocamento.
 \emph{R. Bras. Eng. Agr{\'\i}c. Ambiental}, SciELO Brasil, v.~14, n.~3, p.
   333--339, 2010.}
+
+\bibitem[Inamasu e Bernardi 2014]{inamasu2014agricultura}
+\abntrefinfo{Inamasu e Bernardi}{INAMASU; BERNARDI}{2014}
+{INAMASU, R.~Y.; BERNARDI, A.~C. de C. Agricultura de precis{\~a}o.
+\emph{Embrapa Pecu{\'a}ria Sudeste-Cap{\'\i}tulo em livro
+  t{\'e}cnico-cient{\'\i}fico (ALICE)}, In: BERNARDI, AC de C.; NAIME, J. de
+  M.; RESENDE, AV de; BASSOI, LH; INAMASU, RY (Ed.). Agricultura de
+  precis{\~a}o: resultados de um novo olhar. Bras{\'\i}lia, DF: Embrapa, 2014.,
+  2014.}
 
 \bibitem[Moreira 2002]{moreira2002mediccao}
 \abntrefinfo{Moreira}{MOREIRA}{2002}
@@ -33,6 +47,12 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 \abntrefinfo{Pires et al.}{PIRES et al.}{2004}
 {PIRES, J. L.~F. et al. \emph{Discutindo agricultura de precis{\~{a}}o-aspectos
   gerais}. [S.l.]: Embrapa Trigo, 2004.}
+
+\bibitem[SERRANO 2007]{serrano2007desempenho}
+\abntrefinfo{SERRANO}{SERRANO}{2007}
+{SERRANO, J. Desempenho de tratores agr{\'\i}colas em tra{\c{c}}{\~a}o.
+\emph{Pesquisa agropecu{\'a}ria brasileira}, SciELO Brasil, v.~42, n.~07, p.
+  1021--1027, 2007.}
 
 \bibitem[SESC 2015]{SESC2015}
 \abntrefinfo{SESC}{SESC}{2015}
