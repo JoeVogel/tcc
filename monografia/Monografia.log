@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  18 JUN 2015 17:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  22 JUN 2015 15:05
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -418,7 +418,16 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 3--4
 
 
 
-] [2] [3]
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
+
+ ("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+
+[3] [4]
 Package epstopdf Info: Source file: <images/GPS.eps>
 (epstopdf)                    date: 2015-06-18 17:30:24
 (epstopdf)                    size: 245628 bytes
@@ -427,14 +436,13 @@ Package epstopdf Info: Source file: <images/GPS.eps>
 (epstopdf)                    size: 9165 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/GPS-eps-converted-to
 .pdf images/GPS.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
-
-<images/GPS-eps-converted-to.pdf, id=59, 197.73875pt x 104.39pt>
+ <images/GPS-eps-converted-to.pdf, id=63, 197.73875pt x 104.39pt>
 File: images/GPS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GPS-eps-converted-to.pdf>
-Package pdftex.def Info: images/GPS-eps-converted-to.pdf used on input line 166
+Package pdftex.def Info: images/GPS-eps-converted-to.pdf used on input line 196
 .
 (pdftex.def)             Requested size: 197.73827pt x 104.38972pt.
 Package epstopdf Info: Source file: <images/solucoes_sig.eps>
@@ -445,35 +453,26 @@ Package epstopdf Info: Source file: <images/solucoes_sig.eps>
 (epstopdf)                    size: 10874 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/solucoes_sig-eps-con
 verted-to.pdf images/solucoes_sig.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/solucoes_sig-eps-converted-to.pdf, id=60, 294.09875pt x 179.67125pt>
+<images/solucoes_sig-eps-converted-to.pdf, id=64, 294.09875pt x 179.67125pt>
 File: images/solucoes_sig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/solucoes_sig-eps-converted-to.pdf>
 Package pdftex.def Info: images/solucoes_sig-eps-converted-to.pdf used on input
- line 173.
+ line 203.
 (pdftex.def)             Requested size: 294.09802pt x 179.67079pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `inamasu2014agricultura' on page 4 undefined on input l
-ine 178.
-
-[4
+[5
 
 
  <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/GPS-eps-converted-to
-.pdf>]
-
-LaTeX Warning: Citation `inamasu2014agricultura' on page 5 undefined on input l
-ine 180.
-
-[5 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/solucoes_sig-eps-c
-onverted-to.pdf>]
+.pdf>] [6 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/solucoes_si
+g-eps-converted-to.pdf>] [7]
 Package epstopdf Info: Source file: <images/ArduinoMega2560_R3_Front_450px.eps>
 
 (epstopdf)                    date: 2015-05-20 13:52:11
@@ -484,23 +483,18 @@ converted-to.pdf>
 (epstopdf)                    size: 24546 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/ArduinoMega2560_R3_F
 ront_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=74, 135.50626pt
+<images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=81, 135.50626pt
  x 89.33376pt>
 File: images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf>
 Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
-.pdf used on input line 210.
+.pdf used on input line 240.
 (pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6]
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-05-21 14:18:34
 (epstopdf)                    size: 221097 bytes
@@ -510,58 +504,57 @@ o.pdf>
 (epstopdf)                    size: 5723 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
 eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 231.
+(epstopdf)             \includegraphics on input line 261.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=78, 116.435pt x 173.64874p
+<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=82, 116.435pt x 173.64874p
 t>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 231.
+n input line 261.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3
-_Front_450px-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 248.
+[8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3
+_Front_450px-eps-converted-to.pdf>] [9 <C:/Users/joejonas/Documents/GitHub/tcc/
+monografia/images/Circuito_de_Seebeck-eps-converted-to.pdf>] [10
 
 
-("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 248.
-
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [8 <C:/Users/
-joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebeck-eps-convert
-ed-to.pdf>]) [9
+] [11
 
 
 ]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [12
 
-LaTeX Warning: There were undefined references.
+
+])
+[13
+
+
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5518 strings out of 493921
- 83435 string characters out of 3148877
- 146682 words of memory out of 3000000
- 8680 multiletter control sequences out of 15000+200000
+ 5524 strings out of 493921
+ 83574 string characters out of 3148877
+ 146774 words of memory out of 3000000
+ 8686 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 44i,9n,42p,939b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,42p,939b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
 x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (23 pages, 149886 bytes).
+Output written on Monografia.pdf (27 pages, 155623 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
