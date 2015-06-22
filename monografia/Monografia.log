@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  22 JUN 2015 15:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  22 JUN 2015 17:42
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -297,7 +297,11 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux
+
+LaTeX Warning: Label `fig_coneUltrassonico' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -311,8 +315,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 \c@lstlisting=\count117
-
-("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen123
@@ -519,42 +522,117 @@ n input line 261.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3
-_Front_450px-eps-converted-to.pdf>] [9 <C:/Users/joejonas/Documents/GitHub/tcc/
-monografia/images/Circuito_de_Seebeck-eps-converted-to.pdf>] [10
+_Front_450px-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/exemplo_termopar.eps>
+(epstopdf)                    date: 2015-06-22 17:17:39
+(epstopdf)                    size: 649031 bytes
+(epstopdf)             Output file: <images/exemplo_termopar-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-22 17:18:22
+(epstopdf)                    size: 9925 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
+-converted-to.pdf images/exemplo_termopar.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/exemplo_termopar-eps-converted-to.pdf, id=89, 271.0125pt x 221.82875pt>
+File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
+<use images/exemplo_termopar-eps-converted-to.pdf>
+Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
+nput line 276.
+(pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
+ [9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebe
+ck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/ima
+ges/exemplo_termopar-eps-converted-to.pdf>] [10]
+Package epstopdf Info: Source file: <images/cone_sonar.eps>
+(epstopdf)                    date: 2015-06-22 17:28:02
+(epstopdf)                    size: 407843 bytes
+(epstopdf)             Output file: <images/cone_sonar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-22 17:29:49
+(epstopdf)                    size: 8308 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/cone_sonar-eps-conve
+rted-to.pdf images/cone_sonar.eps>
+(epstopdf)             \includegraphics on input line 323.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/cone_sonar-eps-converted-to.pdf, id=103, 263.98625pt x 142.5325pt>
+File: images/cone_sonar-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/cone_sonar-eps-converted-to.pdf>
+Package pdftex.def Info: images/cone_sonar-eps-converted-to.pdf used on input l
+ine 323.
+(pdftex.def)             Requested size: 263.9856pt x 142.53214pt.
 
 
-] [11
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [12
+LaTeX Warning: Citation `bastos1997uso' on page 11 undefined on input line 328.
 
 
-])
+[11]
+
+LaTeX Warning: Citation `bastos1997uso' on page 12 undefined on input line 330.
+
+
+Package epstopdf Info: Source file: <images/pulso-eco.eps>
+(epstopdf)                    date: 2015-06-22 17:40:26
+(epstopdf)                    size: 113059 bytes
+(epstopdf)             Output file: <images/pulso-eco-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-22 17:41:13
+(epstopdf)                    size: 9084 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
+ted-to.pdf images/pulso-eco.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+<images/pulso-eco-eps-converted-to.pdf, id=108, 414.54875pt x 128.48pt>
+File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/pulso-eco-eps-converted-to.pdf>
+Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
+ne 334.
+(pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
+ [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/cone_sonar-eps-c
+onverted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/puls
+o-eco-eps-converted-to.pdf>]
 [13
+
+
+] [14
+
+
+] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl
+[15
+
+
+]) [16
 
 
 ] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5524 strings out of 493921
- 83574 string characters out of 3148877
- 146774 words of memory out of 3000000
- 8686 multiletter control sequences out of 15000+200000
+ 5545 strings out of 493921
+ 84285 string characters out of 3148877
+ 146843 words of memory out of 3000000
+ 8704 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  44i,9n,42p,939b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
-x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (27 pages, 155623 bytes).
+x/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MikTex/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on Monografia.pdf (30 pages, 191712 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

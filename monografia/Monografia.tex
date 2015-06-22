@@ -201,7 +201,7 @@ sistemas de informação geográfica (SIG) e os sensores eletrônicos. \cite{coelho2
 \begin{figure}[h!]
   \centering
   \epsfig{file=solucoes_sig.eps}
-  \caption{componentes de um SIG (Sistema de Informação Geográfica)}
+  \caption{Componentes de um SIG (Sistema de Informação Geográfica)}
   \label{fig_sig}
 \end{figure}
 
@@ -269,7 +269,77 @@ Um termopar funciona medindo a diferença de potencial causada pelos fios diferen
 
 Os termopares são os sensores de temperatura mais utilizados atualmente. Isso se deve a sua simplicidade e confiabilidade dos mesmos. \cite{moreira2002mediccao}
 
-Os termopares são divididos em três categorias: termopares padronizados de metal nobre (R, S, B), termopares padronizados de metal base(K, J, N, E e T) e termopares não definidos por letras. Termopares de metal nobre contém platina e os termopares de metal base contém níquel. \cite{moreira2002mediccao}
+Segundo \cite{moreira2002mediccao}, os termopares são divididos em três categorias: termopares padronizados de metal nobre, termopares padronizados de metal base e termopares não definidos por letras. Termopares de metal nobre contém platina e os termopares de metal base contém níquel. 
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=exemplo_termopar.eps}
+  \caption{Exemplo de Termopar}
+  \label{fig_exemploTermopar}
+\end{figure}
+
+Dentro dessas categorias, com base na utilização e conhecimento mais comuns nos dias atuais, existem oito tipos de termoelemento: S, R, B (metal nobre) e J, K, N, T e E (metal base). \cite{thomazini2005sensores}
+
+Abaixo são explicados os tipos de termopares com sua composição, sua faixa de temperatura e suas características de utilização
+
+\subsubsection{Termopar tipo S e R}
+
+Os termopares do tipo S levam em sua composição 90\% Platina e 10\% Ródio para o terminal positivo e Platina para o terminal negativo.
+
+Os termopares do tipo R levam em sua composição 87\% Platina e 13\% Ródio para o terminal positivo e Platina para o terminal negativo.
+
+Sua faixa de utilização fica entre 0ºC até 1600ºC. Eles são recomendáveis em atmosferas oxidantes ou inertes. Não devem ser usados em medições abaixo de zero grau, no vácuo, em atmosferas redutoras ou atmosferas com vapores metálicos. Tem boa precisão em temperaturas elevadas. \cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo B}
+
+Os termopares do tipo B levam em sua composição 70\% Platina e 30\% Ródio para o terminal positivo e 94\% Platina e 06\% Ródio para o terminal negativo. Sua faixa de utilização fica entre 600ºC até 1700ºC. Eles são recomendáveis em atmosferas oxidantes ou inertes. Não devem ser usados em medições abaixo de zero grau, no vácuo, em atmosferas redutoras ou atmosferas com vapores metálicos. Melhores em altas temperaturas do que os Tipos S e R. \cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo J}
+
+Os termopares do tipo J levam em sua composição Ferro para o terminal positivo e Cobre e Níquel para o terminal negativo. Sua faixa de utilização fica entre -40ºC até 750ºC. Eles são recomendáveis em atmosferas oxidantes, redutoras, inertes e no vácuo. Não devem ser utilizados em atmosferas sulfurosas e não se recomenda o uso em temperaturas abaixo de zero grau. São de baixo custo.\cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo K}
+
+Os termopares do tipo K levam em sua composição Níquel e Cromo para o terminal positivo e Níquel e Alumínio para o terminal negativo. Sua faixa de utilização fica entre -200ºC até 900ºC. Eles são recomendáveis em atmosferas oxidantes ou inertes. Ocasionalmente podem ser usados abaixo de zero grau. Não são recomendaveis para atmosferas redutoras ou sulfurosas. E pode ser utilizado no vácuo, porém em curtos períodos de tempo.\cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo N}
+
+Os termopares do tipo N levam em sua composição Níquel, Cromo e Silício para o terminal positivo e Níquel e Silício para o terminal negativo. Sua faixa de utilização fica entre -200ºC até 1200ºC. Excelentes em resistência a oxidação até 1200ºC. Possuem curva FEM x Temperatura similar ao tipo K, porém possuem menor potência termoelétrica. Possuem maior estabilidade e menor drift x tempo. \cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo T}
+
+Os termopares do tipo T levam em sua composição Cobre para o terminal positivo e Cobre e Níquel para o terminal negativo. Sua faixa de utilização fica entre -200ºC até 350ºC. Eles são recomendáveis em atmosferas oxidantes, redutoras, inertes e no vácuo. Adequados para medições abaixo de zero grau. Apresentam boa precisão em sua faixa de utilização.\cite{thomazini2005sensores}
+
+\subsubsection{Termopar tipo E}
+
+Os termopares do tipo J levam em sua composição Níquel e Cromo para o terminal positivo e Cobre e Níquel para o terminal negativo. Sua faixa de utilização fica entre -200ºC até 9000ºC. Eles são recomendáveis em atmosferas oxidantes e inertes. Perdem suas características termoelétricas em ambientes redutores ou no vacúo. Adequados para medições abaixo de zero grau.\cite{thomazini2005sensores}
+
+\subsection{Ultrassonico}
+
+Os sensores ultrassonicos são ondas sonoras em frequências muito altas. Os transdutores ultrassonicos tem cristais de piezelétricos que ressonam a uma frequência desejada convertendo energia elétrica em energia acústica e vice-versa. As ondas transmitidas e refletidas em forma de cone, conforme a Figura 2.6.\cite{thomazini2005sensores}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=cone_sonar.eps}
+  \caption{Transmissão ultrassonico}
+  \label{fig_coneUltrassonico}
+\end{figure}
+
+Os ultrassonicos unem a variedade de utilização ao baixo custo. Isso faz com que sejam empregados em muitas aplicaçoes. Históricamente, a aplicação mais habitual dos ultrassonicos é na medição de distâncias por meio do método pulso-eco, por transdutores elétricos. \cite{bastos1997uso}
+
+A técnica do pulso-eco a medida de distância é feita por meio da determinação de tempo de trânsito que gasta uma uma onda ultrassonica para percorrer o trajeto de ida e volta.\cite{bastos1997uso}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=pulso-eco.eps}
+  \caption{Método pulso-eco}
+  \label{fig_UltrassonicoPulsoEco}
+\end{figure}
+
+\section{Conclusão}
+
+
+\chapter{Desenvolvimento}\label{cap_desenvolvimento}
 
 Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
 
@@ -287,14 +357,8 @@ Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seg
 
 \end{itemize}
 
-Os termopares do tipo K ...
+Este é um termopar com várias possibilidades de uso e alíado a isso temos o baixo custo. Devido a isso ele é um sensor muito utilizado até hoje.
 
-\subsection{Ultrassonico}
-
-\section{Conclusão}
-
-
-\chapter{Desenvolvimento}\label{cap_desenvolvimento}
 
 \chapter{Resultados}\label{cap_resultados}
 

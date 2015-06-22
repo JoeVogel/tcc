@@ -1,0 +1,6 @@
+@misc{bastos1997uso,
+  title={Uso de sensores ultra-s{\^o}nicos na medi{\c{c}}{\~a}o de par{\^a}metros em rob{\'o}tica e outras aplica{\c{c}}{\~o}es},
+  author={Bastos, Teodiano F and Abreu, Jos{\'e} Miguel M and Poveda, La},
+  year={1997},
+  publisher={Instituto de Autom{\'a}tica Industrial, Espanha}
+}
