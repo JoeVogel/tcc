@@ -20,23 +20,21 @@
 \contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{5}
 \contentsline {section}{\numberline {2.2}Avalia\c c\~ao de desempenho de tratores agr\IeC {\'\i }colas}{6}
 \contentsline {section}{\numberline {2.3}Arduino}{7}
-\contentsline {section}{\numberline {2.4}XBEE}{8}
-\contentsline {section}{\numberline {2.5}Sensores}{8}
-\contentsline {subsection}{\numberline {2.5.1}Encoder}{8}
-\contentsline {subsection}{\numberline {2.5.2}Termopar}{8}
-\contentsline {subsubsection}{\numberline {2.5.2.1}Termopar tipo S e R}{10}
-\contentsline {subsubsection}{\numberline {2.5.2.2}Termopar tipo B}{10}
-\contentsline {subsubsection}{\numberline {2.5.2.3}Termopar tipo J}{10}
-\contentsline {subsubsection}{\numberline {2.5.2.4}Termopar tipo K}{10}
-\contentsline {subsubsection}{\numberline {2.5.2.5}Termopar tipo N}{11}
-\contentsline {subsubsection}{\numberline {2.5.2.6}Termopar tipo T}{11}
-\contentsline {subsubsection}{\numberline {2.5.2.7}Termopar tipo E}{11}
-\contentsline {subsection}{\numberline {2.5.3}Ultrassonico}{11}
-\contentsline {section}{\numberline {2.6}Conclus\~ao}{12}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{13}
-\contentsline {chapter}{Desenvolvimento}{13}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{14}
-\contentsline {chapter}{Resultados}{14}
-\contentsline {beforechapter}{Cap\'{\i }tulo~5}{15}
-\contentsline {chapter}{Conclus\~ao}{15}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}
+\contentsline {section}{\numberline {2.4}Sensores}{8}
+\contentsline {subsection}{\numberline {2.4.1}Termopar}{8}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Termopar tipo S e R}{10}
+\contentsline {subsubsection}{\numberline {2.4.1.2}Termopar tipo B}{10}
+\contentsline {subsubsection}{\numberline {2.4.1.3}Termopar tipo J}{10}
+\contentsline {subsubsection}{\numberline {2.4.1.4}Termopar tipo K}{10}
+\contentsline {subsubsection}{\numberline {2.4.1.5}Termopar tipo N}{11}
+\contentsline {subsubsection}{\numberline {2.4.1.6}Termopar tipo T}{11}
+\contentsline {subsubsection}{\numberline {2.4.1.7}Termopar tipo E}{11}
+\contentsline {subsection}{\numberline {2.4.2}Ultrassonico}{11}
+\contentsline {section}{\numberline {2.5}Conclus\~ao}{13}
+\contentsline {beforechapter}{Cap\'{\i }tulo~3}{14}
+\contentsline {chapter}{Desenvolvimento}{14}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{15}
+\contentsline {chapter}{Resultados}{15}
+\contentsline {beforechapter}{Cap\'{\i }tulo~5}{16}
+\contentsline {chapter}{Conclus\~ao}{16}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{17}

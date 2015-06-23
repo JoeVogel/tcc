@@ -244,13 +244,17 @@ Para este dispositivo foram utilizados dois Arduinos Mega 2560 devido a quantida
 
 O Arduino Mega 2560 é uma placa controladora baseada no microcontrolador ATMega2560 da Atmel Corporation. Ele possui cinquenta e quatro (54) portas digitais de entrada / saída (dos quais quinze (15) podem ser utilizadas como PWM e seis (6) como portas de interrupção), dezesseis (16) analógicas e quatro (4) UARTs. O Arduino possui tudo que é necessário para suportar o microcontrolador. \cite{ARDUINOMEGA2015}
 
-A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, se deu devido a fatores como quantidade de portas disponíveis e processamento necessário aliado ao custo.
-
-\section{XBEE}
+%\section{XBEE}
 
 \section{Sensores}
 
-\subsection{Encoder}
+Para o desenvolvimento do trabalho, se faz necessário o uso de sensores que serão responsáveis pelas medições dos dados de trabalho do trator. 
+
+O termo sensor é empregado para designar dispositivos sensíveis a alguma forma de energia do ambiente, que pode ser luminosa, térmica, cinética, relacionando informações sobre uma grandeza a ser medida como temperatura, pressão, velocidade, corrente, aceleração, posição, etc.\cite{bastos1997uso}
+
+%\subsection{Encoder}
+
+
 
 \subsection{Termopar}
 
@@ -336,28 +340,35 @@ A técnica do pulso-eco a medida de distância é feita por meio da determinação de
   \label{fig_UltrassonicoPulsoEco}
 \end{figure}
 
+É necessária uma distância mínima entre o sensor e o objeto para que possam haver os ecos e os mesmos possam ser interpretados e calculados. O ângulo da superfície do objeto, rugosidade da superfície, mudanças na temperatura e umidade do ambiente. Os objetos podem ter qualquer forma refletiva, inclusive podem ser redondos.\cite{bastos1997uso}
+
+Estes sensores são utilizados para diversos fins, tais como medição de diâmetro, presença de pessoas, medição de densidade, entre outros.\cite{bastos1997uso}
+
 \section{Conclusão}
 
+Durante este capítulo, foram descritos os conhecimentos básicos necessários para o desenvolvimento e entendimento do trabalho. No próximo capítulo serão esplanados os assuntos pertinentes ao desenvolvimento.
 
 \chapter{Desenvolvimento}\label{cap_desenvolvimento}
 
-Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
+%A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, se deu devido a fatores como quantidade de portas disponíveis e processamento necessário aliado ao custo.
 
-\begin{itemize}
+%Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
 
-\item Temperatura do combustível na entrada do motor;
+%\begin{itemize}
 
-\item Temperatura do combustível do retorno do motor;
+%\item Temperatura do combustível na entrada do motor;
 
-\item Temperatura do ar do motor;
+%\item Temperatura do combustível do retorno do motor;
 
-\item Temperatura dos gases do escapamento;
+%\item Temperatura do ar do motor;
 
-\item Temperatura da água do arrefecimento do motor.
+%\item Temperatura dos gases do escapamento;
 
-\end{itemize}
+%\item Temperatura da água do arrefecimento do motor.
 
-Este é um termopar com várias possibilidades de uso e alíado a isso temos o baixo custo. Devido a isso ele é um sensor muito utilizado até hoje.
+%\end{itemize}
+
+%Este é um termopar com várias possibilidades de uso e alíado a isso temos o baixo custo. Devido a isso ele é um sensor muito utilizado até hoje.
 
 
 \chapter{Resultados}\label{cap_resultados}

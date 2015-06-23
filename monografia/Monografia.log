@@ -1,23 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  22 JUN 2015 17:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.2)  22 JUN 2015 23:12
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Monografia.tex
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
+(./Monografia.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\ppgiathesis.cls
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./ppgiathesis.cls
 Document Class: ppgiathesis 
-("C:\Program Files\MikTex\tex\latex\base\book.cls"
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MikTex\tex\latex\base\bk12.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,27 +26,21 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MikTex\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MikTex\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MikTex\tex\generic\babel\portuges.ldf"
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("C:\Program Files\MikTex\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-("C:\Program Files\MikTex\tex\latex\tools\calc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count89
 \calc@Bcount=\count90
@@ -66,38 +53,38 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
 )
-("C:\Program Files\MikTex\tex\latex\base\inputenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MikTex\tex\latex\base\latin1.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files\MikTex\tex\latex\tools\theorem.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/theorem.sty
 Package: theorem 1995/11/23 v2.2c Theorem extension package (FMi)
 \theorem@style=\toks16
 \theorem@bodyfont=\toks17
 \theorempreskipamount=\skip46
 \theorempostskipamount=\skip47
 
-("C:\Program Files\MikTex\tex\latex\tools\thp.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/thp.sty
 File: thp.sty 1995/11/23 v2.2c Theorem extension package (FMi)
 ))
-("C:\Program Files\MikTex\tex\latex\tools\xspace.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-("C:\Program Files\MikTex\tex\latex\tools\indentfirst.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files\MikTex\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MikTex\tex\latex\setspace\setspace.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-("C:\Program Files\MikTex\tex\latex\listings\listings.sty"
-("C:\Program Files\MikTex\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
@@ -114,59 +101,59 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count97
 \lst@maxwidth=\dimen109
 
-("C:\Program Files\MikTex\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count98
 \lst@skipnumbers=\count99
 \lst@framebox=\box27
 )
-("C:\Program Files\MikTex\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/09/06 1.5e listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files\MikTex\tex\latex\graphics\color.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files\MikTex\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files\MikTex\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MikTex\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
-("C:\Program Files\MikTex\tex\latex\graphics\graphics.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MikTex\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MikTex\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-("C:\Program Files\MikTex\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
-("C:\Program Files\MikTex\tex\latex\subfig\subfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files\MikTex\tex\latex\caption\caption.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files\MikTex\tex\latex\caption\caption3.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen112
@@ -194,33 +181,33 @@ Package caption Info: listings package is loaded.
 \sf@top=\skip51
 \sf@bottom=\skip52
 )
-("C:\Program Files\MikTex\tex\latex\graphics\epsfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen120
 \epsfysize=\dimen121
 )
-("C:\Program Files\MikTex\tex\latex\oberdiek\epstopdf.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MikTex\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files\MikTex\tex\latex\oberdiek\grfext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\kvdefinekeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files\MikTex\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\etexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\ifluatex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -229,11 +216,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MikTex\tex\generic\oberdiek\pdftexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MikTex\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -246,11 +233,15 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files\MikTex\tex\latex\multirow\bigstrut.sty"
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/bigstrut.sty
 \bigstrutjot=\dimen122
 )
-("C:\Program Files\MikTex\tex\latex\float\float.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count109
 \float@exts=\toks20
@@ -258,11 +249,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
-("C:\Program Files\MikTex\tex\latex\abntex2\abntex2cite.sty"
-Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
 
-("C:\Program Files\MikTex\tex\latex\abntex2\abntex2abrev.sty")
-("C:\Program Files\MikTex\tex\latex\url\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -271,24 +262,24 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@ABCIaux=\count110
 \c@ABCImax=\count111
 
-("C:\Program Files\MikTex\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MikTex\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip55
-LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 618.
+LaTeX Info: Redefining \newblock on input line 675.
+LaTeX Info: Redefining \cite on input line 702.
 \ABCItoken=\toks22
 )
-("C:\Program Files\MikTex\tex\latex\algorithms\algorithm.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks23
 \c@algorithm=\count112
 )
-("C:\Program Files\MikTex\tex\latex\algorithms\algorithmic.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count113
 \c@ALC@line=\count114
@@ -297,11 +288,9 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux
+(./Monografia.aux)
+\openout1 = `Monografia.aux'.
 
-LaTeX Warning: Label `fig_coneUltrassonico' multiply defined.
-
-)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -315,7 +304,8 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 \c@lstlisting=\count117
- ("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen123
@@ -342,8 +332,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{C:/Users/joejonas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
@@ -372,31 +361,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 ] [2
 
 
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.toc
-[3
+] (./Monografia.toc [3
 
 
 ])
 \tf@toc=\write3
- [4] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lof)
+\openout3 = `Monografia.toc'.
+
+ [4] (./Monografia.lof)
 \tf@lof=\write4
+\openout4 = `Monografia.lof'.
 
-[5
+ [5
 
 
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.lot)
+] (./Monografia.lot)
 \tf@lot=\write5
- [6
+\openout5 = `Monografia.lot'.
 
 
-]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.los)
+[6
+
+
+] (./Monografia.los)
 \tf@los=\write6
+\openout6 = `Monografia.los'.
+
  [7
 
 
-]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.loa
+] (./Monografia.loa
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 1--2
 [] [] 
  []
@@ -408,6 +402,8 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 3--4
 
 )
 \tf@loa=\write7
+\openout7 = `Monografia.loa'.
+
  [8
 
 
@@ -424,24 +420,23 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 3--4
 ] [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
- ("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
-
 [3] [4]
 Package epstopdf Info: Source file: <images/GPS.eps>
-(epstopdf)                    date: 2015-06-18 17:30:24
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 245628 bytes
 (epstopdf)             Output file: <images/GPS-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-18 17:31:55
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 9165 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/GPS-eps-converted-to
-.pdf images/GPS.eps>
+(epstopdf)             Command: <repstopdf --outfile=images/GPS-eps-converted-t
+o.pdf images/GPS.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
- <images/GPS-eps-converted-to.pdf, id=63, 197.73875pt x 104.39pt>
+ <images/GPS-eps-converted-to.pdf, id=64, 197.73875pt x 104.39pt>
 File: images/GPS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GPS-eps-converted-to.pdf>
@@ -449,17 +444,17 @@ Package pdftex.def Info: images/GPS-eps-converted-to.pdf used on input line 196
 .
 (pdftex.def)             Requested size: 197.73827pt x 104.38972pt.
 Package epstopdf Info: Source file: <images/solucoes_sig.eps>
-(epstopdf)                    date: 2015-06-18 17:42:27
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 112201 bytes
 (epstopdf)             Output file: <images/solucoes_sig-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-18 17:42:50
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 10874 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/solucoes_sig-eps-con
-verted-to.pdf images/solucoes_sig.eps>
+(epstopdf)             Command: <repstopdf --outfile=images/solucoes_sig-eps-co
+nverted-to.pdf images/solucoes_sig.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/solucoes_sig-eps-converted-to.pdf, id=64, 294.09875pt x 179.67125pt>
+<images/solucoes_sig-eps-converted-to.pdf, id=65, 294.09875pt x 179.67125pt>
 File: images/solucoes_sig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/solucoes_sig-eps-converted-to.pdf>
@@ -473,23 +468,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [5
 
 
- <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/GPS-eps-converted-to
-.pdf>] [6 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/solucoes_si
-g-eps-converted-to.pdf>] [7]
+ <./images/GPS-eps-converted-to.pdf>] [6 <./images/solucoes_sig-eps-converted-t
+o.pdf>] [7]
 Package epstopdf Info: Source file: <images/ArduinoMega2560_R3_Front_450px.eps>
 
-(epstopdf)                    date: 2015-05-20 13:52:11
+(epstopdf)                    date: 2015-05-21 20:30:56
 (epstopdf)                    size: 833507 bytes
 (epstopdf)             Output file: <images/ArduinoMega2560_R3_Front_450px-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2015-05-20 14:21:59
+(epstopdf)                    date: 2015-05-21 20:30:56
 (epstopdf)                    size: 24546 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/ArduinoMega2560_R3_F
-ront_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
+(epstopdf)             Command: <repstopdf --outfile=images/ArduinoMega2560_R3_
+Front_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=81, 135.50626pt
+<images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=82, 135.50626pt
  x 89.33376pt>
 File: images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -498,141 +492,148 @@ type pdf)
 Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
 .pdf used on input line 240.
 (pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
+
+
+LaTeX Warning: Citation `bastos1997uso' on page 8 undefined on input line 253.
+
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
-(epstopdf)                    date: 2015-05-21 14:18:34
+(epstopdf)                    date: 2015-05-21 20:30:56
 (epstopdf)                    size: 221097 bytes
 (epstopdf)             Output file: <images/Circuito_de_Seebeck-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2015-05-21 14:19:14
+(epstopdf)                    date: 2015-05-21 20:30:56
 (epstopdf)                    size: 5723 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
-eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 261.
+(epstopdf)             Command: <repstopdf --outfile=images/Circuito_de_Seebeck
+-eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=82, 116.435pt x 173.64874p
+<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=83, 116.435pt x 173.64874p
 t>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 261.
+n input line 265.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3
-_Front_450px-eps-converted-to.pdf>]
+[8 <./images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/exemplo_termopar.eps>
-(epstopdf)                    date: 2015-06-22 17:17:39
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 649031 bytes
 (epstopdf)             Output file: <images/exemplo_termopar-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-06-22 17:18:22
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 9925 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
--converted-to.pdf images/exemplo_termopar.eps>
-(epstopdf)             \includegraphics on input line 276.
+(epstopdf)             Command: <repstopdf --outfile=images/exemplo_termopar-ep
+s-converted-to.pdf images/exemplo_termopar.eps>
+(epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/exemplo_termopar-eps-converted-to.pdf, id=89, 271.0125pt x 221.82875pt>
+<images/exemplo_termopar-eps-converted-to.pdf, id=90, 271.0125pt x 221.82875pt>
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
 <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
-nput line 276.
+nput line 280.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
- [9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebe
-ck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/ima
-ges/exemplo_termopar-eps-converted-to.pdf>] [10]
+ [9 <./images/Circuito_de_Seebeck-eps-converted-to.pdf> <./images/exemplo_termo
+par-eps-converted-to.pdf>]
+[10]
 Package epstopdf Info: Source file: <images/cone_sonar.eps>
-(epstopdf)                    date: 2015-06-22 17:28:02
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 407843 bytes
 (epstopdf)             Output file: <images/cone_sonar-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-22 17:29:49
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 8308 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/cone_sonar-eps-conve
-rted-to.pdf images/cone_sonar.eps>
-(epstopdf)             \includegraphics on input line 323.
+(epstopdf)             Command: <repstopdf --outfile=images/cone_sonar-eps-conv
+erted-to.pdf images/cone_sonar.eps>
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cone_sonar-eps-converted-to.pdf, id=103, 263.98625pt x 142.5325pt>
+<images/cone_sonar-eps-converted-to.pdf, id=104, 263.98625pt x 142.5325pt>
 File: images/cone_sonar-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cone_sonar-eps-converted-to.pdf>
 Package pdftex.def Info: images/cone_sonar-eps-converted-to.pdf used on input l
-ine 323.
+ine 327.
 (pdftex.def)             Requested size: 263.9856pt x 142.53214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `bastos1997uso' on page 11 undefined on input line 328.
+LaTeX Warning: Citation `bastos1997uso' on page 11 undefined on input line 332.
 
 
 [11]
 
-LaTeX Warning: Citation `bastos1997uso' on page 12 undefined on input line 330.
+LaTeX Warning: Citation `bastos1997uso' on page 12 undefined on input line 334.
 
 
 Package epstopdf Info: Source file: <images/pulso-eco.eps>
-(epstopdf)                    date: 2015-06-22 17:40:26
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 113059 bytes
 (epstopdf)             Output file: <images/pulso-eco-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-22 17:41:13
+(epstopdf)                    date: 2015-06-22 18:56:22
 (epstopdf)                    size: 9084 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
-ted-to.pdf images/pulso-eco.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             Command: <repstopdf --outfile=images/pulso-eco-eps-conve
+rted-to.pdf images/pulso-eco.eps>
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
-<images/pulso-eco-eps-converted-to.pdf, id=108, 414.54875pt x 128.48pt>
+<images/pulso-eco-eps-converted-to.pdf, id=109, 414.54875pt x 128.48pt>
 File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
-ne 334.
+ne 338.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
- [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/cone_sonar-eps-c
-onverted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/puls
-o-eco-eps-converted-to.pdf>]
-[13
 
 
-] [14
+LaTeX Warning: Citation `bastos1997uso' on page 12 undefined on input line 343.
 
 
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl
-[15
+
+LaTeX Warning: Citation `bastos1997uso' on page 12 undefined on input line 345.
 
 
-]) [16
+[12 <./images/cone_sonar-eps-converted-to.pdf> <./images/pulso-eco-eps-converte
+d-to.pdf>] [13] [14
 
 
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+] [15
+
+
+] (./Monografia.bbl [16
+
+
+]) [17
+
+
+] (./Monografia.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 5545 strings out of 493921
- 84285 string characters out of 3148877
- 146843 words of memory out of 3000000
- 8704 multiletter control sequences out of 15000+200000
- 10656 words of font info for 37 fonts, out of 3000000 for 9000
- 845 hyphenation exceptions out of 8191
- 44i,9n,42p,939b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
-x/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MikTex/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb>
-Output written on Monografia.pdf (30 pages, 191712 bytes).
+ 5638 strings out of 493304
+ 85477 string characters out of 6139872
+ 154550 words of memory out of 5000000
+ 8960 multiletter control sequences out of 15000+600000
+ 10656 words of font info for 37 fonts, out of 8000000 for 9000
+ 961 hyphenation exceptions out of 8191
+ 44i,9n,42p,939b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Monografia.pdf (31 pages, 177902 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
