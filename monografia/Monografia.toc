@@ -20,17 +20,19 @@
 \contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{5}
 \contentsline {section}{\numberline {2.2}Avalia\c c\~ao de desempenho de tratores agr\IeC {\'\i }colas}{6}
 \contentsline {section}{\numberline {2.3}Arduino}{7}
-\contentsline {section}{\numberline {2.4}Sensores}{8}
-\contentsline {subsection}{\numberline {2.4.1}Termopar}{8}
-\contentsline {subsubsection}{\numberline {2.4.1.1}Termopar tipo S e R}{10}
-\contentsline {subsubsection}{\numberline {2.4.1.2}Termopar tipo B}{10}
-\contentsline {subsubsection}{\numberline {2.4.1.3}Termopar tipo J}{10}
-\contentsline {subsubsection}{\numberline {2.4.1.4}Termopar tipo K}{11}
-\contentsline {subsubsection}{\numberline {2.4.1.5}Termopar tipo N}{11}
-\contentsline {subsubsection}{\numberline {2.4.1.6}Termopar tipo T}{11}
-\contentsline {subsubsection}{\numberline {2.4.1.7}Termopar tipo E}{11}
-\contentsline {subsection}{\numberline {2.4.2}Ultrassonico}{12}
-\contentsline {section}{\numberline {2.5}Conclus\~ao}{13}
+\contentsline {section}{\numberline {2.4}ZigBee}{8}
+\contentsline {section}{\numberline {2.5}Sensores}{8}
+\contentsline {subsection}{\numberline {2.5.1}Encoder}{9}
+\contentsline {subsection}{\numberline {2.5.2}Termopar}{9}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Termopar tipo S e R}{10}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Termopar tipo B}{10}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Termopar tipo J}{11}
+\contentsline {subsubsection}{\numberline {2.5.2.4}Termopar tipo K}{11}
+\contentsline {subsubsection}{\numberline {2.5.2.5}Termopar tipo N}{11}
+\contentsline {subsubsection}{\numberline {2.5.2.6}Termopar tipo T}{11}
+\contentsline {subsubsection}{\numberline {2.5.2.7}Termopar tipo E}{12}
+\contentsline {subsection}{\numberline {2.5.3}Ultrassonico}{12}
+\contentsline {section}{\numberline {2.6}Conclus\~ao}{13}
 \contentsline {beforechapter}{Cap\'{\i }tulo~3}{14}
 \contentsline {chapter}{Desenvolvimento}{14}
 \contentsline {beforechapter}{Cap\'{\i }tulo~4}{15}

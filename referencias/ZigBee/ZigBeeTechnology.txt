@@ -1,0 +1,6 @@
+@book{farahani2011zigbee,
+  title={ZigBee wireless networks and transceivers},
+  author={Farahani, Shahin},
+  year={2011},
+  publisher={newnes}
+}
