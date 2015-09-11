@@ -217,7 +217,7 @@ Vários estudos já foram feitos por outros autores nessa área para analisar a per
 
 Outro exemplo de análise de desempenho de tratores é o artigo de \cite{serrano2007desempenho} que faz a análise de parâmetros como: o regime do motor, a velocidade teórica e a velocidade real de avanço, o consumo horário de combustível e a força de tração na barra de tração. Também foram realizados testes dos tratores com um freio dinamométrico ligado à tomada de potência. Os resultados validam a relação linear entre a força de tração por unidade de largura de trabalho do implemento e o consumo de combustível por hectare, indicador do dimensionamento do conjunto trator-implemento. Os dados obtidos também evidenciam as vantagens de se selecionarem marchas altas e baixa rotação do motor. 
 
-No caso acima, o autor utilizou parte da infraestrutura do sistema de informação do próprio trator que apenas exibe os dados e para superar o fato de a informação não ficar registrada, foi desenvolvido um sistema de aquisição de dados (SAD). A instalação de uma tomada em T, na ligação entre o computador e o painel do sistema de informação, permitiu derivar os sinais dos sensores referidos para um circuito eletrônico constituído por: uma caixa de terminais (com oito canais) e de condicionamento de sinal, para converter sinais analógicos registrados pelos sensores em sinais digitais; uma placa de aquisição de dados, como interface para um computador portátil, sistema de armazenamento e tratamento de dados. Além dos sensores referidos, foi instalada uma célula de carga, interposta na ligação trator-implemento \cite{serrano2007desempenho}.
+No caso acima, o autor utilizou parte da infraestrutura do sistema de informação do próprio trator que apenas exibe os dados e para superar o fato de a informação não ficar registrada, foi desenvolvido um \abrevpuc{SAD}{Sistema de Aquisição de Dados}. A instalação de uma tomada em T, na ligação entre o computador e o painel do sistema de informação, permitiu derivar os sinais dos sensores referidos para um circuito eletrônico constituído por: uma caixa de terminais (com oito canais) e de condicionamento de sinal, para converter sinais analógicos registrados pelos sensores em sinais digitais; uma placa de aquisição de dados, como interface para um computador portátil, sistema de armazenamento e tratamento de dados. Além dos sensores referidos, foi instalada uma célula de carga, interposta na ligação trator-implemento \cite{serrano2007desempenho}.
 
 \section{Arduino}
 
@@ -242,9 +242,22 @@ Uma das placas Arduino mais utilizadas em projetos maiores é o Arduino Mega 2560
 
 O Arduino Mega 2560 é uma placa controladora baseada no microcontrolador ATMega2560 da Atmel Corporation. Ele possui cinquenta e quatro (54) portas digitais de entrada / saída (dos quais quinze (15) podem ser utilizadas como PWM e seis (6) como portas de interrupção), dezesseis (16) analógicas e quatro (4) UARTs. O Arduino possui tudo que é necessário para suportar o microcontrolador \cite{ARDUINOMEGA2015}.
 
-\section{ZigBee}
+\section{Padrão ZigBee}
 
-ZigBee é um padrão que define um conjunto de protocolos de comunicação para redes sem fio de baixa taxa de transferência de dados. A taxa de transferência máxima é de 250Kbits/s. Suas principais características são: baixo custo, baixa taxa de transferência e consumo baixo de energia. Com o consumo baixo de energia aliado ao modo de economia de energia dos microcontroladores (conhecido com ``\textit{sleep mode}''), estes dispositivos podem operar por anos sem necessitar de troca de bateria. \cite{farahani2011zigbee}
+ZigBee é um padrão que define um conjunto de protocolos de comunicação para redes sem fio de baixa taxa de transferência de dados. A taxa de transferência máxima é de 250Kbits/s. Suas principais características são: baixo custo, baixa taxa de transferência e consumo baixo de energia. Com o consumo baixo de energia aliado ao modo de economia de energia dos microcontroladores (conhecido com ``\textit{sleep mode}''), estes dispositivos podem operar por anos sem necessitar de troca de bateria \cite{farahani2011zigbee}.
+
+O padrão ZigBee é desenvolvido pela ZigBee Aliance. A ZigBee Aliance foi fundada em 2002 como uma organização sem fins lucrativos aberta a quem queira se juntar a ela. O padrão ZigBee adotou a norma IEEE 802.15.5 e os protocolos \abrevpuc{MAC}{Medium Access Control}. O Padrão ZigBee foi especialmente desenvolvido para atender as necessidades de baixo custo de implementação de redes sem fio para baixa taxa de transferência e baixo consumo de energia \cite{farahani2011zigbee}.
+
+\section{Comparação: ZigBee, Bluetooth e o Padrão IEEE 802.11}
+
+Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O IEEE 802.11 trabalha com alta taxa de transferência (até 11Mbps), este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (``\textit{Indoor}''). O Bluetooth, trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício coparado ao Bluetooth e ao IEEE 802.11 \cite{farahani2011zigbee}. Na Figura 2.4 é possível visualizar as principais diferenças entre estes padrões.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=ZigBee_Bluetooth_IEEE802.eps}
+  \caption{Comparação entre o padrão ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: FARAHANI, 2011, p. 3}
+  \label{fig_megaFrente}
+\end{figure}
 
 \section{Sensores}
 
@@ -320,14 +333,7 @@ Os termopares do tipo J levam em sua composição Níquel e Cromo para o terminal p
 
 \subsection{Ultrassonico}
 
-Os sensores ultrassônicos emitem ondas sonoras em frequências muito altas. Os transdutores ultrassônicos tem cristais de piezelétricos que ressonam a uma frequência desejada convertendo energia elétrica em energia acústica e vice-versa. As ondas são transmitidas e refletidas em forma de cone \cite{thomazini2005sensores}. Conforme a Figura 2.6.
-
-\begin{figure}[h!]
-  \centering
-  \epsfig{file=cone_sonar.eps}
-  \caption{Transmissão ultrassônico. Fonte: Sensores Industriais. Fundamentos e Aplicações. 4 ed.}
-  \label{fig_coneUltrassonico}
-\end{figure}
+Os sensores ultrassônicos emitem ondas sonoras em frequências muito altas. Os transdutores ultrassônicos tem cristais de piezelétricos que ressonam a uma frequência desejada convertendo energia elétrica em energia acústica e vice-versa. As ondas são transmitidas e refletidas em forma de cone \cite{thomazini2005sensores}. 
 
 Os ultrassônicos unem a variedade de utilização ao baixo custo. Isso faz com que sejam empregados em muitas aplicaçoes. Historicamente, a aplicação mais habitual dos ultrassônicos é na medição de distâncias por meio do método pulso-eco, por transdutores elétricos \cite{bastos1997uso}.
 
@@ -336,7 +342,7 @@ A técnica do pulso-eco a medida de distância é feita por meio da determinação de
 \begin{figure}[h!]
   \centering
   \epsfig{file=pulso-eco.eps}
-  \caption{Método pulso-eco}
+  \caption{Método pulso-eco.}
   \label{fig_UltrassonicoPulsoEco}
 \end{figure}
 

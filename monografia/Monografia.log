@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  10 SEP 2015 16:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  11 SEP 2015 16:20
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -297,7 +297,11 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux
+
+LaTeX Warning: Label `fig_megaFrente' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -311,8 +315,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 \c@lstlisting=\count117
-
-("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen123
@@ -400,6 +403,16 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 1--2
 
 
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 3--4
+[] [] 
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 5--6
+[] [] 
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 7--8
 [] [] 
  []
 
@@ -495,13 +508,30 @@ type pdf)
 Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
 .pdf used on input line 238.
 (pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
+ [8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R
+3_Front_450px-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/ZigBee_Bluetooth_IEEE802.eps>
+(epstopdf)                    date: 2015-09-11 12:59:38
+(epstopdf)                    size: 231031 bytes
+(epstopdf)             Output file: <images/ZigBee_Bluetooth_IEEE802-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-09-11 13:03:44
+(epstopdf)                    size: 17346 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/ZigBee_Bluetooth_IEE
+E802-eps-converted-to.pdf images/ZigBee_Bluetooth_IEEE802.eps>
+(epstopdf)             \includegraphics on input line 257.
+Package epstopdf Info: Output file is already uptodate.
 
-
-LaTeX Warning: Citation `farahani2011zigbee' on page 8 undefined on input line 
-247.
-
-[8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R3
-_Front_450px-eps-converted-to.pdf>]
+<images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf, id=88, 449.68pt x 140.52
+5pt>
+File: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf>
+Package pdftex.def Info: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf u
+sed on input line 257.
+(pdftex.def)             Requested size: 449.6789pt x 140.52464pt.
+ [9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ZigBee_Bluetooth_
+IEEE802-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-05-21 14:18:34
 (epstopdf)                    size: 221097 bytes
@@ -511,15 +541,15 @@ o.pdf>
 (epstopdf)                    size: 5723 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
 eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=88, 116.435pt x 173.64874p
+<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=95, 116.435pt x 173.64874p
 t>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 265.
+n input line 278.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 Package epstopdf Info: Source file: <images/exemplo_termopar.eps>
 (epstopdf)                    date: 2015-06-22 17:17:39
@@ -530,40 +560,22 @@ df>
 (epstopdf)                    size: 9925 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
 -converted-to.pdf images/exemplo_termopar.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/exemplo_termopar-eps-converted-to.pdf, id=89, 271.0125pt x 221.82875pt>
+<images/exemplo_termopar-eps-converted-to.pdf, id=96, 271.0125pt x 221.82875pt>
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
 <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
-nput line 280.
+nput line 293.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebec
-k-eps-converted-to.pdf>] [10 <C:/Users/joejonas/Documents/GitHub/tcc/monografia
-/images/exemplo_termopar-eps-converted-to.pdf>] [11]
-Package epstopdf Info: Source file: <images/cone_sonar.eps>
-(epstopdf)                    date: 2015-06-22 17:28:02
-(epstopdf)                    size: 407843 bytes
-(epstopdf)             Output file: <images/cone_sonar-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-22 17:29:49
-(epstopdf)                    size: 8308 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/cone_sonar-eps-conve
-rted-to.pdf images/cone_sonar.eps>
-(epstopdf)             \includegraphics on input line 327.
-Package epstopdf Info: Output file is already uptodate.
-
-<images/cone_sonar-eps-converted-to.pdf, id=107, 263.98625pt x 142.5325pt>
-File: images/cone_sonar-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/cone_sonar-eps-converted-to.pdf>
-Package pdftex.def Info: images/cone_sonar-eps-converted-to.pdf used on input l
-ine 327.
-(pdftex.def)             Requested size: 263.9856pt x 142.53214pt.
+[10 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebe
+ck-eps-converted-to.pdf>] [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografi
+a/images/exemplo_termopar-eps-converted-to.pdf>] [12]
 Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    date: 2015-06-22 17:40:26
 (epstopdf)                    size: 113059 bytes
@@ -572,58 +584,53 @@ Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    size: 9084 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
 ted-to.pdf images/pulso-eco.eps>
-(epstopdf)             \includegraphics on input line 338.
+(epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/pulso-eco-eps-converted-to.pdf, id=108, 414.54875pt x 128.48pt>
+<images/pulso-eco-eps-converted-to.pdf, id=114, 414.54875pt x 128.48pt>
 File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
-ne 338.
+ne 344.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
+ [13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/pulso-eco-eps-co
+nverted-to.pdf>] [14] [15
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/cone_sonar-eps-co
-nverted-to.pdf>] [13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/
-pulso-eco-eps-converted-to.pdf>] [14
-
-
-] [15
+] [16
 
 
 ]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [16
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [17
 
 
-] [17
+] [18
 
 
 ])
-[18] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+[19] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5551 strings out of 493921
- 84405 string characters out of 3148877
- 146902 words of memory out of 3000000
- 8710 multiletter control sequences out of 15000+200000
+ 5553 strings out of 493921
+ 84528 string characters out of 3148877
+ 146976 words of memory out of 3000000
+ 8712 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 44i,9n,42p,939b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,42p,1014b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
 x/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MikTex/fonts/type1/
 public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on Monografia.pdf (32 pages, 194850 bytes).
+Output written on Monografia.pdf (33 pages, 207048 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

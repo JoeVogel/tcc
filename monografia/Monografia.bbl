@@ -29,6 +29,11 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 {COELHO, J.~C. et al. Agricultura de precis{\~a}o.
 \emph{Pref{\'a}cio, Lisboa}, 2004.}
 
+\bibitem[Farahani 2011]{farahani2011zigbee}
+\abntrefinfo{Farahani}{FARAHANI}{2011}
+{FARAHANI, S. \emph{ZigBee wireless networks and transceivers}. [S.l.]: newnes,
+  2011.}
+
 \bibitem[Filho et al. 2010]{filho2010desempenho}
 \abntrefinfo{Filho et al.}{FILHO et al.}{2010}
 {FILHO, A.~G. et al. Desempenho de trator agr{\'\i}cola em tr{\^e}s
