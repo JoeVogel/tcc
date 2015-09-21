@@ -18,7 +18,7 @@
 \contentsline {beforechapter}{Cap\'{\i }tulo~2}{5}
 \contentsline {chapter}{Fundamenta\c c\~ao}{5}
 \contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{5}
-\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de desempenho de tratores agr\IeC {\'\i }colas}{6}
+\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de Desempenho de Tratores Agr\IeC {\'\i }colas}{6}
 \contentsline {section}{\numberline {2.3}Arduino}{7}
 \contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{8}
 \contentsline {section}{\numberline {2.5}Compara\c c\~ao: ZigBee, Bluetooth e o Padr\~ao IEEE 802.11}{9}
@@ -33,9 +33,13 @@
 \contentsline {subsubsection}{\numberline {2.6.2.6}Termopar tipo T}{12}
 \contentsline {subsubsection}{\numberline {2.6.2.7}Termopar tipo E}{13}
 \contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{13}
-\contentsline {section}{\numberline {2.7}Conclus\~ao}{14}
 \contentsline {beforechapter}{Cap\'{\i }tulo~3}{15}
 \contentsline {chapter}{Desenvolvimento}{15}
+\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{15}
+\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{15}
+\contentsline {section}{\numberline {3.3}Modelagem do Sistema}{15}
+\contentsline {section}{\numberline {3.4}Desenvolvimento do Dispositivo}{15}
+\contentsline {section}{\numberline {3.5}Coleta de Dados de Trabalho de um Trator Agr\IeC {\'\i }cola}{15}
 \contentsline {beforechapter}{Cap\'{\i }tulo~4}{16}
 \contentsline {chapter}{Resultados}{16}
 \contentsline {beforechapter}{Cap\'{\i }tulo~5}{17}
