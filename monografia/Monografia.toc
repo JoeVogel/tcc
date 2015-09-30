@@ -25,18 +25,12 @@
 \contentsline {section}{\numberline {2.6}Sensores}{9}
 \contentsline {subsection}{\numberline {2.6.1}Encoder}{10}
 \contentsline {subsection}{\numberline {2.6.2}Termopar}{10}
-\contentsline {subsubsection}{\numberline {2.6.2.1}Termopar tipo S e R}{11}
-\contentsline {subsubsection}{\numberline {2.6.2.2}Termopar tipo B}{11}
-\contentsline {subsubsection}{\numberline {2.6.2.3}Termopar tipo J}{12}
-\contentsline {subsubsection}{\numberline {2.6.2.4}Termopar tipo K}{12}
-\contentsline {subsubsection}{\numberline {2.6.2.5}Termopar tipo N}{12}
-\contentsline {subsubsection}{\numberline {2.6.2.6}Termopar tipo T}{12}
-\contentsline {subsubsection}{\numberline {2.6.2.7}Termopar tipo E}{13}
-\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{13}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{15}
-\contentsline {chapter}{Desenvolvimento}{15}
-\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{15}
-\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{15}
+\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{12}
+\contentsline {section}{\numberline {2.7}Conclus\~ao}{13}
+\contentsline {beforechapter}{Cap\'{\i }tulo~3}{14}
+\contentsline {chapter}{Desenvolvimento}{14}
+\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{14}
+\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{14}
 \contentsline {section}{\numberline {3.3}Modelagem do Sistema}{15}
 \contentsline {section}{\numberline {3.4}Desenvolvimento do Dispositivo}{15}
 \contentsline {section}{\numberline {3.5}Coleta de Dados de Trabalho de um Trator Agr\IeC {\'\i }cola}{15}
