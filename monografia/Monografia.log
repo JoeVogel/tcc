@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  30 SEP 2015 17:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  6 OCT 2015 16:20
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -621,30 +621,111 @@ Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
 ne 321.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
  [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/pulso-eco-eps-co
-nverted-to.pdf>] [13] [14
+nverted-to.pdf>] [13]
+Package epstopdf Info: Source file: <images/diagrama_de_rede.eps>
+(epstopdf)                    date: 2015-10-06 13:30:31
+(epstopdf)                    size: 1347393 bytes
+(epstopdf)             Output file: <images/diagrama_de_rede-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-06 14:53:27
+(epstopdf)                    size: 26736 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
+-converted-to.pdf images/diagrama_de_rede.eps>
+(epstopdf)             \includegraphics on input line 352.
+Package epstopdf Info: Output file is already uptodate.
 
+<images/diagrama_de_rede-eps-converted-to.pdf, id=124, 389.455pt x 321.2pt>
+File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
 
-] [15]
-[16
-
-
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [17
+<use images/diagrama_de_rede-eps-converted-to.pdf>
+Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
+nput line 352.
+(pdftex.def)             Requested size: 389.45404pt x 321.19922pt.
+ [14
 
 
 ]
-[18
+Package epstopdf Info: Source file: <images/Diagrama_de_classe_encoders.eps>
+(epstopdf)                    date: 2015-10-06 16:19:19
+(epstopdf)                    size: 2680915 bytes
+(epstopdf)             Output file: <images/Diagrama_de_classe_encoders-eps-con
+verted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_e
+ncoders-eps-converted-to.pdf images/Diagrama_de_classe_encoders.eps>
+(epstopdf)             \includegraphics on input line 363.
+runsystem(epstopdf --outfile=images/Diagrama_de_classe_encoders-eps-converted-t
+o.pdf images/Diagrama_de_classe_encoders.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <images/Diagrama_de_classe_encoders-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-10-06 16:20:21
+(epstopdf)                    size: 61004 bytes.
+
+<images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=128, 399.4925pt x 
+624.3325pt>
+File: images/Diagrama_de_classe_encoders-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use images/Diagrama_de_classe_encoders-eps-converted-to.pdf>
+Package pdftex.def Info: images/Diagrama_de_classe_encoders-eps-converted-to.pd
+f used on input line 363.
+(pdftex.def)             Requested size: 399.49152pt x 624.33098pt.
 
 
-]) [19] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <images/Diagrama_de_classe_sensores.eps>
+(epstopdf)                    date: 2015-10-06 16:19:37
+(epstopdf)                    size: 2660454 bytes
+(epstopdf)             Output file: <images/Diagrama_de_classe_sensores-eps-con
+verted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_s
+ensores-eps-converted-to.pdf images/Diagrama_de_classe_sensores.eps>
+(epstopdf)             \includegraphics on input line 370.
+runsystem(epstopdf --outfile=images/Diagrama_de_classe_sensores-eps-converted-t
+o.pdf images/Diagrama_de_classe_sensores.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <images/Diagrama_de_classe_sensores-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-10-06 16:20:23
+(epstopdf)                    size: 73456 bytes.
+
+<images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=129, 409.53pt x 60
+4.2575pt>
+File: images/Diagrama_de_classe_sensores-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use images/Diagrama_de_classe_sensores-eps-converted-to.pdf>
+Package pdftex.def Info: images/Diagrama_de_classe_sensores-eps-converted-to.pd
+f used on input line 370.
+(pdftex.def)             Requested size: 409.52899pt x 604.25603pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/diagrama_de_rede-
+eps-converted-to.pdf>] [16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/i
+mages/Diagrama_de_classe_encoders-eps-converted-to.pdf>] [17 <C:/Users/joejonas
+/Documents/GitHub/tcc/monografia/images/Diagrama_de_classe_sensores-eps-convert
+ed-to.pdf>] [18
+
+
+]
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [19
+
+
+] [20
+
+
+])
+[21] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5558 strings out of 493921
- 84697 string characters out of 3148877
- 146987 words of memory out of 3000000
- 8716 multiletter control sequences out of 15000+200000
+ 5576 strings out of 493921
+ 85511 string characters out of 3148877
+ 147020 words of memory out of 3000000
+ 8731 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  44i,9n,42p,1014b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -653,9 +734,9 @@ m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
 x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (33 pages, 215358 bytes).
+Output written on Monografia.pdf (35 pages, 372795 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

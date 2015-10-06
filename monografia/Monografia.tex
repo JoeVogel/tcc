@@ -125,7 +125,7 @@ Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes nã
 
 O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{SESC2015} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
 
-\section{Desafios}
+\section{Problema}
 
 Vários estudos já foram feitos sobre o desempenho de tratores agrícolas nas mais variadas condições para analisar por exemplo a perda de potência devido aos tipos de solo, pneu utilizado, lastragem e da velocidade de deslocamento. Os dados para essas análises são obtidos por meio de instrumentação e monitoramento dos tratores, permitindo a detecção de fatores diretamente envolvidos com a eficiência de trabalho do trator\cite{filho2010desempenho}.
 
@@ -133,7 +133,7 @@ Porém, estes dados ainda são obtidos de formas manuais e exaustivas, tendo seus 
 
 O desafio é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e XBEE para envio dos dados coletados para a análise.
 
-\section{Motivação}
+\section{Justificativa}
 
 O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. Dessa forma cresce cada vez mais a demanda por máquinas agrícolas que possam desempenhar suas atividades de forma rápida e da maneira mais eficiente. 
 
@@ -343,11 +343,39 @@ Os fatores referentes ao funcionamento do trator que serão sensoriados serão: fl
 
 As limitações deste dispositivo estão associadas ao rádio responsável por enviar os pacotes de dados. Isso se dá, pois dependendo do rádio que for utilizado, temos diferentes capacidades de alcance. No protótipo desenvolvido para este trabalho, foi utilizado um rádio Digi Xbee Serie 2, com alcance de até 150 metros. Devido a isso, o dispositivo que for utilizado como coletor poderá ficar a até no máximo 150 metros do dispositivo para poder manter a comunicação. Porém, o recomendado é não chegar a até essa distância para garantir que nenhum pacote seja perdido devido a distância. Devido a isso, não é recomendado exceder uma distância de cerca de 120 metros entre o dispositivo e o coletor.
 
-\section{Modelagem do Sistema}
+\section{Como Será Desenvolvido o Sistema}
 
-\section{Desenvolvimento do Dispositivo}
+\section{Visão Macro do Protótipo}
 
-\section{Coleta de Dados de Trabalho de um Trator Agrícola}
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=diagrama_de_rede.eps}
+  \caption{Diagrama de Rede}
+  \label{fig_visao_macro}
+\end{figure}
+
+\section{Análise do Protótipo}
+
+\subsection{Diagrama de classe}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=Diagrama_de_classe_encoders.eps}
+  \caption{Diagrama de classe do módulo de encoders}
+  \label{fig_diag_classe_one}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=Diagrama_de_classe_sensores.eps}
+  \caption{Diagrama de classe do módulo de sensores}
+  \label{fig_diag_classe_two}
+\end{figure}
+
+
+\subsection{Diagrama de sequencia}
+
+\section{Desenvolvimento do Protótipo}
 
 %A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, se deu devido a fatores como quantidade de portas disponíveis e processamento necessário aliado ao custo.
 
@@ -369,11 +397,11 @@ As limitações deste dispositivo estão associadas ao rádio responsável por enviar
 
 %Este é um termopar com várias possibilidades de uso e alíado a isso temos o baixo custo. Devido a isso ele é um sensor muito utilizado até hoje.
 
+\section{Teste do Protótipo}
 
 \chapter{Resultados}\label{cap_resultados}
 
 \chapter{Conclusão}\label{cap_conclusao}
-
 
 %Referencias:
 \bibliographystyle{abntex2-alf}
