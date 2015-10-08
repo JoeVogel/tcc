@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  6 OCT 2015 16:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  8 OCT 2015 09:46
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -421,6 +421,11 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 9--10
 [] [] 
  []
 
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 11--12
+[] [] 
+ []
+
 )
 \tf@loa=\write7
  [8
@@ -437,13 +442,13 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 9--10
 
 
 ] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
  ("C:\Program Files\MikTex\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 
 [3] [4]
 Package epstopdf Info: Source file: <images/GPS.eps>
@@ -454,13 +459,13 @@ Package epstopdf Info: Source file: <images/GPS.eps>
 (epstopdf)                    size: 9165 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/GPS-eps-converted-to
 .pdf images/GPS.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
  <images/GPS-eps-converted-to.pdf, id=63, 197.73875pt x 104.39pt>
 File: images/GPS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/GPS-eps-converted-to.pdf>
-Package pdftex.def Info: images/GPS-eps-converted-to.pdf used on input line 196
+Package pdftex.def Info: images/GPS-eps-converted-to.pdf used on input line 198
 .
 (pdftex.def)             Requested size: 197.73827pt x 104.38972pt.
 Package epstopdf Info: Source file: <images/solucoes_sig.eps>
@@ -471,7 +476,7 @@ Package epstopdf Info: Source file: <images/solucoes_sig.eps>
 (epstopdf)                    size: 10874 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/solucoes_sig-eps-con
 verted-to.pdf images/solucoes_sig.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/solucoes_sig-eps-converted-to.pdf, id=64, 294.09875pt x 179.67125pt>
@@ -479,7 +484,7 @@ File: images/solucoes_sig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/solucoes_sig-eps-converted-to.pdf>
 Package pdftex.def Info: images/solucoes_sig-eps-converted-to.pdf used on input
- line 203.
+ line 205.
 (pdftex.def)             Requested size: 294.09802pt x 179.67079pt.
 
 
@@ -501,7 +506,7 @@ converted-to.pdf>
 (epstopdf)                    size: 24546 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/ArduinoMega2560_R3_F
 ront_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
-(epstopdf)             \includegraphics on input line 238.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=81, 135.50626pt
@@ -511,7 +516,7 @@ type pdf)
 
 <use images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf>
 Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
-.pdf used on input line 238.
+.pdf used on input line 240.
 (pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
  [8 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R
 3_Front_450px-eps-converted-to.pdf>]
@@ -524,7 +529,7 @@ ted-to.pdf>
 (epstopdf)                    size: 17346 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/ZigBee_Bluetooth_IEE
 E802-eps-converted-to.pdf images/ZigBee_Bluetooth_IEEE802.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf, id=88, 449.68pt x 140.52
@@ -533,7 +538,7 @@ File: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf Graphic file (type p
 df)
  <use images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf>
 Package pdftex.def Info: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf u
-sed on input line 257.
+sed on input line 259.
 (pdftex.def)             Requested size: 449.6789pt x 140.52464pt.
  [9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ZigBee_Bluetooth_
 IEEE802-eps-converted-to.pdf>]
@@ -545,7 +550,7 @@ Package epstopdf Info: Source file: <images/encoders.eps>
 (epstopdf)                    size: 18637 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/encoders-eps-convert
 ed-to.pdf images/encoders.eps>
-(epstopdf)             \includegraphics on input line 278.
+(epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/encoders-eps-converted-to.pdf, id=95, 317.185pt x 238.8925pt>
@@ -553,7 +558,7 @@ File: images/encoders-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/encoders-eps-converted-to.pdf used on input lin
-e 278.
+e 280.
 (pdftex.def)             Requested size: 317.1842pt x 238.8919pt.
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-05-21 14:18:34
@@ -564,7 +569,7 @@ o.pdf>
 (epstopdf)                    size: 5723 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
 eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Circuito_de_Seebeck-eps-converted-to.pdf, id=96, 116.435pt x 173.64874p
@@ -572,7 +577,7 @@ t>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 289.
+n input line 291.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 
 
@@ -589,7 +594,7 @@ df>
 (epstopdf)                    size: 9925 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
 -converted-to.pdf images/exemplo_termopar.eps>
-(epstopdf)             \includegraphics on input line 302.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/exemplo_termopar-eps-converted-to.pdf, id=103, 271.0125pt x 221.82875pt
@@ -597,7 +602,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
  <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
-nput line 302.
+nput line 304.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
  [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seeb
 eck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/im
@@ -610,7 +615,7 @@ Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    size: 9084 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
 ted-to.pdf images/pulso-eco.eps>
-(epstopdf)             \includegraphics on input line 321.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/pulso-eco-eps-converted-to.pdf, id=114, 414.54875pt x 128.48pt>
@@ -618,48 +623,42 @@ File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
-ne 321.
+ne 323.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
  [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/pulso-eco-eps-co
-nverted-to.pdf>] [13]
-Package epstopdf Info: Source file: <images/diagrama_de_rede.eps>
-(epstopdf)                    date: 2015-10-06 13:30:31
-(epstopdf)                    size: 1347393 bytes
-(epstopdf)             Output file: <images/diagrama_de_rede-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-10-06 14:53:27
-(epstopdf)                    size: 26736 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
--converted-to.pdf images/diagrama_de_rede.eps>
-(epstopdf)             \includegraphics on input line 352.
-Package epstopdf Info: Output file is already uptodate.
-
-<images/diagrama_de_rede-eps-converted-to.pdf, id=124, 389.455pt x 321.2pt>
-File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/diagrama_de_rede-eps-converted-to.pdf>
-Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
-nput line 352.
-(pdftex.def)             Requested size: 389.45404pt x 321.19922pt.
- [14
+nverted-to.pdf>] [13] [14
 
 
 ]
+Package epstopdf Info: Source file: <images/diagrama_de_rede.eps>
+(epstopdf)                    date: 2015-10-08 09:06:51
+(epstopdf)                    size: 951745 bytes
+(epstopdf)             Output file: <images/diagrama_de_rede-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-08 09:07:57
+(epstopdf)                    size: 16205 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
+-converted-to.pdf images/diagrama_de_rede.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/diagrama_de_rede-eps-converted-to.pdf, id=127, 328.22626pt x 269.005pt>
+File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
+<use images/diagrama_de_rede-eps-converted-to.pdf>
+Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
+nput line 356.
+(pdftex.def)             Requested size: 328.22545pt x 269.00433pt.
 Package epstopdf Info: Source file: <images/Diagrama_de_classe_encoders.eps>
 (epstopdf)                    date: 2015-10-06 16:19:19
 (epstopdf)                    size: 2680915 bytes
 (epstopdf)             Output file: <images/Diagrama_de_classe_encoders-eps-con
 verted-to.pdf>
+(epstopdf)                    date: 2015-10-06 16:20:21
+(epstopdf)                    size: 61004 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_e
 ncoders-eps-converted-to.pdf images/Diagrama_de_classe_encoders.eps>
-(epstopdf)             \includegraphics on input line 363.
-runsystem(epstopdf --outfile=images/Diagrama_de_classe_encoders-eps-converted-t
-o.pdf images/Diagrama_de_classe_encoders.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <images/Diagrama_de_classe_encoders-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2015-10-06 16:20:21
-(epstopdf)                    size: 61004 bytes.
+(epstopdf)             \includegraphics on input line 367.
+Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=128, 399.4925pt x 
 624.3325pt>
@@ -667,7 +666,7 @@ File: images/Diagrama_de_classe_encoders-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_encoders-eps-converted-to.pd
-f used on input line 363.
+f used on input line 367.
 (pdftex.def)             Requested size: 399.49152pt x 624.33098pt.
 
 
@@ -678,16 +677,12 @@ Package epstopdf Info: Source file: <images/Diagrama_de_classe_sensores.eps>
 (epstopdf)                    size: 2660454 bytes
 (epstopdf)             Output file: <images/Diagrama_de_classe_sensores-eps-con
 verted-to.pdf>
+(epstopdf)                    date: 2015-10-06 16:20:23
+(epstopdf)                    size: 73456 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_s
 ensores-eps-converted-to.pdf images/Diagrama_de_classe_sensores.eps>
-(epstopdf)             \includegraphics on input line 370.
-runsystem(epstopdf --outfile=images/Diagrama_de_classe_sensores-eps-converted-t
-o.pdf images/Diagrama_de_classe_sensores.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <images/Diagrama_de_classe_sensores-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2015-10-06 16:20:23
-(epstopdf)                    size: 73456 bytes.
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=129, 409.53pt x 60
 4.2575pt>
@@ -695,17 +690,20 @@ File: images/Diagrama_de_classe_sensores-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_sensores-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_sensores-eps-converted-to.pd
-f used on input line 370.
+f used on input line 374.
 (pdftex.def)             Requested size: 409.52899pt x 604.25603pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/diagrama_de_rede-
-eps-converted-to.pdf>] [16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/i
-mages/Diagrama_de_classe_encoders-eps-converted-to.pdf>] [17 <C:/Users/joejonas
-/Documents/GitHub/tcc/monografia/images/Diagrama_de_classe_sensores-eps-convert
-ed-to.pdf>] [18
+eps-converted-to.pdf>]
+Overfull \vbox (137.69916pt too high) has occurred while \output is active []
+
+
+[16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_class
+e_encoders-eps-converted-to.pdf>] [17 <C:/Users/joejonas/Documents/GitHub/tcc/m
+onografia/images/Diagrama_de_classe_sensores-eps-converted-to.pdf>] [18
 
 
 ]
@@ -734,7 +732,7 @@ m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
 x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (35 pages, 372795 bytes).
+Output written on Monografia.pdf (35 pages, 364043 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
