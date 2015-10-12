@@ -341,6 +341,12 @@ Os fatores referentes ao funcionamento do trator que serão sensoriados serão: fl
 
 \section{Importância do Sistema}
 
+Atualmente a Agricultura é tida como umas das vilãs do aquecimento global por meio do desmatamento que ocorre devido a cescente demanda de produtos alimentícios. Esse aumento na demanda ocorre devido ao constante crescimento da população mundial. 
+
+Neste contexto, cada vez mais tem-se investido em formas de produzir mais sem que seja necessário aumentar a área plantada. Vários meios de se conseguir isso estão sendo pesquisados e implantados, podemos citar coisas como: irrigação automatizada com uso de sensores, automação de estufas, sensoriamento de microclima, etc. 
+
+O dispositivo proposto neste trabalho visa fornecer uma ferramenta para telemetria dos dados de operação de tratores, item que ainda recebe pouca atenção no Brasil. Estes tratores são utilizados em larga escala para várias etapas do processo de plantio e colheita. Estes tratores, caso não estejam operando de forma correta, podem gerar excesso de gases poluentes, desgaste acelerado, baixa autonomia e atrazo nos processos de platio e colheita. Com esta telemetria, podemos avaliar os dados de operação do trator de forma concisa e assim avaliar sua situação de forma precisa e caso necessário, tomar as ações pertinentes para fazer com que este trator volte aos parâmetros aceitáveis de operação.
+
 \section{Limitações}
 
 As limitações deste dispositivo estão associadas ao rádio responsável por enviar os pacotes de dados. Isso se dá, pois dependendo do rádio que for utilizado, temos diferentes capacidades de alcance. No protótipo desenvolvido para este trabalho, foi utilizado um rádio Digi Xbee Serie 2, com alcance de até 150 metros. Devido a isso, o dispositivo que for utilizado como coletor poderá ficar a até no máximo 150 metros do dispositivo para poder manter a comunicação. Porém, o recomendado é não chegar a até essa distância para garantir que nenhum pacote seja perdido devido a distância. Devido a isso, não é recomendado exceder uma distância de cerca de 120 metros entre o dispositivo e o coletor.
@@ -360,25 +366,13 @@ Os dados coletados no trator serão empacotados e enviados via rádio para um cole
 
 \section{Análise do Protótipo}
 
-\subsection{Fluxogramas}
+\subsection{Fluxograma}
 
-\subsection{Fluxogramas}
-
-\begin{figure}
+\begin{figure}[h!]
   \centering
-  \begin{tabular}{@{}c@{}}
-    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
-    \small (a) Fluxograma do controlador dos encoders
-  \end{tabular}
-
-  \vspace{\floatsep}
-
-  \begin{tabular}{@{}c@{}}
-    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
-    \small (b) Fluxograma do controlador dos sensores
-  \end{tabular}
-
-  \caption{Fluxogramas dos módulos do protótipo.}\label{fig_fluxogramas}
+  \includegraphics[width=.75\linewidth,height=270pt]{fluxograma.PNG}
+  \caption{Fluxograma dos módulos do protótipo.}
+  \label{fig_fluxograma}
 \end{figure}
 
 \subsection{Diagramas de classe}
@@ -440,5 +434,27 @@ Os dados coletados no trator serão empacotados e enviados via rádio para um cole
 
 %\subsection{Sub-Seção}
 
+
+
+%EXEMPLOS
+
+%Subfiguras:
+
+%\begin{figure}
+%  \centering
+%  \begin{tabular}{@{}c@{}}
+%    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
+%    \small (a) Fluxograma do controlador dos encoders
+%  \end{tabular}
+
+%  \vspace{\floatsep}
+
+%  \begin{tabular}{@{}c@{}}
+%    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
+%    \small (b) Fluxograma do controlador dos sensores
+%  \end{tabular}
+
+%  \caption{Fluxogramas dos módulos do protótipo.}\label{fig_fluxogramas}
+%\end{figure}
 
 \end{document}
