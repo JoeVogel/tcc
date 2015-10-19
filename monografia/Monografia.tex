@@ -351,8 +351,6 @@ O dispositivo proposto neste trabalho visa fornecer uma ferramenta para telemetr
 
 As limitações deste dispositivo estão associadas ao rádio responsável por enviar os pacotes de dados. Isso se dá, pois dependendo do rádio que for utilizado, temos diferentes capacidades de alcance. No protótipo desenvolvido para este trabalho, foi utilizado um rádio Digi Xbee Serie 2, com alcance de até 150 metros. Devido a isso, o dispositivo que for utilizado como coletor poderá ficar a até no máximo 150 metros do dispositivo para poder manter a comunicação. Porém, o recomendado é não chegar a até essa distância para garantir que nenhum pacote seja perdido devido a distância. Devido a isso, não é recomendado exceder uma distância de cerca de 120 metros entre o dispositivo e o coletor.
 
-\section{Como Será Desenvolvido o Sistema}
-
 \section{Visão Macro do Protótipo}
 
 Os dados coletados no trator serão empacotados e enviados via rádio para um coletor (\textit{Gateway}). Este coletor poderá ser um computador com um módulo \textit{sniffer} RF para possibilitar a comunicação entre o computador e o dispositivo. Após isso, essa informação poderá ser tratada de várias formas, como: planilhas, relatórios ou até mesmo por meio de aplicação Web, onde estes dados podem ser exibidos em tempo real para qualquer lugar no mundo. A Figura 3.1 representa este cenário. 
@@ -364,7 +362,38 @@ Os dados coletados no trator serão empacotados e enviados via rádio para um cole
   \label{fig_visao_macro}
 \end{figure}
 
-\section{Análise do Protótipo}
+\section{Como Será Desenvolvido o Sistema}
+
+Devido a grande quantidade de sensores e de encoders, foi dividida a carga de processamento em dois Arduinos, para que assim o protótipo fique mais resistente a falhas que podem ocorrer devido ao processamento necessário. 
+
+Deste modo, o primeiro Arduino ficou responsável por cinco encoders (com possibilidade para seis), assim mensurando:
+
+\begin{itemize}
+
+\item Locomoção do trator (quatro rodas);
+\item Velocidade na TDP.
+
+\end{itemize}
+E o segundo Arduino recebeu os sensores pertinentes ao funcionamento do trator, sendo eles:
+
+\begin{itemize}
+
+\item Fluxo e temperatura de combustível da entrada e saída do motor;
+\item Fluxo e temperatura do ar na admissão;
+\item Temperatura dos gases do escapamento;
+\item Temperatura da água do arrefecimento;
+\item Peso na barra barra de tração;
+\item Velocidade real do trator.
+
+\end{itemize}
+
+O primeiro Arduino ficou apenas com os encoders, pois estes trabalham por meio das portas de interrupção do Arduino. Dois dos encoders geram 360 pulsos a cada revolução. Se somadas todas as interrupções que podem ser geradas por estes encoders podemos ver que isso por sí pode exigir muito do Arduino. Os fluxometros (responsáveis pela medição de fluxo) também são encoders, porém, estes sofrem menos revoluções e com isso não afetam o segundo Arduino. Portanto, foi definida tal divisão.
+
+Devido a isso, foram desenvolvidos dois softwares embarcados, sendo um para cada módulo. Ambos serão descritos nas próximas seções.
+
+\section{Análise do Software do Protótipo}  
+
+Como o software deste protótipo é relativamente simples. A modelagem dele também se torna muito simples. Devido a isso, será demonstrado apenas o diagrama de classe do software  \abrevpuc{UML}{}
 
 \subsection{Fluxograma}
 
@@ -391,12 +420,31 @@ Os dados coletados no trator serão empacotados e enviados via rádio para um cole
   \label{fig_diag_classe_two}
 \end{figure}
 
-
-\subsection{Diagramas de sequencia}
-
 \section{Desenvolvimento do Protótipo}
 
-%A escolha do Arduino Mega 2560 em meio as demais placas da plataforma Arduino, se deu devido a fatores como quantidade de portas disponíveis e processamento necessário aliado ao custo.
+O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores comerciais utilizados. Estes sensores são compostos por:
+
+\begin{itemize}
+
+\item 5x encoders: para medir a velocidade em cada roda e na TDP;
+\item 2x fluxometro: para medir o fluxo de combustível na entrada e no retorno do motor;
+\item 5x termopar: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento;
+\item 1x sensor de pressão: para medir o fluxo de entrada de ar na admissão;
+\item 1x célula de carga: para medir o peso que o trator está puxando na barra de tração;
+\item 1x ultrassonico: para medir a velocidade real do trator.
+
+\end{itemize}
+
+Na figura XX, podemos ver como ficou o circuito eletrônico.
+
+%\begin{figure}[h!]
+%  \centering
+%  \includegraphics[width=.75\linewidth,height=270pt]{.PNG}
+%  \caption{Circuito eletrônico.}
+%  \label{fig_fluxograma}
+%\end{figure}
+
+O desenvolvimento do software embarcado foi feito nas linguagens de programação C e C++ e compilado com a IDE do próprio Arduino. O versionamento de código foi feito por meio de repositório no GitHub.
 
 %Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
 
