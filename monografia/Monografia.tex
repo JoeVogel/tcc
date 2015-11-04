@@ -443,20 +443,38 @@ O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software.
 
 \end{itemize}
 
-Na figura XX, podemos ver como ficou o circuito eletrônico.
+Para realizar a ligação de todos estes componentes, foi desenvolvida uma placa de circuito eletrônico onde estes sensores, Arduinos e rádios são ligados. Na figura ~\ref{fig_circuito_eletronico} podemos ver como ficou a placa de circuito eletrônico.
 
-%\begin{figure}[h!]
-%  \centering
-%  \includegraphics[width=.75\linewidth,height=270pt]{.PNG}
-%  \caption{Circuito eletrônico.}
-%  \label{fig_fluxograma}
-%\end{figure}
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=circuito_eletronico.eps}
+  \caption{Placa de circuito eletrônico.}
+  \label{fig_circuito_eletronico}
+\end{figure}
+
+Um fator importante que deve ser levado em consideração é a integridade deste circuito. Uma vez que ele estará operando em um ambiente com bastante vibração, ruído e com possibilidade de respingos de água. Faz-se necessário prover uma forma de proteção. Devido a isso, foi desenvolvida uma caixa para alocação do circuito e ao mesmo tempo facilitar as conexões de cabos. A Figura ~\ref{fig_caixa_circuito_eletronico} mostra a caixa desenvolvida.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=caixa_circuito.eps}
+  \caption{Caixa para proteção do circuito eletrônico.}
+  \label{fig_caixa_circuito_eletronico}
+\end{figure}
 
 O desenvolvimento do software embarcado foi feito nas linguagens de programação C e C++ e compilado com a IDE do próprio Arduino. O versionamento de código foi feito por meio de repositório no GitHub.
 
 \section{Teste do Protótipo}
 
-Este protótipo foi desenvolvido para um projeto que surgiu da parceria entre o Centro Universitário Católica de Santa Catarina (Brasil) e a Universidade Federal do Paraná (Brasil) para a automação da aquisição de dados de operação de tratores agrícolas. Desta forma, este dispositivo foi utilizado em conjunto com outros componentes de software  desenvolvidos por outros acadêmicos, estes componentes são: \textit{Middleware} (responsável por receber e persistir em um banco de dados os dados coletados) e Aplicação WEB (responsável por gerar e exibir gráficos a partir dos dados coletados).
+Este protótipo foi desenvolvido para um projeto que surgiu da parceria entre o Centro Universitário Católica de Santa Catarina (Brasil) e a Universidade Federal do Paraná (Brasil) para a automação da aquisição de dados de operação de tratores agrícolas em ensios, que são compostos por uma série de testes padronizados a fim de avaliar o trator em teste.Desta forma, este dispositivo foi utilizado em conjunto com outros componentes de software  desenvolvidos por outros acadêmicos, estes componentes são: \textit{Middleware} (responsável por receber e persistir em um banco de dados os dados coletados) e Aplicação WEB (responsável por gerar e exibir gráficos a partir dos dados coletados).
+
+O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de simular peso na barra de tração, foi utilizado um cambão engatado em outro trator de porte maior responsável por frear e dessa forma simular o peso de arrasto. Na figura ~\ref{fig_trator_teste} podemos ver o trator em teste (esquerda) equipado com os sensores e ligado ao segundo trator (direita).
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=trator_teste.eps}
+  \caption{Preparação do trator a ser testado.}
+  \label{fig_trator_teste}
+\end{figure}
 
 \chapter{Resultados}\label{cap_resultados}
 
