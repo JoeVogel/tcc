@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  19 OCT 2015 17:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  4 NOV 2015 13:48
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -297,11 +297,7 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip56
 \algorithmicindent=\skip57
 )
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux
-
-LaTeX Warning: Label `fig_megaFrente' multiply defined.
-
-)
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -315,7 +311,8 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 \c@lstlisting=\count117
- ("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen123
@@ -609,9 +606,12 @@ File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
 nput line 304.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
- [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seeb
-eck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/im
-ages/exemplo_termopar-eps-converted-to.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seebe
+ck-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 114808 bytes
@@ -623,48 +623,48 @@ ted-to.pdf images/pulso-eco.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/pulso-eco-eps-converted-to.pdf, id=114, 414.54875pt x 128.48pt>
+<images/pulso-eco-eps-converted-to.pdf, id=111, 414.54875pt x 128.48pt>
 File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
 ne 323.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
- [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/pulso-eco-eps-co
-nverted-to.pdf>] [13] [14
+ [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/exemplo_termopar
+-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/image
+s/pulso-eco-eps-converted-to.pdf>]
+[13] [14
 
 
 ]
 Package epstopdf Info: Source file: <images/diagrama_de_rede.eps>
-(epstopdf)                    date: 2015-10-19 15:45:21
-(epstopdf)                    size: 963998 bytes
+(epstopdf)                    date: 2015-11-04 13:48:07
+(epstopdf)                    size: 1124534 bytes
 (epstopdf)             Output file: <images/diagrama_de_rede-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-10-19 15:45:21
-(epstopdf)                    size: 16205 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
 -converted-to.pdf images/diagrama_de_rede.eps>
 (epstopdf)             \includegraphics on input line 360.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=images/diagrama_de_rede-eps-converted-to.pdf image
+s/diagrama_de_rede.eps)...executed (allowed).
 
-<images/diagrama_de_rede-eps-converted-to.pdf, id=127, 328.22626pt x 269.005pt>
+Package epstopdf Info: Result file: <images/diagrama_de_rede-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-11-04 13:48:40
+(epstopdf)                    size: 19246 bytes.
+
+<images/diagrama_de_rede-eps-converted-to.pdf, id=127, 366.36874pt x 285.065pt>
 File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
 <use images/diagrama_de_rede-eps-converted-to.pdf>
 Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
 nput line 360.
-(pdftex.def)             Requested size: 328.22545pt x 269.00433pt.
+(pdftex.def)             Requested size: 366.36784pt x 285.0643pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15] [16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/diagrama_de_
 rede-eps-converted-to.pdf>]
-<images/fluxograma.PNG, id=137, 560.8453pt x 392.21532pt>
-File: images/fluxograma.PNG Graphic file (type png)
-
-<use images/fluxograma.PNG>
-Package pdftex.def Info: images/fluxograma.PNG used on input line 402.
-(pdftex.def)             Requested size: 341.43051pt x 270.01842pt.
 Package epstopdf Info: Source file: <images/Diagrama_de_classe_encoders.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 2715056 bytes
@@ -674,16 +674,16 @@ verted-to.pdf>
 (epstopdf)                    size: 61004 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_e
 ncoders-eps-converted-to.pdf images/Diagrama_de_classe_encoders.eps>
-(epstopdf)             \includegraphics on input line 411.
+(epstopdf)             \includegraphics on input line 406.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=139, 399.4925pt x 
+<images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=137, 399.4925pt x 
 624.3325pt>
 File: images/Diagrama_de_classe_encoders-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_encoders-eps-converted-to.pd
-f used on input line 411.
+f used on input line 406.
 (pdftex.def)             Requested size: 399.49152pt x 624.33098pt.
 
 
@@ -698,56 +698,81 @@ verted-to.pdf>
 (epstopdf)                    size: 73456 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_s
 ensores-eps-converted-to.pdf images/Diagrama_de_classe_sensores.eps>
-(epstopdf)             \includegraphics on input line 418.
+(epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=140, 409.53pt x 60
+<images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=138, 409.53pt x 60
 4.2575pt>
 File: images/Diagrama_de_classe_sensores-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_sensores-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_sensores-eps-converted-to.pd
-f used on input line 418.
+f used on input line 415.
 (pdftex.def)             Requested size: 409.52899pt x 604.25603pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/fluxograma.PNG>]
+Package epstopdf Info: Source file: <images/Maquina_de_estados.eps>
+(epstopdf)                    date: 2015-11-04 10:11:33
+(epstopdf)                    size: 1078399 bytes
+(epstopdf)             Output file: <images/Maquina_de_estados-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-11-04 10:12:14
+(epstopdf)                    size: 21861 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/Maquina_de_estados-e
+ps-converted-to.pdf images/Maquina_de_estados.eps>
+(epstopdf)             \includegraphics on input line 426.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/Maquina_de_estados-eps-converted-to.pdf, id=139, 371.3875pt x 270.00874
+pt>
+File: images/Maquina_de_estados-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/Maquina_de_estados-eps-converted-to.pdf>
+Package pdftex.def Info: images/Maquina_de_estados-eps-converted-to.pdf used on
+ input line 426.
+(pdftex.def)             Requested size: 371.38658pt x 270.00807pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+Overfull \vbox (26.97972pt too high) has occurred while \output is active []
+
+
 [18 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_class
 e_encoders-eps-converted-to.pdf>] [19 <C:/Users/joejonas/Documents/GitHub/tcc/m
-onografia/images/Diagrama_de_classe_sensores-eps-converted-to.pdf>] [20]
-[21
-
-
-] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [22
+onografia/images/Diagrama_de_classe_sensores-eps-converted-to.pdf>] [20 <C:/Use
+rs/joejonas/Documents/GitHub/tcc/monografia/images/Maquina_de_estados-eps-conve
+rted-to.pdf>] [21] [22
 
 
 ]
-[23
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [23
 
 
-]) [24] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+] [24
 
-LaTeX Warning: There were multiply-defined labels.
 
- ) 
+])
+[25] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 5583 strings out of 493921
- 85648 string characters out of 3148877
- 147031 words of memory out of 3000000
- 8736 multiletter control sequences out of 15000+200000
+ 5585 strings out of 493921
+ 85823 string characters out of 3148877
+ 148024 words of memory out of 3000000
+ 8739 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 44i,9n,42p,1014b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTe
-x/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (38 pages, 408300 bytes).
+ 44i,9n,42p,1062b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pr
+ogram Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
+MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTex/fonts/
+type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on Monografia.pdf (39 pages, 396260 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

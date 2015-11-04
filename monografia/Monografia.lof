@@ -7,12 +7,12 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: FARAHANI, 2011, p. 3 \relax }}{9}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Diferen\c ca entre encoder incremental e absoluto.\relax }}{10}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Circuito de Seebeck\relax }}{11}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplo de Termopar\relax }}{11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplo de Termopar\relax }}{12}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces M\'etodo pulso-eco.\relax }}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Rede\relax }}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fluxograma dos m\'odulos do prot\'otipo.\relax }}{17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de encoders\relax }}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de classe do m\'odulo de sensores\relax }}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura proposta\relax }}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de classe do m\'odulo de encoders\relax }}{18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de sensores\relax }}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de m\'aquina de estados\relax }}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -191,7 +191,7 @@ Normalmente a AP é associada ao uso de equipamentos de alta tecnologia para aval
 
 Tanto a monitoria quanto a aplicação diferenciada exigem a utilização de tecnologias recentes,
 como os sistemas de posicionamento global (GPS - Global Positioning System), os
-sistemas de informação geográfica (SIG) e os sensores eletrônicos \cite{coelho2004agricultura}.
+sistemas de informação geográfica (SIG) e os sensores eletrônicos \cite{coelho2004agricultura}. Na Figura ~\ref{fig_gpsNaAP} temos uma ilustração do GPS na AP e na Figura ~\ref{fig_sig} temos os componentes de um SIG.
 
 \begin{figure}[h!]
   \centering
@@ -233,7 +233,7 @@ A plataforma Arduino facilita muito a vida de intusiastas que não contemplam con
 
 Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e Internet das Coisas por exemplo. Devido a isso, este foi o microcontrolador escolhido para este projeto.
 
-Uma das placas Arduino mais utilizadas em projetos maiores é o Arduino Mega 2560. Devido a quantidades de portas disponiveis para utilização e processamento necessário aliado ao custo.
+Uma das placas Arduino mais utilizadas em projetos maiores é o Arduino Mega 2560. Devido a quantidades de portas disponiveis para utilização e processamento necessário aliado ao custo. A Figura ~\ref{fig_megaFrente} mostra como é a placa Arduino Mega.
 
 \begin{figure}[h!]
   \centering
@@ -252,13 +252,13 @@ O padrão ZigBee é desenvolvido pela ZigBee Aliance. A ZigBee Aliance foi fundada
 
 \section{Comparação: ZigBee, Bluetooth e o Padrão IEEE 802.11}
 
-Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O IEEE 802.11 trabalha com alta taxa de transferência (até 11Mbps), este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (``\textit{Indoor}''). O Bluetooth, trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício coparado ao Bluetooth e ao IEEE 802.11 \cite{farahani2011zigbee}. Na Figura 2.4 é possível visualizar as principais diferenças entre estes padrões.
+Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O IEEE 802.11 trabalha com alta taxa de transferência (até 11Mbps), este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (``\textit{Indoor}''). O Bluetooth, trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício coparado ao Bluetooth e ao IEEE 802.11 \cite{farahani2011zigbee}. Na Figura ~\ref{fig_comparacao_padroes_comunicacao} é possível visualizar as principais diferenças entre estes padrões.
 
 \begin{figure}[h!]
   \centering
   \epsfig{file=ZigBee_Bluetooth_IEEE802.eps}
   \caption{Comparação entre o padrão ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: FARAHANI, 2011, p. 3 }
-  \label{fig_megaFrente}
+  \label{fig_comparacao_padroes_comunicacao}
 \end{figure}
 
 \section{Sensores}
@@ -273,7 +273,7 @@ O deslocamento de um corpo é uma das poucas grandezas físicas que podem ser comp
 
 O encoder permite a leitura de grandezas como: velocidade, direção e posição do movimento. Sendo esse movimento linear ou angular.
 
-Podem ser encontrados dois tipos de encoder: o incremental e o absoluto. O encoder incremental indica o deslocamento em relação a um ponto inicial de referência gerando um pulso para cada unidade de deslocamento, enquanto o encoder absoluto mede o deslocamento em relação a um ponto de referência interno do dispositivo, este gera um código binário para cada unidade de deslocamento \cite{thomazini2005sensores}.
+Podem ser encontrados dois tipos de encoder: o incremental e o absoluto. O encoder incremental indica o deslocamento em relação a um ponto inicial de referência gerando um pulso para cada unidade de deslocamento, enquanto o encoder absoluto mede o deslocamento em relação a um ponto de referência interno do dispositivo, este gera um código binário para cada unidade de deslocamento \cite{thomazini2005sensores}. Na Figura ~\ref{fig_encoders} podemos ver a diferença entre a arquitetura destes encoders.
 
 \begin{figure}[h!]
   \centering
@@ -284,7 +284,7 @@ Podem ser encontrados dois tipos de encoder: o incremental e o absoluto. O encod
 
 \subsection{Termopar}
 
-Em 1821, o físico Thomas Johann Seebeck descobriu que em um circuito fechado, feito com fios de dois metais heterogêneos, uma corrente elétrica fluirá se a temperatura de uma junção T1 estiver acima da temperatura da outra extremidade T2 \cite{thomazini2005sensores}.
+Em 1821, o físico Thomas Johann Seebeck descobriu que em um circuito fechado, feito com fios de dois metais heterogêneos, uma corrente elétrica fluirá se a temperatura de uma junção T1 estiver acima da temperatura da outra extremidade T2 \cite{thomazini2005sensores}. Na Figura ~\ref{fig_circuitoSeebeck} podemos ver a representação do circuito proposto.
 
 \begin{figure}[h!]
   \centering
@@ -297,7 +297,7 @@ Este circuito gera uma \abrevpuc{FEM}{Força Eletro-Motriz} que é relacionada com
 
 Um termopar funciona medindo a diferença de potencial causada pelos fios diferentes. Dessa forma, pode-se medir diretamente a diferença entre temperaturas ou medir a temperatura absoluta, colocando em uma junção a temperatura conhecida \cite{thomazini2005sensores}.
 
-Os termopares são os sensores de temperatura mais utilizados atualmente. Isso se deve a sua simplicidade e confiabilidade dos mesmos \cite{moreira2002mediccao}.
+Os termopares são os sensores de temperatura mais utilizados atualmente. Isso se deve a sua simplicidade e confiabilidade dos mesmos \cite{moreira2002mediccao}. Na Figura ~\ref{fig_exemploTermopar} temos um exemplo de sensor termopar.
 
 \begin{figure}[h!]
   \centering
@@ -316,7 +316,7 @@ Os sensores ultrassônicos emitem ondas sonoras em frequências muito altas. Os tr
 
 Os ultrassônicos unem a variedade de utilização ao baixo custo. Isso faz com que sejam empregados em muitas aplicaçoes. Historicamente, a aplicação mais habitual dos ultrassônicos é na medição de distâncias por meio do método pulso-eco, por transdutores elétricos \cite{bastos1997uso}.
 
-A técnica do pulso-eco a medida de distância é feita por meio da determinação de tempo de trânsito que gasta uma uma onda ultrassônica para percorrer o trajeto de ida e volta\cite{bastos1997uso}.
+Na técnica pulso-eco a medida de distância é feita por meio da determinação de tempo de trânsito que gasta uma onda ultrassônica para percorrer o trajeto de ida e volta\cite{bastos1997uso}. Podemos visualizar isso na Figura ~\ref{fig_UltrassonicoPulsoEco}.
 
 \begin{figure}[h!]
   \centering
@@ -353,13 +353,13 @@ As limitações deste dispositivo estão associadas ao rádio responsável por enviar
 
 \section{Visão Macro do Protótipo}
 
-Os dados coletados no trator serão empacotados e enviados via rádio para um coletor (\textit{Gateway}). Este coletor poderá ser um computador com um módulo \textit{sniffer} RF para possibilitar a comunicação entre o computador e o dispositivo. Após isso, essa informação poderá ser tratada de várias formas, como: planilhas, relatórios ou até mesmo por meio de aplicação Web, onde estes dados podem ser exibidos em tempo real para qualquer lugar no mundo. A Figura 3.1 representa este cenário. 
+Os dados coletados no trator serão empacotados e enviados via rádio para um coletor (\textit{Gateway}). Este coletor poderá ser um computador com um módulo \textit{sniffer} RF para possibilitar a comunicação entre o computador e o dispositivo. Após isso, essa informação poderá ser tratada de várias formas, como: planilhas, relatórios ou até mesmo por meio de aplicação Web, onde estes dados podem ser exibidos em tempo real para qualquer lugar no mundo. A Figura ~\ref{fig_arquitetura} representa este cenário. 
 
 \begin{figure}[h!]
   \centering
   \epsfig{file=diagrama_de_rede.eps}
-  \caption{Diagrama de Rede}
-  \label{fig_visao_macro}
+  \caption{Arquitetura proposta}
+  \label{fig_arquitetura}
 \end{figure}
 
 \section{Como Será Desenvolvido o Sistema}
@@ -389,22 +389,17 @@ E o segundo Arduino recebeu os sensores pertinentes ao funcionamento do trator, 
 
 O primeiro Arduino ficou apenas com os encoders, pois estes trabalham por meio das portas de interrupção do Arduino. Dois dos encoders geram 360 pulsos a cada revolução. Se somadas todas as interrupções que podem ser geradas por estes encoders podemos ver que isso por sí pode exigir muito do Arduino. Os fluxometros (responsáveis pela medição de fluxo) também são encoders, porém, estes sofrem menos revoluções e com isso não afetam o segundo Arduino. Portanto, foi definida tal divisão.
 
-Devido a isso, foram desenvolvidos dois softwares embarcados, sendo um para cada módulo. Ambos serão descritos nas próximas seções.
+Devido a isso, foram desenvolvidos dois softwares embarcados, sendo um para cada módulo. Ambos serão descritos nas seções ~\ref{sec_analise} e ~\ref{sec_desenvolvimento}.
 
-\section{Análise do Software do Protótipo}  
+\section{Análise do Software do Protótipo}\label{sec_analise}
 
-Como o software deste protótipo é relativamente simples. A modelagem dele também se torna muito simples. Devido a isso, será demonstrado apenas o diagrama de classe do software  \abrevpuc{UML}{}
+Como os softwares embarcados deste protótipo são relativamente simples. A modelagem deles também se torna muito simples. Para auxiliar no entendimento, serão demonstrados dois diagramas \abrevpuc{UML}{Unified Modeling Language} do software, sendo eles: o diagrama de classe de cada módulo e o diagrama de máquina de estados (igual para ambos os softwares embarcados).
 
-\subsection{Fluxograma}
+\subsection{Diagramas de Classe}
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=.75\linewidth,height=270pt]{fluxograma.PNG}
-  \caption{Fluxograma dos módulos do protótipo.}
-  \label{fig_fluxograma}
-\end{figure}
+Uma vez que é de conhecimento a necessidade de dividir o trabalho em dois microcontroladores. Temos que passar a analisar o software de forma independente. 
 
-\subsection{Diagramas de classe}
+No software embarcado no microcontrolador responsável pelos encoders, temos dois arquivos de código fonte, sendo um o arquivo principal (\textit{Main}), responsável por controlar todo o ciclo da execução e uma classe chamada \textit{Encoder}, responsável por encapsular os atributos e ações dos encoders. Essa classe \textit{Encoder} é utilizada como biblioteca na classe principal. Podemos ver o diagrama de classe deste módulo na Figura ~\ref{fig_diag_classe_one}.
 
 \begin{figure}[h!]
   \centering
@@ -413,6 +408,8 @@ Como o software deste protótipo é relativamente simples. A modelagem dele também
   \label{fig_diag_classe_one}
 \end{figure}
 
+No software embarcado no microcontrolador responsável pelos sensores, temos mais arquivos de código fonte. Como no módulo dos encoders, neste módulo também precisamos de um arquivo principal que é responsável pela execução. Este faz uso de diversas bibliotecas, dentre elas temos as implementadas para este dispositivo, sendo elas: \textit{Encoder} (igual a do módulo dos encoders); \textit{Fluxometer} (responsável por encapsular os atributos e ações dos sensores do tipo fluxometro); \textit{Thermocouple} (responsável por encapsular os atributos e ações dos sensores do tipo termopar) e \textit{Pitot} (responsável por encapsular os atributos e ações dos sensores do tipo válvula de pitot). Podemos ver o diagrama de classe deste módulo na Figura ~\ref{fig_diag_classe_two}.
+
 \begin{figure}[h!]
   \centering
   \epsfig{file=Diagrama_de_classe_sensores.eps}
@@ -420,7 +417,18 @@ Como o software deste protótipo é relativamente simples. A modelagem dele também
   \label{fig_diag_classe_two}
 \end{figure}
 
-\section{Desenvolvimento do Protótipo}
+\subsection{Diagrama de Máquina de Estados}
+
+O diagrama de máquina de estados visa representar os estados dos programas durante sua execução. Como este diagrama fornece uma visão macro dos estados. Utilizamos o mesmo diagrama para os dois módulos, ou seja, os dois módulos (módulo encoders e módulo sensores) operam de forma muito semelhante, apenas diferenciam no número e no tipo de sensores que controlam. Na Figura ~\ref{fig_maq_estados} podemos ver o diagrama de máquina de estados deste trabalho.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=Maquina_de_estados.eps}
+  \caption{Diagrama de máquina de estados}
+  \label{fig_maq_estados}
+\end{figure}
+
+\section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
 O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores comerciais utilizados. Estes sensores são compostos por:
 
@@ -446,25 +454,9 @@ Na figura XX, podemos ver como ficou o circuito eletrônico.
 
 O desenvolvimento do software embarcado foi feito nas linguagens de programação C e C++ e compilado com a IDE do próprio Arduino. O versionamento de código foi feito por meio de repositório no GitHub.
 
-%Neste projeto, foram utilizados cinco termopares do tipo K para obtenção dos seguintes dados de trabalho do trator:
-
-%\begin{itemize}
-
-%\item Temperatura do combustível na entrada do motor;
-
-%\item Temperatura do combustível do retorno do motor;
-
-%\item Temperatura do ar do motor;
-
-%\item Temperatura dos gases do escapamento;
-
-%\item Temperatura da água do arrefecimento do motor.
-
-%\end{itemize}
-
-%Este é um termopar com várias possibilidades de uso e alíado a isso temos o baixo custo. Devido a isso ele é um sensor muito utilizado até hoje.
-
 \section{Teste do Protótipo}
+
+Este protótipo foi desenvolvido para um projeto que surgiu da parceria entre o Centro Universitário Católica de Santa Catarina (Brasil) e a Universidade Federal do Paraná (Brasil) para a automação da aquisição de dados de operação de tratores agrícolas. Desta forma, este dispositivo foi utilizado em conjunto com outros componentes de software  desenvolvidos por outros acadêmicos, estes componentes são: \textit{Middleware} (responsável por receber e persistir em um banco de dados os dados coletados) e Aplicação WEB (responsável por gerar e exibir gráficos a partir dos dados coletados).
 
 \chapter{Resultados}\label{cap_resultados}
 

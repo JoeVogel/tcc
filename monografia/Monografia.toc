@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {2.6}Sensores}{9}
 \contentsline {subsection}{\numberline {2.6.1}Encoder}{10}
 \contentsline {subsection}{\numberline {2.6.2}Termopar}{10}
-\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{12}
+\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{11}
 \contentsline {section}{\numberline {2.7}Conclus\~ao}{13}
 \contentsline {beforechapter}{Cap\'{\i }tulo~3}{14}
 \contentsline {chapter}{Desenvolvimento}{14}
@@ -34,12 +34,12 @@
 \contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{15}
 \contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{15}
 \contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{17}
-\contentsline {subsection}{\numberline {3.5.1}Fluxograma}{17}
-\contentsline {subsection}{\numberline {3.5.2}Diagramas de classe}{17}
-\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{17}
+\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{17}
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{17}
+\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{18}
 \contentsline {section}{\numberline {3.7}Teste do Prot\'otipo}{20}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{21}
-\contentsline {chapter}{Resultados}{21}
-\contentsline {beforechapter}{Cap\'{\i }tulo~5}{22}
-\contentsline {chapter}{Conclus\~ao}{22}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{23}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{22}
+\contentsline {chapter}{Resultados}{22}
+\contentsline {beforechapter}{Cap\'{\i }tulo~5}{23}
+\contentsline {chapter}{Conclus\~ao}{23}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{24}
