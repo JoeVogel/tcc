@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{17}
 \contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{17}
 \contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{18}
-\contentsline {section}{\numberline {3.7}Teste do Prot\'otipo}{21}
+\contentsline {section}{\numberline {3.7}Teste do Prot\'otipo durante Ensaio em Trator}{21}
 \contentsline {beforechapter}{Cap\'{\i }tulo~4}{23}
 \contentsline {chapter}{Resultados}{23}
 \contentsline {beforechapter}{Cap\'{\i }tulo~5}{24}
