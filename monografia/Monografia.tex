@@ -355,7 +355,7 @@ As limitações deste dispositivo estão associadas ao rádio responsável por enviar
 
 Os dados coletados no trator serão empacotados e enviados via rádio para um coletor (\textit{Gateway}). Este coletor poderá ser um computador com um módulo \textit{sniffer} RF para possibilitar a comunicação entre o computador e o dispositivo. Após isso, essa informação poderá ser tratada de várias formas, como: planilhas, relatórios ou até mesmo por meio de aplicação Web, onde estes dados podem ser exibidos em tempo real para qualquer lugar no mundo. A Figura ~\ref{fig_arquitetura} representa este cenário. 
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=diagrama_de_rede.eps}
   \caption{Arquitetura proposta}
@@ -401,7 +401,7 @@ Uma vez que é de conhecimento a necessidade de dividir o trabalho em dois microc
 
 No software embarcado no microcontrolador responsável pelos encoders, temos dois arquivos de código fonte, sendo um o arquivo principal (\textit{Main}), responsável por controlar todo o ciclo da execução e uma classe chamada \textit{Encoder}, responsável por encapsular os atributos e ações dos encoders. Essa classe \textit{Encoder} é utilizada como biblioteca na classe principal. Podemos ver o diagrama de classe deste módulo na Figura ~\ref{fig_diag_classe_one}.
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=Diagrama_de_classe_encoders.eps}
   \caption{Diagrama de classe do módulo de encoders}
@@ -410,7 +410,7 @@ No software embarcado no microcontrolador responsável pelos encoders, temos dois
 
 No software embarcado no microcontrolador responsável pelos sensores, temos mais arquivos de código fonte. Como no módulo dos encoders, neste módulo também precisamos de um arquivo principal que é responsável pela execução. Este faz uso de diversas bibliotecas, dentre elas temos as implementadas para este dispositivo, sendo elas: \textit{Encoder} (igual a do módulo dos encoders); \textit{Fluxometer} (responsável por encapsular os atributos e ações dos sensores do tipo fluxometro); \textit{Thermocouple} (responsável por encapsular os atributos e ações dos sensores do tipo termopar) e \textit{Pitot} (responsável por encapsular os atributos e ações dos sensores do tipo válvula de pitot). Podemos ver o diagrama de classe deste módulo na Figura ~\ref{fig_diag_classe_two}.
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=Diagrama_de_classe_sensores.eps}
   \caption{Diagrama de classe do módulo de sensores}
@@ -421,7 +421,7 @@ No software embarcado no microcontrolador responsável pelos sensores, temos mais
 
 O diagrama de máquina de estados visa representar os estados dos programas durante sua execução. Como este diagrama fornece uma visão macro dos estados. Utilizamos o mesmo diagrama para os dois módulos, ou seja, os dois módulos (módulo encoders e módulo sensores) operam de forma muito semelhante, apenas diferenciam no número e no tipo de sensores que controlam. Na Figura ~\ref{fig_maq_estados} podemos ver o diagrama de máquina de estados deste trabalho.
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=Maquina_de_estados.eps}
   \caption{Diagrama de máquina de estados}
@@ -445,7 +445,7 @@ O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software.
 
 Para realizar a ligação de todos estes componentes, foi desenvolvida uma placa de circuito eletrônico onde estes sensores, Arduinos e rádios são ligados. Na figura ~\ref{fig_circuito_eletronico} podemos ver como ficou a placa de circuito eletrônico.
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=circuito_eletronico.eps}
   \caption{Placa de circuito eletrônico.}
@@ -454,12 +454,14 @@ Para realizar a ligação de todos estes componentes, foi desenvolvida uma placa d
 
 Um fator importante que deve ser levado em consideração é a integridade deste circuito. Uma vez que ele estará operando em um ambiente com bastante vibração, ruído e com possibilidade de respingos de água. Faz-se necessário prover uma forma de proteção. Devido a isso, foi desenvolvida uma caixa para alocação do circuito e ao mesmo tempo facilitar as conexões de cabos. A Figura ~\ref{fig_caixa_circuito_eletronico} mostra a caixa desenvolvida.
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=caixa_circuito.eps}
   \caption{Caixa para proteção do circuito eletrônico.}
   \label{fig_caixa_circuito_eletronico}
 \end{figure}
+
+A alimentação do dispositivo é proveniente da bateria do próprio trator.
 
 O desenvolvimento do software embarcado foi feito nas linguagens de programação C e C++ e compilado com a IDE do próprio Arduino. O versionamento de código foi feito por meio de repositório no GitHub.
 
@@ -469,7 +471,7 @@ O protótipo foi desenvolvido para um projeto proveniente de uma parceria entre o
 
 O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de simular peso na barra de tração, foi utilizado um cambão engatado em outro trator de porte maior responsável por frear e dessa forma simular o peso de arrasto. Na figura ~\ref{fig_trator_teste} podemos ver o trator em teste (esquerda) equipado com os sensores e ligado ao segundo trator (direita).
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \epsfig{file=trator_teste.eps}
   \caption{Preparação do trator a ser testado.}
@@ -478,7 +480,28 @@ O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de si
 
 \chapter{Resultados}\label{cap_resultados}
 
+Com os dados coletados durante o ensaio do trator, faz-se possível gerar informações para a análise do desempenho do mesmo. Esses dados, por serem coletados e transmitidos em tempo real, possibilitam a construção da informação também em tempo real. Abaixo serão descritas algumas das informações geradas com os dados coletados, sendo elas a avanço por roda e o consumo horário de combustível. Para facilitar a leitura foi utilizado uma parcela de 150 segundos do ensaio para a plotagem dos gráficos.
 
+\section{Avanço por Roda}
+
+A medição dos dados de avanço do trator são feitas por meio de um encoder ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
+
+\section{Avanço Real}
+
+\section{Consumo Horário de Combustível}
+
+A medição de consumo do trator é feita com os valores das leituras do fluxometro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: ${(FluxIn - FluxOut) * 3,6}$ onde ${FluxIn}$ é o valor do fluxometro de entrada, ${FluxOut}$ é o valor do fluxometro de retorno e ${3,6}$ é referente a conversão de ml/s para l/h. A partir dessa fórmula é possível obter o consumo em Litros/Hora.
+
+Como a coleta dessa informação é feita no Controlador dos Sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi ${[(FluxIn - FluxOut)/5] * 3,6}$, onde a adição do ${/5}$ é para obter o consumo médio por segundo a cada leitura efetuada nos fluxometros.
+
+Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que demonstra o consumo do trator durante a parcela de tempo selecionada do ensaio. A figura ~\ref{fig_grafico_consumo} representa este gráfico.
+
+\begin{figure}[H]
+  \centering
+  \epsfig{file=grafico_consumo.eps}
+  \caption{Consumo do trator durante o ensaio.}
+  \label{fig_grafico_consumo}
+\end{figure}
 
 \chapter{Conclusão}\label{cap_conclusao}
 

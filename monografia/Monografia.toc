@@ -32,14 +32,17 @@
 \contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{14}
 \contentsline {section}{\numberline {3.2}Limita\c c\~oes}{15}
 \contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{15}
-\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{15}
+\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{16}
 \contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{17}
 \contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{17}
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{17}
-\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{18}
-\contentsline {section}{\numberline {3.7}Teste do Prot\'otipo durante Ensaio em Trator}{21}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{23}
-\contentsline {chapter}{Resultados}{23}
-\contentsline {beforechapter}{Cap\'{\i }tulo~5}{24}
-\contentsline {chapter}{Conclus\~ao}{24}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{25}
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{21}
+\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{21}
+\contentsline {section}{\numberline {3.7}Teste do Prot\'otipo durante Ensaio em Trator}{23}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{25}
+\contentsline {chapter}{Resultados}{25}
+\contentsline {section}{\numberline {4.1}Avan\c co por Roda}{25}
+\contentsline {section}{\numberline {4.2}Avan\c co Real}{25}
+\contentsline {section}{\numberline {4.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{25}
+\contentsline {beforechapter}{Cap\'{\i }tulo~5}{27}
+\contentsline {chapter}{Conclus\~ao}{27}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{28}
