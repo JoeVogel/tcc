@@ -171,15 +171,15 @@ Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes 
 
 \end{itemize}
 
+\section{Procedimentos Metodológicos}
+
 \section{Organização do Trabalho}
 
-Este trabalho está organizado em capítulos. O primeiro é a Fundamentação que tem como objetivo deixar o leitor mais familiarizado com a agricultura de precisão, tratores agrícolas, tipos de sensores que serão utilizados, plataforma Arduino e padrões de comunicação RF, entre outras informações pertinentes. Estas serão divididas em seções a fim de facilitar a leitura e o entendimento. 
+O Capítulo 2, Fundamentação tem como objetivo deixar o leitor mais familiarizado com a agricultura de precisão, tratores agrícolas, tipos de sensores que serão utilizados, plataforma Arduino e padrões de comunicação RF, entre outras informações pertinentes. Estas serão divididas em seções a fim de facilitar a leitura e o entendimento. 
 
-Após a Fundamentação, virá a seção Desenvolvimento onde será exposto o assunto de modo substantivo, lógico e detalhado. Este irá conter as informações referentes ao processo de desenvolvimento do objetivo do trabalho, contemplando informações como: desenvolvimento do harware e do software, dificuldades, testes, entre outros. Também será organizado por meio de seções para a melhor disposição da matéria.
+No Capítulo 3, Desenvolvimento será exposto o assunto de modo substantivo, lógico e detalhado. Este irá conter as informações referentes ao processo de desenvolvimento do objetivo do trabalho, contemplando informações como: desenvolvimento do harware e do software, dificuldades, testes, entre outros. Também será organizado por meio de seções para a melhor disposição da matéria.
 
-Na sequencia vem o capítulo Resultados onde serão apresentados os resultados obtidos de forma objetiva, exata, clara e lógica. Neste capítulo o leitor poderá encontrar as relações entre causa e efeito.
-
-E ao final, o trabalho trará a Conclusão. Este capítulo irá apontar tudo que foi descoberto, diante de profunda pesquisa e investigação ao longo do desenvolvimento do trabalho.
+O Capítulo 4 trará a Conclusão. Este capítulo irá apontar tudo que foi descoberto, diante de profunda pesquisa e investigação ao longo do desenvolvimento do trabalho.
 
 \chapter{Fundamentação}\label{cap_fundamentacao}
 
@@ -250,14 +250,15 @@ ZigBee é um padrão que define um conjunto de protocolos de comunicação para rede
 
 O padrão ZigBee é desenvolvido pela ZigBee Aliance. A ZigBee Aliance foi fundada em 2002 como uma organização sem fins lucrativos aberta a quem queira se juntar a ela. O padrão ZigBee adotou a norma IEEE 802.15.5 e os protocolos \abrevpuc{MAC}{Medium Access Control}. O Padrão ZigBee foi especialmente desenvolvido para atender as necessidades de baixo custo de implementação de redes sem fio para baixa taxa de transferência e baixo consumo de energia \cite{farahani2011zigbee}.
 
-\section{Comparação: ZigBee, Bluetooth e o Padrão IEEE 802.11}
+\section{Comparação: ZigBee, Bluetooth e o Wi-Fi}
 
-Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O IEEE 802.11 trabalha com alta taxa de transferência (até 11Mbps), este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (``\textit{Indoor}''). O Bluetooth, trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício coparado ao Bluetooth e ao IEEE 802.11 \cite{farahani2011zigbee}. Na Figura ~\ref{fig_comparacao_padroes_comunicacao} é possível visualizar as principais diferenças entre estes padrões.
+Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O Wi-Fi (Padrão IEEE 802.11) trabalha com alta taxa de transferência (até 11Mbps), este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (``\textit{Indoor}''). O Bluetooth (Padrão IEEE 802.15.1), trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício coparado ao Bluetooth e ao Wi-Fi \cite{farahani2011zigbee}. Na Figura ~\ref{fig_comparacao_padroes_comunicacao} é possível visualizar as principais diferenças entre estes padrões.
 
 \begin{figure}[h!]
   \centering
   \epsfig{file=ZigBee_Bluetooth_IEEE802.eps}
-  \caption{Comparação entre o padrão ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: FARAHANI, 2011, p. 3 }
+  \caption{Comparação entre o padrão ZigBee como o Bluetooth e o IEEE 802.11b.}
+  \cite{farahani2011zigbee}
   \label{fig_comparacao_padroes_comunicacao}
 \end{figure}
 
@@ -428,6 +429,8 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
   \label{fig_maq_estados}
 \end{figure}
 
+\section{Comunicação entre Dispositivo Coletor e Coordenador}
+
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
 O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores comerciais utilizados. Estes sensores são compostos por:
@@ -478,17 +481,17 @@ O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de si
   \label{fig_trator_teste}
 \end{figure}
 
-\chapter{Resultados}\label{cap_resultados}
+\section{Resultados do Teste}
 
 Com os dados coletados durante o ensaio do trator, faz-se possível gerar informações para a análise do desempenho do mesmo. Esses dados, por serem coletados e transmitidos em tempo real, possibilitam a construção da informação também em tempo real. Abaixo serão descritas algumas das informações geradas com os dados coletados, sendo elas a avanço por roda e o consumo horário de combustível. Para facilitar a leitura foi utilizado uma parcela de 150 segundos do ensaio para a plotagem dos gráficos.
 
-\section{Avanço por Roda}
+\subsection{Avanço por Roda}
 
 A medição dos dados de avanço do trator são feitas por meio de um encoder ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
 
-\section{Avanço Real}
+\subsection{Avanço Real}
 
-\section{Consumo Horário de Combustível}
+\subsection{Consumo Horário de Combustível}
 
 A medição de consumo do trator é feita com os valores das leituras do fluxometro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: ${(FluxIn - FluxOut) * 3,6}$ onde ${FluxIn}$ é o valor do fluxometro de entrada, ${FluxOut}$ é o valor do fluxometro de retorno e ${3,6}$ é referente a conversão de ml/s para l/h. A partir dessa fórmula é possível obter o consumo em Litros/Hora.
 

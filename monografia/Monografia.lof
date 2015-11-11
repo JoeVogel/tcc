@@ -4,7 +4,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces GPS na Agricultura de Precis\~ao\relax }}{5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Componentes de um SIG (Sistema de Informa\c c\~ao Geogr\'afica)\relax }}{6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Mega 2560 R3\relax }}{8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: FARAHANI, 2011, p. 3 \relax }}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b.\relax }}{9}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Diferen\c ca entre encoder incremental e absoluto.\relax }}{10}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Circuito de Seebeck\relax }}{11}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplo de Termopar\relax }}{12}
@@ -17,6 +17,5 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Placa de circuito eletr\^onico.\relax }}{22}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa para prote\c c\~ao do circuito eletr\^onico.\relax }}{23}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Prepara\c c\~ao do trator a ser testado.\relax }}{24}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Consumo do trator durante o ensaio.\relax }}{26}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Consumo do trator durante o ensaio.\relax }}{25}
 \addvspace {10\p@ }

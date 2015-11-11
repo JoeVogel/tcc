@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  9 NOV 2015 17:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  11 NOV 2015 10:17
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -552,7 +552,7 @@ Package epstopdf Info: Source file: <images/encoders.eps>
 (epstopdf)                    size: 18637 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/encoders-eps-convert
 ed-to.pdf images/encoders.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/encoders-eps-converted-to.pdf, id=95, 317.185pt x 238.8925pt>
@@ -560,7 +560,7 @@ File: images/encoders-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/encoders-eps-converted-to.pdf used on input lin
-e 280.
+e 281.
 (pdftex.def)             Requested size: 317.1842pt x 238.8919pt.
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
@@ -571,7 +571,7 @@ o.pdf>
 (epstopdf)                    size: 5723 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
 eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Circuito_de_Seebeck-eps-converted-to.pdf, id=96, 116.435pt x 173.64874p
@@ -579,7 +579,7 @@ t>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 291.
+n input line 292.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 
 
@@ -596,7 +596,7 @@ df>
 (epstopdf)                    size: 9925 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
 -converted-to.pdf images/exemplo_termopar.eps>
-(epstopdf)             \includegraphics on input line 304.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/exemplo_termopar-eps-converted-to.pdf, id=103, 271.0125pt x 221.82875pt
@@ -604,7 +604,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
  <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
-nput line 304.
+nput line 305.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
 
 
@@ -620,7 +620,7 @@ Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    size: 9084 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
 ted-to.pdf images/pulso-eco.eps>
-(epstopdf)             \includegraphics on input line 323.
+(epstopdf)             \includegraphics on input line 324.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/pulso-eco-eps-converted-to.pdf, id=111, 414.54875pt x 128.48pt>
@@ -628,7 +628,7 @@ File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
-ne 323.
+ne 324.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
  [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/exemplo_termopar
 -eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/image
@@ -646,14 +646,14 @@ df>
 (epstopdf)                    size: 19246 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
 -converted-to.pdf images/diagrama_de_rede.eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 361.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/diagrama_de_rede-eps-converted-to.pdf, id=127, 366.36874pt x 285.065pt>
 File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
 <use images/diagrama_de_rede-eps-converted-to.pdf>
 Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
-nput line 360.
+nput line 361.
 (pdftex.def)             Requested size: 366.36784pt x 285.0643pt.
  [15] [16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/diagrama_de
 _rede-eps-converted-to.pdf>]
@@ -666,7 +666,7 @@ verted-to.pdf>
 (epstopdf)                    size: 61004 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_e
 ncoders-eps-converted-to.pdf images/Diagrama_de_classe_encoders.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 407.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=137, 399.4925pt x 
@@ -675,7 +675,7 @@ File: images/Diagrama_de_classe_encoders-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_encoders-eps-converted-to.pd
-f used on input line 406.
+f used on input line 407.
 (pdftex.def)             Requested size: 399.49152pt x 624.33098pt.
 
 [17] [18 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_
@@ -689,7 +689,7 @@ verted-to.pdf>
 (epstopdf)                    size: 73456 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_s
 ensores-eps-converted-to.pdf images/Diagrama_de_classe_sensores.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=148, 409.53pt x 60
@@ -698,7 +698,7 @@ File: images/Diagrama_de_classe_sensores-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_sensores-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_sensores-eps-converted-to.pd
-f used on input line 415.
+f used on input line 416.
 (pdftex.def)             Requested size: 409.52899pt x 604.25603pt.
 
 [19] [20 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_
@@ -712,7 +712,7 @@ Package epstopdf Info: Source file: <images/Maquina_de_estados.eps>
 (epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Maquina_de_estados-e
 ps-converted-to.pdf images/Maquina_de_estados.eps>
-(epstopdf)             \includegraphics on input line 426.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Maquina_de_estados-eps-converted-to.pdf, id=158, 371.3875pt x 270.00874
@@ -720,7 +720,7 @@ pt>
 File: images/Maquina_de_estados-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Maquina_de_estados-eps-converted-to.pdf>
 Package pdftex.def Info: images/Maquina_de_estados-eps-converted-to.pdf used on
- input line 426.
+ input line 427.
 (pdftex.def)             Requested size: 371.38658pt x 270.00807pt.
  [21 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Maquina_de_estad
 os-eps-converted-to.pdf>]
@@ -733,7 +733,7 @@ o.pdf>
 (epstopdf)                    size: 18473 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/circuito_eletronico-
 eps-converted-to.pdf images/circuito_eletronico.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/circuito_eletronico-eps-converted-to.pdf, id=165, 327.2225pt x 199.7462
@@ -741,7 +741,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/circuito_eletronico-eps-converted-to.pdf Graphic file (type pdf)
  <use images/circuito_eletronico-eps-converted-to.pdf>
 Package pdftex.def Info: images/circuito_eletronico-eps-converted-to.pdf used o
-n input line 450.
+n input line 451.
 (pdftex.def)             Requested size: 327.2217pt x 199.74576pt.
 Package epstopdf Info: Source file: <images/caixa_circuito.eps>
 (epstopdf)                    date: 2015-11-04 17:16:44
@@ -752,14 +752,14 @@ Package epstopdf Info: Source file: <images/caixa_circuito.eps>
 (epstopdf)                    size: 14730 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/caixa_circuito-eps-c
 onverted-to.pdf images/caixa_circuito.eps>
-(epstopdf)             \includegraphics on input line 459.
+(epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/caixa_circuito-eps-converted-to.pdf, id=166, 354.32375pt x 263.98625pt>
 File: images/caixa_circuito-eps-converted-to.pdf Graphic file (type pdf)
 <use images/caixa_circuito-eps-converted-to.pdf>
 Package pdftex.def Info: images/caixa_circuito-eps-converted-to.pdf used on inp
-ut line 459.
+ut line 460.
 (pdftex.def)             Requested size: 354.32288pt x 263.9856pt.
  [22 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/circuito_eletron
 ico-eps-converted-to.pdf>]
@@ -771,7 +771,7 @@ Package epstopdf Info: Source file: <images/trator_teste.eps>
 (epstopdf)                    size: 22794 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/trator_teste-eps-con
 verted-to.pdf images/trator_teste.eps>
-(epstopdf)             \includegraphics on input line 476.
+(epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/trator_teste-eps-converted-to.pdf, id=173, 352.31625pt x 245.91875pt>
@@ -779,20 +779,17 @@ File: images/trator_teste-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/trator_teste-eps-converted-to.pdf>
 Package pdftex.def Info: images/trator_teste-eps-converted-to.pdf used on input
- line 476.
+ line 477.
 (pdftex.def)             Requested size: 352.31538pt x 245.91814pt.
  [23 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/caixa_circuito-e
-ps-converted-to.pdf>] [24 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/im
-ages/trator_teste-eps-converted-to.pdf>]
-Overfull \hbox (0.75331pt too wide) in paragraph at lines 483--484
+ps-converted-to.pdf>]
+Overfull \hbox (0.75331pt too wide) in paragraph at lines 484--485
 []\OT1/cmr/m/n/12 Com os da-dos co-le-ta-dos du-rante o en-saio do tra-tor, faz
 -se possvel ge-rar in-formac~oes
  []
 
-[25
-
-
-]
+[24 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/trator_teste-eps-
+converted-to.pdf>]
 Package epstopdf Info: Source file: <images/grafico_consumo.eps>
 (epstopdf)                    date: 2015-11-09 17:17:03
 (epstopdf)                    size: 894789 bytes
@@ -802,31 +799,35 @@ f>
 (epstopdf)                    size: 10686 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/grafico_consumo-eps-
 converted-to.pdf images/grafico_consumo.eps>
-(epstopdf)             \includegraphics on input line 501.
+(epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/grafico_consumo-eps-converted-to.pdf, id=191, 478.78876pt x 173.64874pt
+<images/grafico_consumo-eps-converted-to.pdf, id=188, 478.78876pt x 173.64874pt
 >
 File: images/grafico_consumo-eps-converted-to.pdf Graphic file (type pdf)
  <use images/grafico_consumo-eps-converted-to.pdf>
 Package pdftex.def Info: images/grafico_consumo-eps-converted-to.pdf used on in
-put line 501.
+put line 502.
 (pdftex.def)             Requested size: 478.78758pt x 173.64832pt.
 
-Overfull \hbox (23.54347pt too wide) in paragraph at lines 501--502
+Overfull \hbox (23.54347pt too wide) in paragraph at lines 502--503
  [][] 
  []
 
-[26 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/grafico_consumo-e
+[25 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/grafico_consumo-e
 ps-converted-to.pdf>]
-(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [27
+(C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.bbl [26
 
 
-] [28
+] [27
 
 
 ])
-[29] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux) ) 
+[28] (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  5610 strings out of 493921
  86768 string characters out of 3148877
@@ -834,17 +835,16 @@ Here is how much of TeX's memory you used:
  8760 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 44i,9n,42p,1062b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Pr
-ogram Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
-MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MikTex/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTex/fonts/type1/public
-/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pf
-b>
-Output written on Monografia.pdf (43 pages, 472216 bytes).
+ 44i,9n,42p,1094b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MikT
+ex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MikTex/fonts/type
+1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/c
+mti12.pfb>
+Output written on Monografia.pdf (42 pages, 471725 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
