@@ -165,13 +165,21 @@ Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes 
 
 \item Identificar as boas práticas para engenharia de sistemas;
 
-\item Desenvolver o dispositivo, software e documentação aplicando boas práticas de engenharia de sistemas;
-
-\item Analisar os resultados alcançados, a fim de ressaltar a relevância do resultado esperado.
+\item Desenvolver o dispositivo, software e documentação aplicando boas práticas de engenharia de sistemas.
 
 \end{itemize}
 
 \section{Procedimentos Metodológicos}
+
+O trabalho desenvolvido pode ser classificado como pesquisa exploratória. Segundo \cite{gil2010metodos}, a pesquisa exploratória tem como finalidade desenvolver, esclarecer e modificar conceitos e ideias, tendo em vista a formulação de problemas mais precisos ou hipóteses pesquisáveis para estudos posteriores. Limita-se a definirem objetivos e buscar maiores informações e ideias novas sobre o tema em questão, familiarizando-se com ele.
+
+Para que se possa desenvolver um dispositivo capaz de lidar com todos os dados de operação do trator, faz-se necessário um profundo estudo de todo o hardware necessário para que assim fique mais claro como desenvolver o dispositivo. Para tanto, será realizado estudo nos sites dos fabricantes / desenvolvedores dos sensores, controladoras, rádios, bibliotecas de código, etc. Também se faz necessário enteder o ambiente onde o dispositivo irá atuar. Para isso, serão feitos estudos e experimentos em tratores agrícolas para então definir os requisitos de hardware e software.
+
+Com essas informações em mãos, a próxima etapa a ser cumprida é realizar a análise do software e planejar o circuito eletrônico. Isso será útil para o desenvolvimento e também para a documentação do trabalho.
+
+A partir dos artefatos gerados durante a análise, inicia-se a construção do circuito eletrônico e o desenvolvimento do programa (\textit{software}). Durante esta etapa, diversos testes são necessários, tanto no software quanto no hardware.
+
+Para concluir o trabalho, será realizado o teste do dispositivo em um trator agrícola para fins de validação do trabalho desenvolvido.
 
 \section{Organização do Trabalho}
 
@@ -249,6 +257,28 @@ O Arduino Mega 2560 é uma placa controladora baseada no microcontrolador ATMega2
 ZigBee é um padrão que define um conjunto de protocolos de comunicação para redes sem fio de baixa taxa de transferência de dados. A taxa de transferência máxima é de 250Kbits/s. Suas principais características são: baixo custo, baixa taxa de transferência e consumo baixo de energia. Com o consumo baixo de energia aliado ao modo de economia de energia dos microcontroladores (conhecido com ``\textit{sleep mode}''), estes dispositivos podem operar por anos sem necessitar de troca de bateria \cite{farahani2011zigbee}.
 
 O padrão ZigBee é desenvolvido pela ZigBee Aliance. A ZigBee Aliance foi fundada em 2002 como uma organização sem fins lucrativos aberta a quem queira se juntar a ela. O padrão ZigBee adotou a norma IEEE 802.15.5 e os protocolos \abrevpuc{MAC}{Medium Access Control}. O Padrão ZigBee foi especialmente desenvolvido para atender as necessidades de baixo custo de implementação de redes sem fio para baixa taxa de transferência e baixo consumo de energia \cite{farahani2011zigbee}.
+
+Em uma rede ZigBee, temos três tipos de nós. Sendo eles: 
+
+\begin{itemize}
+
+\item Coordenador: responsável pela configuração da rede; gerenciar os nós da rede; armazenar informações dos nós; rotear mensagens entre os nós pareados; normalmente operam em modo de recebimento;
+
+\item Roteador: responsável por realizar a ponte entre o Dispositivo Final e o Coordenador dessa forma potencializando o alcance da rede;
+
+\item Dispositivo Final: tido como nó final responsável pela coleta dos dados de sensores, empacotamento e envio para o Coordenador ou Roteador; feito para rodar em dispositivos com baixo consumo de energia; pode dormir por longos períodos para economia de energia.
+
+\end{itemize}
+
+Na Figura ~\ref{fig_zigbee_network} vemos a disposição dos nós em uma rede ZigBee.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=rede_zigbee.eps}
+  \caption{Rede ZigBee}
+  \cite{UFRJZIGBEE}
+  \label{fig_zigbee_network}
+\end{figure}
 
 \section{Comparação: ZigBee, Bluetooth e o Wi-Fi}
 
@@ -430,6 +460,8 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
 \end{figure}
 
 \section{Comunicação entre Dispositivo Coletor e Coordenador}
+
+
 
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 

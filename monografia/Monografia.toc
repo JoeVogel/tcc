@@ -15,34 +15,35 @@
 \contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{3}
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\IeC {\'\i }ficos}{4}
 \contentsline {section}{\numberline {1.4}Procedimentos Metodol\'ogicos}{4}
-\contentsline {section}{\numberline {1.5}Organiza\c c\~ao do Trabalho}{4}
-\contentsline {beforechapter}{Cap\'{\i }tulo~2}{5}
-\contentsline {chapter}{Fundamenta\c c\~ao}{5}
-\contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{5}
-\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de Desempenho de Tratores Agr\IeC {\'\i }colas}{6}
-\contentsline {section}{\numberline {2.3}Arduino}{7}
-\contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{8}
-\contentsline {section}{\numberline {2.5}Compara\c c\~ao: ZigBee, Bluetooth e o Wi-Fi}{9}
-\contentsline {section}{\numberline {2.6}Sensores}{9}
-\contentsline {subsection}{\numberline {2.6.1}Encoder}{10}
-\contentsline {subsection}{\numberline {2.6.2}Termopar}{10}
-\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{11}
-\contentsline {section}{\numberline {2.7}Conclus\~ao}{13}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{14}
-\contentsline {chapter}{Desenvolvimento}{14}
-\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{14}
-\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{15}
-\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{15}
-\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{16}
-\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{17}
-\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{17}
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{21}
-\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{21}
-\contentsline {section}{\numberline {3.7}Teste do Prot\'otipo durante Ensaio em Trator}{23}
-\contentsline {section}{\numberline {3.8}Resultados do Teste}{24}
-\contentsline {subsection}{\numberline {3.8.1}Avan\c co por Roda}{24}
-\contentsline {subsection}{\numberline {3.8.2}Avan\c co Real}{24}
-\contentsline {subsection}{\numberline {3.8.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{24}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{26}
-\contentsline {chapter}{Conclus\~ao}{26}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}
+\contentsline {section}{\numberline {1.5}Organiza\c c\~ao do Trabalho}{5}
+\contentsline {beforechapter}{Cap\'{\i }tulo~2}{6}
+\contentsline {chapter}{Fundamenta\c c\~ao}{6}
+\contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{6}
+\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de Desempenho de Tratores Agr\IeC {\'\i }colas}{7}
+\contentsline {section}{\numberline {2.3}Arduino}{8}
+\contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{9}
+\contentsline {section}{\numberline {2.5}Compara\c c\~ao: ZigBee, Bluetooth e o Wi-Fi}{10}
+\contentsline {section}{\numberline {2.6}Sensores}{11}
+\contentsline {subsection}{\numberline {2.6.1}Encoder}{11}
+\contentsline {subsection}{\numberline {2.6.2}Termopar}{12}
+\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{14}
+\contentsline {section}{\numberline {2.7}Conclus\~ao}{14}
+\contentsline {beforechapter}{Cap\'{\i }tulo~3}{15}
+\contentsline {chapter}{Desenvolvimento}{15}
+\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{15}
+\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{16}
+\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{16}
+\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{17}
+\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{18}
+\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{18}
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{22}
+\contentsline {section}{\numberline {3.6}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{22}
+\contentsline {section}{\numberline {3.7}Desenvolvimento do Prot\'otipo}{22}
+\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{24}
+\contentsline {section}{\numberline {3.9}Resultados do Teste}{25}
+\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{25}
+\contentsline {subsection}{\numberline {3.9.2}Avan\c co Real}{25}
+\contentsline {subsection}{\numberline {3.9.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{25}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{27}
+\contentsline {chapter}{Conclus\~ao}{27}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{28}

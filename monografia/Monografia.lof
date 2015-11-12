@@ -1,21 +1,22 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces GPS na Agricultura de Precis\~ao\relax }}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Componentes de um SIG (Sistema de Informa\c c\~ao Geogr\'afica)\relax }}{6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Mega 2560 R3\relax }}{8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b.\relax }}{9}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diferen\c ca entre encoder incremental e absoluto.\relax }}{10}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Circuito de Seebeck\relax }}{11}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplo de Termopar\relax }}{12}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces M\'etodo pulso-eco.\relax }}{12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces GPS na Agricultura de Precis\~ao\relax }}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Componentes de um SIG (Sistema de Informa\c c\~ao Geogr\'afica)\relax }}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Mega 2560 R3\relax }}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Rede ZigBee\relax }}{10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b.\relax }}{11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferen\c ca entre encoder incremental e absoluto.\relax }}{12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Circuito de Seebeck\relax }}{13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemplo de Termopar\relax }}{13}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces M\'etodo pulso-eco.\relax }}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura proposta\relax }}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de classe do m\'odulo de encoders\relax }}{18}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de sensores\relax }}{20}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de m\'aquina de estados\relax }}{21}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Placa de circuito eletr\^onico.\relax }}{22}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa para prote\c c\~ao do circuito eletr\^onico.\relax }}{23}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Prepara\c c\~ao do trator a ser testado.\relax }}{24}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Consumo do trator durante o ensaio.\relax }}{25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura proposta\relax }}{17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de classe do m\'odulo de encoders\relax }}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de sensores\relax }}{21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de m\'aquina de estados\relax }}{22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Placa de circuito eletr\^onico.\relax }}{23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa para prote\c c\~ao do circuito eletr\^onico.\relax }}{24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Prepara\c c\~ao do trator a ser testado.\relax }}{25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Consumo do trator durante o ensaio.\relax }}{26}
 \addvspace {10\p@ }
