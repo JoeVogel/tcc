@@ -37,13 +37,13 @@
 \contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{18}
 \contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{18}
 \contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{22}
-\contentsline {section}{\numberline {3.6}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{22}
-\contentsline {section}{\numberline {3.7}Desenvolvimento do Prot\'otipo}{22}
-\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{24}
-\contentsline {section}{\numberline {3.9}Resultados do Teste}{25}
-\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{25}
-\contentsline {subsection}{\numberline {3.9.2}Avan\c co Real}{25}
-\contentsline {subsection}{\numberline {3.9.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{25}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{27}
-\contentsline {chapter}{Conclus\~ao}{27}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{28}
+\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{22}
+\contentsline {section}{\numberline {3.7}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{24}
+\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{26}
+\contentsline {section}{\numberline {3.9}Resultados do Teste}{26}
+\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{27}
+\contentsline {subsection}{\numberline {3.9.2}Avan\c co Real}{27}
+\contentsline {subsection}{\numberline {3.9.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{27}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{28}
+\contentsline {chapter}{Conclus\~ao}{28}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{29}

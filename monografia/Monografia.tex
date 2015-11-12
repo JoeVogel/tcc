@@ -380,7 +380,7 @@ O dispositivo proposto neste trabalho visa fornecer uma ferramenta para telemetr
 
 \section{Limitações}
 
-As limitações deste dispositivo estão associadas ao rádio responsável por enviar os pacotes de dados. Isso se dá, pois dependendo do rádio que for utilizado, temos diferentes capacidades de alcance. No protótipo desenvolvido para este trabalho, foi utilizado um rádio Digi Xbee Serie 2, com alcance de até 150 metros. Devido a isso, o dispositivo que for utilizado como coletor poderá ficar a até no máximo 150 metros do dispositivo para poder manter a comunicação. Porém, o recomendado é não chegar a até essa distância para garantir que nenhum pacote seja perdido devido a distância. Devido a isso, não é recomendado exceder uma distância de cerca de 120 metros entre o dispositivo e o coletor.
+As limitações deste dispositivo estão associadas ao rádio responsável por enviar os pacotes de dados. Isso se dá, pois dependendo do rádio que for utilizado, temos diferentes capacidades de alcance. No protótipo desenvolvido para este trabalho, foi utilizado o rádio Digi Xbee Serie 2, com alcance de até 120 metros. Devido a isso, o dispositivo que for utilizado como coletor poderá ficar a até no máximo 120 metros do dispositivo para poder manter a comunicação. Porém, o recomendado é não chegar a até essa distância para garantir que nenhum pacote seja perdido devido a distância. Devido a isso, não é recomendado exceder uma distância de cerca de 100 metros entre o dispositivo e o coletor.
 
 \section{Visão Macro do Protótipo}
 
@@ -459,10 +459,6 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
   \label{fig_maq_estados}
 \end{figure}
 
-\section{Comunicação entre Dispositivo Coletor e Coordenador}
-
-
-
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
 O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores comerciais utilizados. Estes sensores são compostos por:
@@ -499,6 +495,19 @@ Um fator importante que deve ser levado em consideração é a integridade deste ci
 A alimentação do dispositivo é proveniente da bateria do próprio trator.
 
 O desenvolvimento do software embarcado foi feito nas linguagens de programação C e C++ e compilado com a IDE do próprio Arduino. O versionamento de código foi feito por meio de repositório no GitHub.
+
+\section{Comunicação entre Dispositivo Coletor e Coordenador}
+
+Para a comunicação entre o Coletor e o Coordenador, foram utilizados três rádios XBee Series 2 de 2mw de potência, a escolha desse rádio se deu devido as seguintes condições oferecidas por ele: baixo consumo, fácilmente encontrado no mercado, taxa transmissão de dados de 250 kbps, raio de cobertura 120m e criptografia de 128 bits. Dois rádios foram utilizados no coletor configurados como Dispositivo Final um configurado como Coordenador para uso no \textit{Middleware}.
+
+Baseado nisso, o dispositivo coleta os dados dos sensores e então monta o pacote para envio ao coordenador da rede. Os dados são primeiramente convertidos para a base hexadecimal para depois serem enviados, dessa forma o tamanho do pacote fica menor e assim facilitando o seu envio. Na Figura ~\ref{fig_pacote_dados} podemos ver o método responsável por preencher o pacote a ser enviado no módulo de leitura dos sensores.
+
+\begin{figure}[H]
+  \centering
+  \epsfig{file=pacote_dados.eps}
+  \caption{Trecho do programa responsável por montar o pacote de dados para envio.}
+  \label{fig_pacote_dados}
+\end{figure}
 
 \section{Teste do Protótipo durante Ensaio em Trator}
 
