@@ -56,14 +56,26 @@ a-pli-ca-do}
 
 % Dedicatória
 \begin{dedicatory}
-    Aqui vai a dedicatória
+    Para minha querida companheira...
 \end{dedicatory}
 
 
 % Agradecimentos
 \acknowledgements
 
-	Aqui vai os agradecimentos
+A meu pai (\textit{In Memoiam}) e a minha mãe por terem feito tudo que podiam para poder me dar acesso à educação de qualidade e pelos ensinamenos que vem me guiando por todo o caminho que tenho trilhando e tenho certeza que irão me acompanhar sempre. 
+	
+A minha querida companheira Vanessa por sempre me apoiar nos momentos em que hesitei. Obrigado por sempre me agraciar com sua parceria, sabedoria e acima de tudo paciência.
+
+Aos meus orientadores Manfred e Luciano pela imensa sabedoria e pela paixão empenhada ao compartilhar seus conhecimentos. Mestres que inspiram as pessoas que estão a sua volta.
+
+A todos os professores que direta ou indiretamente contribuiram para a minha formação. Que sempre me motivaram a ir além da zona de conforto em busca do conhecimento.
+
+A todas as pessoas que me deram oportunidade de demonstrar o que sei e que reconheceram a minha dedicação. Me permitindo mostrar o meu trabalho.
+
+Aos companheiros de turma que sempre estavam juntos durante esta jornada incrível que foi a nossa graduação.
+
+A todas as pessoas que doam seu tempo e sabedoria para fazer desse mundo um lugar melhor para se viver.
 
 % Sumário (não alterar)
 \tableofcontents
@@ -72,10 +84,10 @@ a-pli-ca-do}
 \listoffigures
 
 % Lista de Tabelas (Retirar se não existir)
-\listoftables
+%\listoftables
 
 % Lista de Símbolos (Retirar se não existir)
-\listofsymbols
+%\listofsymbols
 
 % Lista de Abreviações (Retirar se não existir)
 \listofabreviations
@@ -83,10 +95,12 @@ a-pli-ca-do}
 % Resumo
 \resumo
 
+A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem recebendo cada vez mais atenção nos últimos anos. Isso se dá devido a dificuldade que os tratores tem em desempenhar o que é esperado, devido as condições que os mesmos enfrentam no Brasil, tais como combustível, solo, clima, entre outros. Estas condições são diferentes das encontradas no país onde o trator foi projetado. Devido a isso, se torna importante a realização de ensaios nos tratores em meio as condições ao qual este trator será submetido para avaliar eventuais problemas que possam prejudicar o desempenho do mesmo. Porém, a coleta dos dados destes ensaios ainda é feita em sua maioria de forma manual. Isso diminui a precisão dos dados coletados e pode colocar pessoas em perigo, uma vez que a coleta dos dados da operação é feita durante o ensaio do trator. Este trabalho demonstra a criação de um dispositivo para telemetria dos dados de operação do trator, capaz de coletar com precisão estes dados e enviar estes dados por meio de \abrevpuc {RF} {Rádio Frequência} para a análise dos mesmos. Concluíu-se que esse dispositivo permite a obtenção de dados pertinentes a execução de forma precisa, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação a linha do tempo em períodos de poucos segundos.
+
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Resumo (Não esquecer de especificar o tipo do trator)
 \begin{keywords}
-    Telemetria, Agricultura de Precisão, Arduino.
+    Tratores, Eficiência, Telemetria.
 \end{keywords}
 
 % Abstract
@@ -96,7 +110,7 @@ a-pli-ca-do}
 \noindent %Abstract
 
 \begin{keywords}
-    Telemetry, Precision Agriculture, Arduino.
+    Tractors, Efficiency, Telemetry.
 \end{keywords}
 
 % Não remover
@@ -107,7 +121,7 @@ a-pli-ca-do}
 
 \chapter{Introdução}\label{cap_intro}
 
-A \abrevpuc{AP}{Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados \cite{Pires2004}.
+A \abrevpuc {AP} {Agricultura de Precisão} vem avançando muito nos últimos anos. Esta é uma área que tem se consolidado fortemente. Com todas as transformações que a AP vem sofrendo, ela tem se tornado muito competitiva e exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo. Baseados nisso, os agricultores, além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados \cite{Pires2004}.
 
 A AP é um sistema de gerenciamento. Seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS), entre outros \cite{Pires2004}.
 
@@ -149,7 +163,7 @@ Este trabalho é voltado a telemetria da operação de tratores agrícolas. O objeti
 
 \subsection{Objetivo Geral}
 
-Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes do funcionamento do trator em tempo real utilizando uma placa controladora e vários sensores industriais para o processamento dos dados coletados e \abrevpuc {RF} {Rádio Frequência} para envio dos dados coletados para a análise.
+Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes do funcionamento do trator em tempo real utilizando uma placa controladora e vários sensores industriais para o processamento dos dados coletados e RF para envio dos dados coletados para a análise.
 
 \subsection{Objetivos Específicos}
 
@@ -574,7 +588,13 @@ Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que 
   \label{fig_grafico_consumo}
 \end{figure}
 
+\section{Conclusão}
+
+Este capitulo apresentou as atividades de análise, desenvolvimento e teste do dispositivo de telemetria de tratores agrícolas, de modo que a o leitor possa entender de maneira clara o desenvolvimeno realizado bem como algumas das possibilidades de geração de informações a partir dos dados coletados. 
+
 \chapter{Conclusão}\label{cap_conclusao}
+
+
 
 %Referencias:
 \bibliographystyle{abntex2-alf}
@@ -586,29 +606,5 @@ Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que 
 
 %\section{Seção}
 
-%\subsection{Sub-Seção}
-
-
-
-%EXEMPLOS
-
-%Subfiguras:
-
-%\begin{figure}
-%  \centering
-%  \begin{tabular}{@{}c@{}}
-%    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
-%    \small (a) Fluxograma do controlador dos encoders
-%  \end{tabular}
-
-%  \vspace{\floatsep}
-
-%  \begin{tabular}{@{}c@{}}
-%    \includegraphics[width=.9\linewidth,height=270pt]{fluxograma_sensores.PNG} \\[\abovecaptionskip]
-%    \small (b) Fluxograma do controlador dos sensores
-%  \end{tabular}
-
-%  \caption{Fluxogramas dos módulos do protótipo.}\label{fig_fluxogramas}
-%\end{figure}
 
 \end{document}
