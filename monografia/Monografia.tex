@@ -530,7 +530,7 @@ Com os dados coletados durante o ensaio do trator, faz-se possível gerar informa
 
 A medição dos dados de avanço do trator são feitas por meio de um encoder ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
 
-A fórmula para cálculo da velocidade em \abrevpuc{M/S}{Metros por Segundo} é: ${Np \over (Pr * Pe)}$. Onde ${Np}$ é o número de pulsos da leitura, ${Pr}$ é o número de pulsos por revolução e ${Pe}$ é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
+A fórmula para cálculo da velocidade em \abrevpuc{m/s}{Metros por Segundo} é: ${Np \over (Pr * Pe)}$. Onde ${Np}$ é o número de pulsos da leitura, ${Pr}$ é o número de pulsos por revolução e ${Pe}$ é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
 
 \begin{figure}[H]
   \centering
@@ -557,13 +557,13 @@ As Figuras ~\ref{fig_soma_rotacoes_dianteira} e ~\ref{fig_soma_rotacoes_traseira
 
 Nos gráficos, pode-se visualizar pequenas diferenças entre a velocidade das rodas ao longo do tempo, isso se deve ao fato das rodas patinarem ao perder a aderência ao solo. Dessa forma, podemos avaliar o momento exato e a quantidade que o trator patinou durante o ensaio.
 
-Os dados utilizados nestes gráficos foram coletados na módulo de encoders e o mesmo foi configurado para realizar uma leitura a cada segundo.
+Os dados utilizados nestes gráficos foram coletados no módulo de encoders e o mesmo foi configurado para realizar uma leitura a cada segundo.
 
 \subsection{Consumo Horário de Combustível}
 
-A medição de consumo do trator é feita com os valores das leituras do fluxometro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: ${(FluxIn - FluxOut) * 3,6}$ onde ${FluxIn}$ é o valor do fluxometro de entrada, ${FluxOut}$ é o valor do fluxometro de retorno e ${3,6}$ é referente a conversão de ml/s para l/h. A partir dessa fórmula é possível obter o consumo em Litros/Hora.
+A medição de consumo do trator é feita com os valores das leituras do fluxometro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: ${(FluxIn - FluxOut) * 3,6}$ onde ${FluxIn}$ é o valor do fluxometro de entrada, ${FluxOut}$ é o valor do fluxometro de retorno e ${3,6}$ é referente a conversão de \abrevpuc{ml/s}{Mililitros por Segundo}  para \abrevpuc{l/h}{Litros por Hora}. A partir dessa fórmula é possível obter o consumo em l/h.
 
-Como a coleta dessa informação é feita no Controlador dos Sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi ${[(FluxIn - FluxOut)/5] * 3,6}$, onde a adição do ${/5}$ é para obter o consumo médio por segundo a cada leitura efetuada nos fluxometros.
+Como a coleta dessa informação é feita no módulo dos sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi ${[(FluxIn - FluxOut)/5] * 3,6}$, onde a adição do ${/5}$ é para obter o consumo médio por segundo a cada leitura efetuada nos fluxometros.
 
 Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que demonstra o consumo do trator durante a parcela de tempo selecionada do ensaio. A figura ~\ref{fig_grafico_consumo} representa este gráfico.
 
