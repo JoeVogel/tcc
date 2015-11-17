@@ -119,9 +119,9 @@ Um dos grandes problemas que o Brasil enfrenta é a falta de tecnologias de ponta
 
 Uma das principais funções dos tratores agrícolas é transformar a energia contida no combustível e fornecê-la, através da barra de tração, para tracionar maquinas e implementos agrícolas. O desempenho na barra de tração depende de diversos fatores como potencia do motor, transmissão, entre outros. Entre os fatores que interferem na tração, a condição do solo é muito importante \cite{filho2010desempenho}.
 
-Porém, na hora de usar este trator, ele acaba não conseguindo exercer a atividade como deveria, isso é devido a fatores como: as condições climáticas, de solo, de combustível, entre outras que ele enfrenta no Brasil não são como as testadas pelo fabricante. Isso implica consideravelmente no desempenho do aparelho.
+Porém, na hora de usar este implemento, o agricultor acaba não conseguindo exercer a atividade como deveria, isso é devido a fatores como: as condições climáticas, de solo, de combustível, entre outras que ele enfrenta no Brasil não são como as testadas pelo fabricante. Isso implica consideravelmente no desempenho do implemento.
 
-Neste cenário, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
+No cenário atual, alguns testes manuais são aplicados nos tratores, porém, estes não são o suficiente para que se possa avaliar a verdadeira causa das perdas, por exemplo, fica limitada a obtenção de alguns dados, como temperatura do combustível, fluxo de combustível, vazão de ar, força executada pelo trator, entre outros.
 
 O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. De acordo com o \cite{SESC2015} "O conceito de sustentabilidade tem sua origem relacionada ao termo "desenvolvimento sustentável", definido como aquele que atenda às necessidades das gerações presentes sem comprometer a capacidade das gerações futuras de suprirem suas próprias necessidades."
 
@@ -133,11 +133,11 @@ Porém, estes dados ainda são obtidos de formas manuais e exaustivas, tendo seus 
 
 %O desafio é desenvolver um dispositivo para captação de dados relevantes ao funcionamento do trator em tempo real por meio de diversos sensores utilizando a plataforma Arduino para o processamento dos dados coletados e ZigBee para envio dos dados coletados para a análise.
 
-Como podemos melhorar este cenário de modo que os dados relevantes ao funcionamento do trator possam ser coletados de forma eficiente e sem intervenção humana, e que além disso ainda sejam mais precisos se comparados a realidade atual?
+Como melhorar este cenário de modo que os dados relevantes ao funcionamento do trator possam ser coletados de forma eficiente e sem intervenção humana, e que além disso ainda sejam mais precisos se comparados a realidade atual?
 
 \section{Justificativa}
 
-O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Se pararmos para analisar a atual situação mundial, muito se fala em sustentabilidade. Dessa forma cresce cada vez mais a demanda por máquinas agrícolas que possam desempenhar suas atividades de forma rápida e da maneira mais eficiente. 
+O desenvolvimento de novas tecnologias para apoiar a agricultura faz-se cada vez mais necessário devido a diversos fatores. Parando para analisar a atual situação mundial, muito se fala em sustentabilidade. Dessa forma cresce cada vez mais a demanda por máquinas agrícolas que possam desempenhar suas atividades de forma rápida e da maneira mais eficiente. 
 
 Uma forma de auxiliar nisso, é análisar o desempenho dessas máquinas e avaliar os pontos onde podemos otimizar a eficiência delas.
 
@@ -149,7 +149,7 @@ Este trabalho é voltado a telemetria da operação de tratores agrícolas. O objeti
 
 \subsection{Objetivo Geral}
 
-Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes do funcionamento do trator em tempo real utilizando uma placa controladora e vários sensores comerciais para o processamento dos dados coletados e \abrevpuc {RF} {Rádio Frequência} para envio dos dados coletados para a análise.
+Desenvolver dispositivo (\textit{End Device}) capaz de coletar dados relevantes do funcionamento do trator em tempo real utilizando uma placa controladora e vários sensores industriais para o processamento dos dados coletados e \abrevpuc {RF} {Rádio Frequência} para envio dos dados coletados para a análise.
 
 \subsection{Objetivos Específicos}
 
@@ -183,7 +183,7 @@ Para concluir o trabalho, será realizado o teste do dispositivo em um trator agr
 
 \section{Organização do Trabalho}
 
-O Capítulo 2, Fundamentação tem como objetivo deixar o leitor mais familiarizado com a agricultura de precisão, tratores agrícolas, tipos de sensores que serão utilizados, plataforma Arduino e padrões de comunicação RF, entre outras informações pertinentes. Estas serão divididas em seções a fim de facilitar a leitura e o entendimento. 
+O Capítulo 2, Fundamentação tem como objetivo deixar o leitor mais familiarizado com a agricultura de precisão, ensaios de tratores agrícolas, tipos de sensores que serão utilizados, plataforma Arduino e padrões de comunicação RF, entre outras informações pertinentes. Estas serão divididas em seções a fim de facilitar a leitura e o entendimento. 
 
 No Capítulo 3, Desenvolvimento será exposto o assunto de modo substantivo, lógico e detalhado. Este irá conter as informações referentes ao processo de desenvolvimento do objetivo do trabalho, contemplando informações como: desenvolvimento do harware e do software, dificuldades, testes, entre outros. Também será organizado por meio de seções para a melhor disposição da matéria.
 
@@ -191,7 +191,7 @@ O Capítulo 4 trará a Conclusão. Este capítulo irá apontar tudo que foi descobert
 
 \chapter{Fundamentação}\label{cap_fundamentacao}
 
-No decorrer deste capítulo, será realizada a coleta das informações pertinentes à fundamentação do conhecimento necessário para o desenvolvimento do objetivo do trabalho, além de familiarizar o leitor que desejar se aprofundar mais na área desse trabalho.
+No decorrer deste capítulo, será realizada a exposição das informações pertinentes à fundamentação do conhecimento necessário para o desenvolvimento do objetivo do trabalho, além de familiarizar o leitor que desejar se aprofundar mais na área desse trabalho.
 
 \section{Agricultura de Precisão}
 
@@ -219,7 +219,7 @@ Com a concepção do GPS (Global Position System) em 1995, viabilizou-se a instala
 
 A AP pode ser entendida então como uma forma de gestão da lavoura que leva em conta a variabilidade espacial. Pois, em tese, a variação pode ser suficientemente reduzida para que a lavoura seja considerada próxima do uniforme. O retorno econômico, portanto, depende de cada lavoura e dos processos de cada produtor \cite{inamasu2014agricultura}.
 
-\section{Avaliação de Desempenho de Tratores Agrícolas}
+\section{Ensaios em Tratores Agrícolas}
 
 Uma das principais funções dos tratores agrícolas é transformar a energia contida no combustível e fornecê-la, através da barra de tração, para tracionar maquinas e implementos agrícolas. O desempenho na barra de tração depende de diversos fatores como potencia do motor, transmissão, entre outros. Entre os fatores que interferem na tração, a condição do solo é muito importante \cite{filho2010desempenho}.
 
@@ -227,7 +227,7 @@ Vários estudos já foram feitos por outros autores nessa área para analisar a per
 
 Outro exemplo de análise de desempenho de tratores é o artigo de \cite{serrano2007desempenho} que faz a análise de parâmetros como: o regime do motor, a velocidade teórica e a velocidade real de avanço, o consumo horário de combustível e a força de tração na barra de tração. Também foram realizados testes dos tratores com um freio dinamométrico ligado à \abrevpuc{TDP}{Tomada de Potência}. Os resultados validam a relação linear entre a força de tração por unidade de largura de trabalho do implemento e o consumo de combustível por hectare, indicador do dimensionamento do conjunto trator-implemento. Os dados obtidos também evidenciam as vantagens de se selecionarem marchas altas e baixa rotação do motor. 
 
-No caso acima, o autor utilizou parte da infraestrutura do sistema de informação do próprio trator que apenas exibe os dados e para superar o fato de a informação não ficar registrada, foi desenvolvido um \abrevpuc{SAD}{Sistema de Aquisição de Dados}. A instalação de uma tomada em T, na ligação entre o computador e o painel do sistema de informação, permitiu derivar os sinais dos sensores referidos para um circuito eletrônico constituído por: uma caixa de terminais (com oito canais) e de condicionamento de sinal, para converter sinais analógicos registrados pelos sensores em sinais digitais; uma placa de aquisição de dados, como interface para um computador portátil, sistema de armazenamento e tratamento de dados. Além dos sensores referidos, foi instalada uma célula de carga, interposta na ligação trator-implemento \cite{serrano2007desempenho}.
+No caso acima, o autor utilizou parte da infraestrutura do sistema de informação do próprio trator que apenas exibe os dados e para superar o fato de a informação não ficar registrada, foi desenvolvido um sistema \abrevpuc{DAQ}{Data Acquisition}. A instalação de uma tomada em T, na ligação entre o computador e o painel do sistema de informação, permitiu derivar os sinais dos sensores referidos para um circuito eletrônico constituído por: uma caixa de terminais (com oito canais) e de condicionamento de sinal, para converter sinais analógicos registrados pelos sensores em sinais digitais; uma placa de aquisição de dados, como interface para um computador portátil, sistema de armazenamento e tratamento de dados. Além dos sensores referidos, foi instalada uma célula de carga, interposta na ligação trator-implemento \cite{serrano2007desempenho}.
 
 \section{Arduino}
 
@@ -239,7 +239,7 @@ O Arduino detecta o ambiente por meio de entradas provenientes dos mais variados
 
 A plataforma Arduino facilita muito a vida de intusiastas que não contemplam conhecimentos mais avançados na área de microcontroladores, pois ele já vem com o hardware preparado para o uso. A plataforma Arduino associa, principalmente, a facilidade de programação com a disponibilidade de inúmeros periféricos na forma de módulos.
 
-Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e Internet das Coisas por exemplo. Devido a isso, este foi o microcontrolador escolhido para este projeto.
+Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e Internet das Coisas por exemplo.
 
 Uma das placas Arduino mais utilizadas em projetos maiores é o Arduino Mega 2560. Devido a quantidades de portas disponiveis para utilização e processamento necessário aliado ao custo. A Figura ~\ref{fig_megaFrente} mostra como é a placa Arduino Mega.
 
@@ -366,7 +366,7 @@ Durante este capítulo, foram descritos os conhecimentos básicos necessários para
 
 \chapter{Desenvolvimento}\label{cap_desenvolvimento}
 
-O dispositivo desenvolvido neste trabalho visa prover uma solução eficaz e confiável para telemetria de tratores agrícolas. Por meio deste dispositivo, diversas informações pertinentes ao funcionamento do trator serão medidas. Com isso se torna possível analisar de forma mais precisa fatores que podem prejudicar o funcionamento esperado do mesmo.
+O dispositivo desenvolvido neste trabalho visa prover uma solução eficaz e confiável para telemetria de tratores agrícolas. Por meio deste dispositivo, diversas informações pertinentes ao funcionamento do trator serão medidas. Com isso, torna-se possível analisar de forma mais precisa fatores que podem prejudicar o funcionamento esperado do mesmo.
 
 Os fatores referentes ao funcionamento do trator que serão sensoriados serão: fluxo e temperatura de entrada de combustível no motor, fluxo e temperatura do retorno de combustível do motor, fluxo e temperatura do ar da admissão, temperatura da água do radiador, peso que o trator está puxando, velocidade de cada roda de forma independente, velocidade efetiva do trator e velocidade na TDP. 
 
@@ -374,9 +374,9 @@ Os fatores referentes ao funcionamento do trator que serão sensoriados serão: fl
 
 Atualmente a Agricultura é tida como umas das vilãs do aquecimento global por meio do desmatamento que ocorre devido a cescente demanda de produtos alimentícios. Esse aumento na demanda ocorre devido ao constante crescimento da população mundial. 
 
-Neste contexto, cada vez mais tem-se investido em formas de produzir mais sem que seja necessário aumentar a área plantada. Vários meios de se conseguir isso estão sendo pesquisados e implantados, podemos citar coisas como: irrigação automatizada com uso de sensores, automação de estufas, sensoriamento de microclima, etc. 
+Neste contexto, cada vez mais tem-se investido em formas de produzir mais sem que seja necessário aumentar a área plantada. Vários meios de se conseguir isso estão sendo pesquisados e implantados, podemos citar coisas como: irrigação automatizada com uso de sensores, automação de abrigos de cultivo, sensoriamento de microclima, etc. 
 
-O dispositivo proposto neste trabalho visa fornecer uma ferramenta para telemetria dos dados de operação de tratores, item que ainda recebe pouca atenção no Brasil. Estes tratores são utilizados em larga escala para várias etapas do processo de plantio e colheita. Estes tratores, caso não estejam operando de forma correta, podem gerar excesso de gases poluentes, desgaste acelerado, baixa autonomia e atrazo nos processos de platio e colheita. Com esta telemetria, podemos avaliar os dados de operação do trator de forma concisa e assim avaliar sua situação de forma precisa e caso necessário, tomar as ações pertinentes para fazer com que este trator volte aos parâmetros aceitáveis de operação.
+O dispositivo proposto neste trabalho visa fornecer uma ferramenta para telemetria dos dados de operação de tratores, item que ainda recebe pouca atenção no Brasil. Estes tratores são utilizados em larga escala para várias etapas do processo de plantio e colheita. Estes tratores, caso não estejam operando de forma correta, podem gerar excesso de gases poluentes, desgaste acelerado, baixa autonomia e atrazo nos processos de platio e colheita. Com esta telemetria, pode-se avaliar os dados de operação do trator de forma concisa e assim avaliar sua situação de forma precisa e caso necessário, tomar as ações pertinentes para fazer com que este trator volte aos parâmetros aceitáveis de operação.
 
 \section{Limitações}
 
@@ -395,7 +395,7 @@ Os dados coletados no trator serão empacotados e enviados via rádio para um cole
 
 \section{Como Será Desenvolvido o Sistema}
 
-Devido a grande quantidade de sensores e de encoders, foi dividida a carga de processamento em dois Arduinos, para que assim o protótipo fique mais resistente a falhas que podem ocorrer devido ao processamento necessário. 
+Devido a grande quantidade de sensores, foi dividida a carga de processamento em dois Arduinos, para que assim o protótipo fique mais resistente a falhas que podem ocorrer devido ao processamento necessário. 
 
 Deste modo, o primeiro Arduino ficou responsável por cinco encoders (com possibilidade para seis), assim mensurando:
 
@@ -461,7 +461,7 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
 
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
-O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores comerciais utilizados. Estes sensores são compostos por:
+O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee Series 2 (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores industriais utilizados. Estes sensores são compostos por:
 
 \begin{itemize}
 
@@ -530,7 +530,26 @@ Com os dados coletados durante o ensaio do trator, faz-se possível gerar informa
 
 A medição dos dados de avanço do trator são feitas por meio de um encoder ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
 
-\subsection{Avanço Real}
+\begin{figure}[H]
+  \centering
+  \epsfig{file=rotacoes_m-s.eps}
+  \caption{Rotações por roda em m/s.}
+  \label{fig_rotacao_por_roda}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \epsfig{file=somatorio_rotacoes_dianteira.eps}
+  \caption{Somatório rotações das rodas dianteiras.}
+  \label{fig_soma_rotacoes_dianteira}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \epsfig{file=somatorio_rotacoes_traseira.eps}
+  \caption{Somatório rotações das rodas traseiras.}
+  \label{fig_soma_rotacoes_traseira}
+\end{figure}
 
 \subsection{Consumo Horário de Combustível}
 

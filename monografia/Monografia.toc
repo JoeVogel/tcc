@@ -19,7 +19,7 @@
 \contentsline {beforechapter}{Cap\'{\i }tulo~2}{6}
 \contentsline {chapter}{Fundamenta\c c\~ao}{6}
 \contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{6}
-\contentsline {section}{\numberline {2.2}Avalia\c c\~ao de Desempenho de Tratores Agr\IeC {\'\i }colas}{7}
+\contentsline {section}{\numberline {2.2}Ensaios em Tratores Agr\IeC {\'\i }colas}{7}
 \contentsline {section}{\numberline {2.3}Arduino}{8}
 \contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{9}
 \contentsline {section}{\numberline {2.5}Compara\c c\~ao: ZigBee, Bluetooth e o Wi-Fi}{10}
@@ -42,8 +42,7 @@
 \contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{26}
 \contentsline {section}{\numberline {3.9}Resultados do Teste}{26}
 \contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{27}
-\contentsline {subsection}{\numberline {3.9.2}Avan\c co Real}{27}
-\contentsline {subsection}{\numberline {3.9.3}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{27}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{28}
-\contentsline {chapter}{Conclus\~ao}{28}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{29}
+\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{28}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{30}
+\contentsline {chapter}{Conclus\~ao}{30}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{31}
