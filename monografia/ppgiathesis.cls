@@ -266,7 +266,7 @@
 
       \begin{flushright}
          \begin{minipage}{80mm}
-            \@texttype\ apresentada no curso de Pós-Graduação do \@university\ como requisito parcial para obtenção do certificado do curso.
+            \@texttype\ apresentada no curso de Graduação do \@university\ como requisito parcial para obtenção do certificado do curso.
           \end{minipage}
       \end{flushright}
 

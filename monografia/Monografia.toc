@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {2.6}Sensores}{11}
 \contentsline {subsection}{\numberline {2.6.1}Encoder}{11}
 \contentsline {subsection}{\numberline {2.6.2}Termopar}{12}
-\contentsline {subsection}{\numberline {2.6.3}Ultrassonico}{14}
+\contentsline {subsection}{\numberline {2.6.3}Ultrass\^onico}{14}
 \contentsline {section}{\numberline {2.7}Conclus\~ao}{14}
 \contentsline {beforechapter}{Cap\'{\i }tulo~3}{15}
 \contentsline {chapter}{Desenvolvimento}{15}
@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{26}
 \contentsline {section}{\numberline {3.9}Resultados do Teste}{26}
 \contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{27}
-\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{28}
+\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{29}
 \contentsline {beforechapter}{Cap\'{\i }tulo~4}{30}
 \contentsline {chapter}{Conclus\~ao}{30}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{31}
