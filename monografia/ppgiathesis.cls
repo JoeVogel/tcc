@@ -345,7 +345,7 @@
          \framebox[140mm]{%
             \vbox{%
            \noindent #1, #2\\\@title. \@address, \@date. \vskip2\baselineskip
-           \@texttype\ - \@university . \vskip2\baselineskip 1. #3 2. #4 3. #5 I.\@university. Curso de Bacharaledo em Sistemas de Informação.
+           \@texttype\ - \@university . \vskip2\baselineskip 1. #3 2. #4 3. #5 I. \@university. Curso de Bacharaledo em Sistemas de Informação.
             }
          }
       \end{minipage}

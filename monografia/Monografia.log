@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  20 NOV 2015 09:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  23 NOV 2015 10:48
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -560,6 +560,8 @@ df)
 Package pdftex.def Info: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf u
 sed on input line 301.
 (pdftex.def)             Requested size: 449.6789pt x 140.52464pt.
+ [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ZigBee_Bluetooth
+_IEEE802-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/encoders.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 280472 bytes
@@ -571,15 +573,13 @@ ed-to.pdf images/encoders.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/encoders-eps-converted-to.pdf, id=93, 317.185pt x 238.8925pt>
+<images/encoders-eps-converted-to.pdf, id=99, 317.185pt x 238.8925pt>
 File: images/encoders-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/encoders-eps-converted-to.pdf used on input lin
 e 323.
 (pdftex.def)             Requested size: 317.1842pt x 238.8919pt.
- [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ZigBee_Bluetooth
-_IEEE802-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 224101 bytes
@@ -599,9 +599,12 @@ File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
 n input line 334.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
- [12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/encoders-eps-con
-verted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circui
-to_de_Seebeck-eps-converted-to.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/encoders-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <images/exemplo_termopar.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 657452 bytes
@@ -614,15 +617,16 @@ df>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/exemplo_termopar-eps-converted-to.pdf, id=110, 271.0125pt x 221.82875pt
+<images/exemplo_termopar-eps-converted-to.pdf, id=107, 271.0125pt x 221.82875pt
 >
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
  <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
 nput line 347.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
- [13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/exemplo_termopar
--eps-converted-to.pdf>]
+ [13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seeb
+eck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/im
+ages/exemplo_termopar-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 114808 bytes
@@ -926,11 +930,11 @@ ps-converted-to.pdf>]
 Here is how much of TeX's memory you used:
  5643 strings out of 493921
  87936 string characters out of 3148877
- 147177 words of memory out of 3000000
+ 147178 words of memory out of 3000000
  8794 multiletter control sequences out of 15000+200000
  10656 words of font info for 37 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 44i,9n,42p,1476b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,42p,1481b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Pr
 ogram Files/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
 MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MikTex/fonts
@@ -940,7 +944,7 @@ cmr8.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MikTex/f
 onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (44 pages, 594610 bytes).
+Output written on Monografia.pdf (44 pages, 594765 bytes).
 PDF statistics:
  265 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
