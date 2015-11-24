@@ -247,7 +247,7 @@ O Arduino é uma plataforma eletrônica de código aberto baseado em hardware e sof
 
 Sua programação é feita em sua maioria nas linguagens C e C++, porém não se limita a elas. Como o Arduino é de código aberto, podemos encontrar vários experimentos utilizando outras linguagens de programação como: Java, JavaScript, Go, entre outras.
 
-O Arduino detecta o ambiente por meio de entradas provenientes dos mais variados tipos de sensores, e atua sobre o ambiente por meio de atuadores como: leds, motores, entre outros. Atualmente existem várias placas Arduino, elas variam em tamanho, memória, clock, portas, etc. Desta forma elas podem atender as mais variadas necessidades \cite{ARDUINO2015}.
+O Arduino detecta o ambiente por meio de entradas provenientes dos mais variados tipos de sensores e atua sobre o ambiente por meio de atuadores como: leds, motores, entre outros. Atualmente existem várias placas Arduino, elas variam em tamanho, memória, clock, portas, etc. Desta forma elas podem atender as mais variadas necessidades \cite{ARDUINO2015}.
 
 A plataforma Arduino facilita muito a vida de intusiastas que não contemplam conhecimentos mais avançados na área de microcontroladores, pois ele já vem com o hardware preparado para o uso. A plataforma Arduino associa, principalmente, a facilidade de programação com a disponibilidade de inúmeros periféricos na forma de módulos.
 
@@ -308,7 +308,7 @@ Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz.
 
 Para o desenvolvimento do trabalho, se faz necessário o uso de sensores que serão responsáveis pelas medições dos dados de trabalho do trator. 
 
-O termo sensor é empregado para designar dispositivos sensíveis a alguma forma de energia do ambiente, que pode ser luminosa, térmica, cinética, relacionando informações sobre uma grandeza a ser medida como temperatura, pressão, velocidade, corrente, aceleração, posição, etc. \cite{bastos1997uso}.
+O termo sensor é empregado para designar dispositivos sensíveis a alguma forma de energia do ambiente, que pode ser luminosa, térmica ou cinética, relacionando informações sobre uma grandeza a ser medida como temperatura, pressão, velocidade, corrente, aceleração, posição, etc. \cite{bastos1997uso}.
 
 \subsection{Encoder}
 
@@ -371,6 +371,76 @@ Na técnica pulso-eco a medida de distância é feita por meio da determinação de t
 É necessária uma distância mínima entre o sensor e o objeto para que possam haver os ecos e os mesmos possam ser interpretados e calculados. O ângulo da superfície do objeto, rugosidade da superfície, mudanças na temperatura e umidade do ambiente. Os objetos podem ter qualquer forma refletiva, inclusive podem ser redondos \cite{bastos1997uso}.
 
 Estes sensores são utilizados para diversos fins, tais como medição de diâmetro, presença de pessoas, medição de densidade, entre outros \cite{bastos1997uso}.
+
+\subsection{Sensor de Vazão}
+
+Vazão representa a quantidade de líquidos, gases ou vapores, que passam em um determinado ponto, durante um certo período de tempo. Pode-se medi-la como vazão volumétrica (${m³/h}$, ${litro/min}$) ou vazão de massa (${t/h}$, ${kg/h}$, ${Nm³/h}$). Os medidores de vazão são na verdade indiretos, pois medem outro tipo de grandeza que é transformada por um transdutor, em vazão \cite{thomazini2005sensores}.
+
+Não existe um só princípio de medição que possa atender a todas as condições. A escolha do medidor certo para uma aplicação, requer muita experiência em certos casos, pois além de ser adequado (alguns são limitados pelo diâmetro, outros pela temperatura, outros exigem longo trecho reto, etc), há necessidade de verificar precisão, faixa de trabalho, velocidade de resposta e preço.
+
+\subsubsection{Pressão Diferencial}
+
+Os medidores de vazão por pressão diferencial são os mais utilizados, em virtude de sua simplicidade, seu custo e sua facilidade de manutenção \cite{thomazini2005sensores}.
+
+Um obstáculo, denominado elemento primário, introduzido em uma tubulação na qual escoa um fluído, causa uma queda de pressão que varia com a vazão, a densidade e a viscosidade. Mantendo os dois últimos fatores constantes, é possível calcular a vazão. Esses elementos são baseados no princípio fundamental da hidrodinâmica, o Teorema de Bernoulli. Dessa forma, pode-se calcular a vazão (${Q}$) pelo diferencial da pressão com a expressão: 
+
+${Q = k\sqrt{\Delta p}}$
+
+Onde (${k}$) é uma constante que depende do instrumento usado e das dimensões da tubulação, este pode ser obtido empiricamente e (${\Delta p}$) a variação da pressão devido ao instrumento de medição \cite{thomazini2005sensores}.
+
+O tubo de pitot é um dos tipos de elementos primários (dispositivos que permitem a medição de vazão) mais utilizados. Ele possibilita a medição direta da diferença entre pressão dinâmica e estática, bem como velocidade de fluxo e vazão. A precisão deste dispositivo depende da forma como ele próprio interage com o sistema, causando perturbações, como pode ser visualizado na Figura ~\ref{fig_tubo_pitot}. Com um tubo de pitot ideal e usando uma coluna de mercúrio para medir o diferencial das pressões, temos:
+
+${h = {V^2 \over 2g}}$
+
+${Q = VA}$
+
+Sendo: (${h}$) a altura; (${V}$) a velocidade do fluxo; (${A}$) a área da seção transversal do tubo; (${g}$) a aceleração da gravidade (9,8 ${m/s}$) e (${Q}$) a vazão (${m³/s}$) \cite{thomazini2005sensores}. 
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=tubo_pitot.eps}
+  \caption{Tubo de Pitot.}
+  \label{fig_tubo_pitot}
+  \cite{thomazini2005sensores}
+\end{figure}
+
+\subsubsection{Engrenagens Ovais}
+
+Este medidor também pode ser chamado de medidor de vazão de deslocamento positivo, pois as engrenagens ovais são deslocadas positivamente de acordo com a velocidade de escoamento do fluído. Este é o único medidor de vazão direta existente, uma vez que não depende de outros fatores para medir a vazão \cite{thomazini2005sensores}.
+
+Utilizado tipicamente para operações com líquidos viscosos, em que é frequente a dificuldade de aplicar outros tipos de medidores \cite{thomazini2005sensores}.
+
+O elemento de medição é formado pelo par de engrenagens  ovais que são movimentadas pelo fluído a ser medido. O diferencial de pressão através do medidor de vazão provoca forças em um par de engrenagens ovais, forçando-as a girar. Na Figura ~\ref{fig_engrenagens_ovais} podemos ver o princípio de funcionamento deste medidor.
+
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=engrenagens_ovais.eps}
+  \caption{Diagrama de funcionamento de um medidor de vazão por deslocamento positivo por engrenagens ovais.}
+  \label{fig_engrenagens_ovais}
+  \cite{thomazini2005sensores}
+\end{figure}
+
+Na \textbf{posição 1}, forças uniformes são exercidas em cada face do rotor B, isso o faz ficar parado. O rotor A é submetido a uma força uniforme em sua face superior, na qual possui quantidade conhecida de fluído entre o próprio rotor e o corpo do medidor, porém na outra extremidade não existe a ação desta força. Com a pressão, a montante é maior que a pressão jusante, o rotor A gira no sentido horário, fazendo o rotor girar no sentido inverso \cite{thomazini2005sensores}. 
+
+Na \textbf{posição 2}, enquanto existe escoamento do fluído da câmara superior, a movimentação do rotor B permite o preenchimento da câmara inferior. O contínuo diferencial de pressão, existente entre a montante e a jusante, resulta no movimento contínuo das engrenagens \cite{thomazini2005sensores}. 
+
+Na \textbf{posição 3}, uma mesma quantidade do fluído está retida entre o rotor B e o corpo do medidor. Enquanto houver vazão, as engrenagens vão se movimentar de forma proporcional à velocidade do fluxo. De tal forma, cada rotação do par de engrenagens desloca um volume exato e predeterminado de líquido dentro da câmara de medição do medidor. Com isso, o número de rotações das engrenagens ovais é diretamente proporcional ao volume medido \cite{thomazini2005sensores}.
+
+Este tipo de medidor, tem como vantagens:
+
+\begin{itemize}
+
+\item Alta confiabilidade;
+
+\item Longa vida útil de trabalho;
+
+\item Fácil manutenção;
+
+\item Suporta temperaturas de trabalho de até 290ºC;
+
+\item Trabalha sem restrições em alta pressão.
+
+\end{itemize}
 
 \section{Conclusão}
 
@@ -542,7 +612,11 @@ Com os dados coletados durante o ensaio do trator, faz-se possível gerar informa
 
 A medição dos dados de avanço do trator são feitas por meio de um \textit{encoder} ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
 
-A fórmula para cálculo da velocidade em \abrevpuc{m/s}{metros por segundo} é: ${Np \over (Pr * Pe)}$. Onde ${Np}$ é o número de pulsos da leitura, ${Pr}$ é o número de pulsos por revolução e ${Pe}$ é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
+A fórmula para cálculo da velocidade em \abrevpuc{m/s}{metros por segundo} é: 
+
+${Np \over (Pr * Pe)}$
+
+Onde ${Np}$ é o número de pulsos da leitura, ${Pr}$ é o número de pulsos por revolução e ${Pe}$ é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
 
 \begin{figure}[H]
   \centering
@@ -573,9 +647,17 @@ Os dados utilizados nestes gráficos foram coletados no módulo de \textit{encoder
 
 \subsection{Consumo Horário de Combustível}
 
-A medição de consumo do trator é feita com os valores das leituras do fluxômetro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: ${(FluxIn - FluxOut) * 3,6}$ onde ${FluxIn}$ é o valor do fluxômetro de entrada, ${FluxOut}$ é o valor do fluxômetro de retorno e ${3,6}$ é referente a conversão de \abrevpuc{ml/s}{mililitros por segundo}  para \abrevpuc{l/h}{litros por hora}. A partir dessa fórmula é possível obter o consumo em l/h.
+A medição de consumo do trator é feita com os valores das leituras do fluxômetro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: 
 
-Como a coleta dessa informação é feita no módulo dos sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi ${[(FluxIn - FluxOut)/5] * 3,6}$, onde a adição da divisão por cinco é para obter o consumo médio por segundo a cada leitura efetuada nos fluxômetros.
+${(FluxIn - FluxOut) * 3,6}$ 
+
+Onde ${FluxIn}$ é o valor do fluxômetro de entrada, ${FluxOut}$ é o valor do fluxômetro de retorno e ${3,6}$ é referente a conversão de \abrevpuc{ml/s}{mililitros por segundo}  para \abrevpuc{l/h}{litros por hora}. A partir dessa fórmula é possível obter o consumo em l/h.
+
+Como a coleta dessa informação é feita no módulo dos sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi:
+
+${{(FluxIn - FluxOut) \over 5} * 3,6}$
+
+Onde a adição da divisão por cinco é para obter o consumo médio por segundo a cada leitura efetuada nos fluxômetros.
 
 Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que demonstra o consumo do trator durante a parcela de tempo selecionada do ensaio. A figura ~\ref{fig_grafico_consumo} representa este gráfico.
 

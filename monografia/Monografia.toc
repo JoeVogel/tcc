@@ -25,23 +25,26 @@
 \contentsline {subsection}{\numberline {2.6.1}Encoder}{11}
 \contentsline {subsection}{\numberline {2.6.2}Termopar}{12}
 \contentsline {subsection}{\numberline {2.6.3}Ultrass\^onico}{14}
-\contentsline {section}{\numberline {2.7}Conclus\~ao}{14}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{15}
-\contentsline {chapter}{Desenvolvimento}{15}
-\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{15}
-\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{16}
-\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{16}
-\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{17}
-\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{18}
-\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{18}
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{22}
-\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{22}
-\contentsline {section}{\numberline {3.7}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{24}
-\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{26}
-\contentsline {section}{\numberline {3.9}Resultados do Teste}{26}
-\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{27}
-\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{29}
-\contentsline {section}{\numberline {3.10}Conclus\~ao}{29}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{30}
-\contentsline {chapter}{Conclus\~ao}{30}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{31}
+\contentsline {subsection}{\numberline {2.6.4}Sensor de Vaz\~ao}{14}
+\contentsline {subsubsection}{\numberline {2.6.4.1}Press\~ao Diferencial}{15}
+\contentsline {subsubsection}{\numberline {2.6.4.2}Engrenagens Ovais}{16}
+\contentsline {section}{\numberline {2.7}Conclus\~ao}{17}
+\contentsline {beforechapter}{Cap\'{\i }tulo~3}{18}
+\contentsline {chapter}{Desenvolvimento}{18}
+\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{18}
+\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{19}
+\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{19}
+\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{20}
+\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{21}
+\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{21}
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{25}
+\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{25}
+\contentsline {section}{\numberline {3.7}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{27}
+\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{29}
+\contentsline {section}{\numberline {3.9}Resultados do Teste}{29}
+\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{30}
+\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{32}
+\contentsline {section}{\numberline {3.10}Conclus\~ao}{32}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{33}
+\contentsline {chapter}{Conclus\~ao}{33}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}
