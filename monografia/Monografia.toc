@@ -18,15 +18,15 @@
 \contentsline {chapter}{Fundamenta\c c\~ao}{6}
 \contentsline {section}{\numberline {2.1}Agricultura de Precis\~ao}{6}
 \contentsline {section}{\numberline {2.2}Ensaios em Tratores Agr\IeC {\'\i }colas}{7}
-\contentsline {section}{\numberline {2.3}Arduino}{8}
-\contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{9}
+\contentsline {section}{\numberline {2.3}Arduino}{9}
+\contentsline {section}{\numberline {2.4}Padr\~ao ZigBee}{10}
 \contentsline {section}{\numberline {2.5}Compara\c c\~ao: ZigBee, Bluetooth e o Wi-Fi}{10}
-\contentsline {section}{\numberline {2.6}Sensores e Transdutores}{11}
+\contentsline {section}{\numberline {2.6}Sensores e Transdutores}{12}
 \contentsline {subsection}{\numberline {2.6.1}Encoder}{12}
-\contentsline {subsection}{\numberline {2.6.2}Termopar}{12}
-\contentsline {subsection}{\numberline {2.6.3}Ultrass\^onico}{14}
-\contentsline {subsection}{\numberline {2.6.4}Sensor de Vaz\~ao}{15}
-\contentsline {subsubsection}{\numberline {2.6.4.1}Press\~ao Diferencial}{15}
+\contentsline {subsection}{\numberline {2.6.2}Termopar}{13}
+\contentsline {subsection}{\numberline {2.6.3}Ultrass\^onico}{15}
+\contentsline {subsection}{\numberline {2.6.4}Sensor de Vaz\~ao}{16}
+\contentsline {subsubsection}{\numberline {2.6.4.1}Press\~ao Diferencial}{16}
 \contentsline {subsubsection}{\numberline {2.6.4.2}Engrenagens Ovais}{17}
 \contentsline {subsection}{\numberline {2.6.5}C\'elula de Carga}{18}
 \contentsline {section}{\numberline {2.7}Conclus\~ao}{19}

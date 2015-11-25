@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  25 NOV 2015 13:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.18)  25 NOV 2015 15:17
 entering extended mode
 **Monografia.tex
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.tex
@@ -539,7 +539,7 @@ converted-to.pdf>
 (epstopdf)                    size: 24546 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/ArduinoMega2560_R3_F
 ront_450px-eps-converted-to.pdf images/ArduinoMega2560_R3_Front_450px.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf, id=81, 135.50626pt
@@ -549,7 +549,7 @@ type pdf)
 
 <use images/ArduinoMega2560_R3_Front_450px-eps-converted-to.pdf>
 Package pdftex.def Info: images/ArduinoMega2560_R3_Front_450px-eps-converted-to
-.pdf used on input line 266.
+.pdf used on input line 282.
 (pdftex.def)             Requested size: 135.5059pt x 89.33353pt.
  [9 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ArduinoMega2560_R
 3_Front_450px-eps-converted-to.pdf>]
@@ -561,7 +561,7 @@ Package epstopdf Info: Source file: <images/rede_zigbee.eps>
 (epstopdf)                    size: 19365 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/rede_zigbee-eps-conv
 erted-to.pdf images/rede_zigbee.eps>
-(epstopdf)             \includegraphics on input line 295.
+(epstopdf)             \includegraphics on input line 311.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/rede_zigbee-eps-converted-to.pdf, id=88, 417.56pt x 248.93pt>
@@ -569,10 +569,13 @@ File: images/rede_zigbee-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/rede_zigbee-eps-converted-to.pdf>
 Package pdftex.def Info: images/rede_zigbee-eps-converted-to.pdf used on input 
-line 295.
+line 311.
 (pdftex.def)             Requested size: 417.55896pt x 248.92938pt.
- [10 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/rede_zigbee-eps-
-converted-to.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
 Package epstopdf Info: Source file: <images/ZigBee_Bluetooth_IEEE802.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 234396 bytes
@@ -582,19 +585,20 @@ ted-to.pdf>
 (epstopdf)                    size: 17346 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/ZigBee_Bluetooth_IEE
 E802-eps-converted-to.pdf images/ZigBee_Bluetooth_IEEE802.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf, id=95, 449.68pt x 140.52
+<images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf, id=92, 449.68pt x 140.52
 5pt>
 File: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf Graphic file (type p
 df)
  <use images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf>
 Package pdftex.def Info: images/ZigBee_Bluetooth_IEEE802-eps-converted-to.pdf u
-sed on input line 307.
+sed on input line 323.
 (pdftex.def)             Requested size: 449.6789pt x 140.52464pt.
- [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/ZigBee_Bluetooth
-_IEEE802-eps-converted-to.pdf>]
+ [11 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/rede_zigbee-eps-
+converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Zig
+Bee_Bluetooth_IEEE802-eps-converted-to.pdf>] [12]
 Package epstopdf Info: Source file: <images/encoders.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 280472 bytes
@@ -603,20 +607,16 @@ Package epstopdf Info: Source file: <images/encoders.eps>
 (epstopdf)                    size: 18637 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/encoders-eps-convert
 ed-to.pdf images/encoders.eps>
-(epstopdf)             \includegraphics on input line 335.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/encoders-eps-converted-to.pdf, id=102, 317.185pt x 238.8925pt>
+<images/encoders-eps-converted-to.pdf, id=106, 317.185pt x 238.8925pt>
 File: images/encoders-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/encoders-eps-converted-to.pdf used on input lin
-e 335.
+e 351.
 (pdftex.def)             Requested size: 317.1842pt x 238.8919pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package epstopdf Info: Source file: <images/Circuito_de_Seebeck.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 224101 bytes
@@ -626,21 +626,22 @@ o.pdf>
 (epstopdf)                    size: 5723 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Circuito_de_Seebeck-
 eps-converted-to.pdf images/Circuito_de_Seebeck.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=103, 116.435pt x 173.64874
+<images/Circuito_de_Seebeck-eps-converted-to.pdf, id=107, 116.435pt x 173.64874
 pt>
 File: images/Circuito_de_Seebeck-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Circuito_de_Seebeck-eps-converted-to.pdf>
 Package pdftex.def Info: images/Circuito_de_Seebeck-eps-converted-to.pdf used o
-n input line 347.
+n input line 363.
 (pdftex.def)             Requested size: 116.43471pt x 173.64832pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
+[13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/encoders-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <images/exemplo_termopar.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 657452 bytes
@@ -650,23 +651,19 @@ df>
 (epstopdf)                    size: 9925 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/exemplo_termopar-eps
 -converted-to.pdf images/exemplo_termopar.eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/exemplo_termopar-eps-converted-to.pdf, id=108, 271.0125pt x 221.82875pt
+<images/exemplo_termopar-eps-converted-to.pdf, id=114, 271.0125pt x 221.82875pt
 >
 File: images/exemplo_termopar-eps-converted-to.pdf Graphic file (type pdf)
  <use images/exemplo_termopar-eps-converted-to.pdf>
 Package pdftex.def Info: images/exemplo_termopar-eps-converted-to.pdf used on i
-nput line 360.
+nput line 376.
 (pdftex.def)             Requested size: 271.01183pt x 221.82819pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/encoders-eps-conv
-erted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuit
-o_de_Seebeck-eps-converted-to.pdf>]
+ [14 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Circuito_de_Seeb
+eck-eps-converted-to.pdf> <C:/Users/joejonas/Documents/GitHub/tcc/monografia/im
+ages/exemplo_termopar-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    date: 2015-10-19 15:45:21
 (epstopdf)                    size: 114808 bytes
@@ -675,23 +672,18 @@ Package epstopdf Info: Source file: <images/pulso-eco.eps>
 (epstopdf)                    size: 9084 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/pulso-eco-eps-conver
 ted-to.pdf images/pulso-eco.eps>
-(epstopdf)             \includegraphics on input line 379.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/pulso-eco-eps-converted-to.pdf, id=118, 414.54875pt x 128.48pt>
+<images/pulso-eco-eps-converted-to.pdf, id=124, 414.54875pt x 128.48pt>
 File: images/pulso-eco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pulso-eco-eps-converted-to.pdf>
 Package pdftex.def Info: images/pulso-eco-eps-converted-to.pdf used on input li
-ne 379.
+ne 395.
 (pdftex.def)             Requested size: 414.54773pt x 128.47968pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/exemplo_termopar-
-eps-converted-to.pdf>] [15 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/i
-mages/pulso-eco-eps-converted-to.pdf>]
+ [15 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/pulso-eco-eps-co
+nverted-to.pdf>] [16]
 Package epstopdf Info: Source file: <images/tubo_pitot.eps>
 (epstopdf)                    date: 2015-11-24 15:00:04
 (epstopdf)                    size: 503504 bytes
@@ -700,18 +692,16 @@ Package epstopdf Info: Source file: <images/tubo_pitot.eps>
 (epstopdf)                    size: 13090 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/tubo_pitot-eps-conve
 rted-to.pdf images/tubo_pitot.eps>
-(epstopdf)             \includegraphics on input line 421.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/tubo_pitot-eps-converted-to.pdf, id=133, 253.94875pt x 182.6825pt>
+<images/tubo_pitot-eps-converted-to.pdf, id=137, 253.94875pt x 182.6825pt>
 File: images/tubo_pitot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/tubo_pitot-eps-converted-to.pdf>
 Package pdftex.def Info: images/tubo_pitot-eps-converted-to.pdf used on input l
-ine 421.
+ine 437.
 (pdftex.def)             Requested size: 253.94812pt x 182.68204pt.
- [16 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/tubo_pitot-eps-c
-onverted-to.pdf>]
 Package epstopdf Info: Source file: <images/engrenagens_ovais.eps>
 (epstopdf)                    date: 2015-11-24 15:55:37
 (epstopdf)                    size: 577205 bytes
@@ -721,45 +711,50 @@ pdf>
 (epstopdf)                    size: 13778 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/engrenagens_ovais-ep
 s-converted-to.pdf images/engrenagens_ovais.eps>
-(epstopdf)             \includegraphics on input line 437.
+(epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/engrenagens_ovais-eps-converted-to.pdf, id=141, 474.77374pt x 112.42pt>
+<images/engrenagens_ovais-eps-converted-to.pdf, id=138, 474.77374pt x 112.42pt>
 File: images/engrenagens_ovais-eps-converted-to.pdf Graphic file (type pdf)
 <use images/engrenagens_ovais-eps-converted-to.pdf>
 Package pdftex.def Info: images/engrenagens_ovais-eps-converted-to.pdf used on 
-input line 437.
+input line 453.
 (pdftex.def)             Requested size: 474.77258pt x 112.41972pt.
 
-Overfull \hbox (19.52847pt too wide) in paragraph at lines 437--438
+Overfull \hbox (19.52847pt too wide) in paragraph at lines 453--454
  [][] 
  []
 
-[17 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/engrenagens_ovais
--eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/tubo_pitot-eps-co
+nverted-to.pdf>]
 Package epstopdf Info: Source file: <images/celula_carga.eps>
 (epstopdf)                    date: 2015-11-25 13:39:52
 (epstopdf)                    size: 643206 bytes
 (epstopdf)             Output file: <images/celula_carga-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-25 13:40:07
+(epstopdf)                    size: 14762 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/celula_carga-eps-con
 verted-to.pdf images/celula_carga.eps>
-(epstopdf)             \includegraphics on input line 457.
-runsystem(epstopdf --outfile=images/celula_carga-eps-converted-to.pdf images/ce
-lula_carga.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 473.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <images/celula_carga-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-11-25 13:40:07
-(epstopdf)                    size: 14762 bytes.
-
-<images/celula_carga-eps-converted-to.pdf, id=148, 415.5525pt x 143.53625pt>
+<images/celula_carga-eps-converted-to.pdf, id=145, 415.5525pt x 143.53625pt>
 File: images/celula_carga-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/celula_carga-eps-converted-to.pdf>
 Package pdftex.def Info: images/celula_carga-eps-converted-to.pdf used on input
- line 457.
+ line 473.
 (pdftex.def)             Requested size: 415.55148pt x 143.53589pt.
- [18 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/celula_carga-eps
--converted-to.pdf>] [19] [20
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/engrenagens_ovais
+-eps-converted-to.pdf>] [19 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/
+images/celula_carga-eps-converted-to.pdf>] [20
 
 
 ]
@@ -772,14 +767,14 @@ df>
 (epstopdf)                    size: 19246 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/diagrama_de_rede-eps
 -converted-to.pdf images/diagrama_de_rede.eps>
-(epstopdf)             \includegraphics on input line 495.
+(epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/diagrama_de_rede-eps-converted-to.pdf, id=162, 366.36874pt x 285.065pt>
 File: images/diagrama_de_rede-eps-converted-to.pdf Graphic file (type pdf)
 <use images/diagrama_de_rede-eps-converted-to.pdf>
 Package pdftex.def Info: images/diagrama_de_rede-eps-converted-to.pdf used on i
-nput line 495.
+nput line 511.
 (pdftex.def)             Requested size: 366.36784pt x 285.0643pt.
  [21] [22 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/diagrama_de
 _rede-eps-converted-to.pdf>]
@@ -792,7 +787,7 @@ verted-to.pdf>
 (epstopdf)                    size: 61004 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_e
 ncoders-eps-converted-to.pdf images/Diagrama_de_classe_encoders.eps>
-(epstopdf)             \includegraphics on input line 541.
+(epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_encoders-eps-converted-to.pdf, id=172, 399.4925pt x 
@@ -801,7 +796,7 @@ File: images/Diagrama_de_classe_encoders-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_encoders-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_encoders-eps-converted-to.pd
-f used on input line 541.
+f used on input line 557.
 (pdftex.def)             Requested size: 399.49152pt x 624.33098pt.
 
 [23] [24 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_
@@ -815,7 +810,7 @@ verted-to.pdf>
 (epstopdf)                    size: 73456 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Diagrama_de_classe_s
 ensores-eps-converted-to.pdf images/Diagrama_de_classe_sensores.eps>
-(epstopdf)             \includegraphics on input line 550.
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Diagrama_de_classe_sensores-eps-converted-to.pdf, id=183, 409.53pt x 60
@@ -824,7 +819,7 @@ File: images/Diagrama_de_classe_sensores-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/Diagrama_de_classe_sensores-eps-converted-to.pdf>
 Package pdftex.def Info: images/Diagrama_de_classe_sensores-eps-converted-to.pd
-f used on input line 550.
+f used on input line 566.
 (pdftex.def)             Requested size: 409.52899pt x 604.25603pt.
 
 [25] [26 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Diagrama_de_
@@ -838,7 +833,7 @@ Package epstopdf Info: Source file: <images/Maquina_de_estados.eps>
 (epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Maquina_de_estados-e
 ps-converted-to.pdf images/Maquina_de_estados.eps>
-(epstopdf)             \includegraphics on input line 561.
+(epstopdf)             \includegraphics on input line 577.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/Maquina_de_estados-eps-converted-to.pdf, id=193, 371.3875pt x 270.00874
@@ -846,7 +841,7 @@ pt>
 File: images/Maquina_de_estados-eps-converted-to.pdf Graphic file (type pdf)
  <use images/Maquina_de_estados-eps-converted-to.pdf>
 Package pdftex.def Info: images/Maquina_de_estados-eps-converted-to.pdf used on
- input line 561.
+ input line 577.
 (pdftex.def)             Requested size: 371.38658pt x 270.00807pt.
  [27 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/Maquina_de_estad
 os-eps-converted-to.pdf>]
@@ -859,7 +854,7 @@ o.pdf>
 (epstopdf)                    size: 18473 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/circuito_eletronico-
 eps-converted-to.pdf images/circuito_eletronico.eps>
-(epstopdf)             \includegraphics on input line 587.
+(epstopdf)             \includegraphics on input line 603.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/circuito_eletronico-eps-converted-to.pdf, id=200, 327.2225pt x 199.7462
@@ -867,7 +862,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/circuito_eletronico-eps-converted-to.pdf Graphic file (type pdf)
  <use images/circuito_eletronico-eps-converted-to.pdf>
 Package pdftex.def Info: images/circuito_eletronico-eps-converted-to.pdf used o
-n input line 587.
+n input line 603.
 (pdftex.def)             Requested size: 327.2217pt x 199.74576pt.
 Package epstopdf Info: Source file: <images/caixa_circuito.eps>
 (epstopdf)                    date: 2015-11-04 17:16:44
@@ -878,14 +873,14 @@ Package epstopdf Info: Source file: <images/caixa_circuito.eps>
 (epstopdf)                    size: 14730 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/caixa_circuito-eps-c
 onverted-to.pdf images/caixa_circuito.eps>
-(epstopdf)             \includegraphics on input line 596.
+(epstopdf)             \includegraphics on input line 612.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/caixa_circuito-eps-converted-to.pdf, id=201, 354.32375pt x 263.98625pt>
 File: images/caixa_circuito-eps-converted-to.pdf Graphic file (type pdf)
 <use images/caixa_circuito-eps-converted-to.pdf>
 Package pdftex.def Info: images/caixa_circuito-eps-converted-to.pdf used on inp
-ut line 596.
+ut line 612.
 (pdftex.def)             Requested size: 354.32288pt x 263.9856pt.
  [28 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/circuito_eletron
 ico-eps-converted-to.pdf>]
@@ -899,7 +894,7 @@ Package epstopdf Info: Source file: <images/pacote_dados.eps>
 (epstopdf)                    size: 35289 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/pacote_dados-eps-con
 verted-to.pdf images/pacote_dados.eps>
-(epstopdf)             \includegraphics on input line 613.
+(epstopdf)             \includegraphics on input line 629.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/pacote_dados-eps-converted-to.pdf, id=214, 466.74374pt x 601.24625pt>
@@ -907,10 +902,10 @@ File: images/pacote_dados-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/pacote_dados-eps-converted-to.pdf>
 Package pdftex.def Info: images/pacote_dados-eps-converted-to.pdf used on input
- line 613.
+ line 629.
 (pdftex.def)             Requested size: 466.7426pt x 601.24477pt.
 
-Overfull \hbox (11.49849pt too wide) in paragraph at lines 613--614
+Overfull \hbox (11.49849pt too wide) in paragraph at lines 629--630
  [][] 
  []
 
@@ -924,7 +919,7 @@ Package epstopdf Info: Source file: <images/trator_teste.eps>
 (epstopdf)                    size: 22794 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/trator_teste-eps-con
 verted-to.pdf images/trator_teste.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 642.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/trator_teste-eps-converted-to.pdf, id=222, 352.31625pt x 245.91875pt>
@@ -932,10 +927,10 @@ File: images/trator_teste-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/trator_teste-eps-converted-to.pdf>
 Package pdftex.def Info: images/trator_teste-eps-converted-to.pdf used on input
- line 626.
+ line 642.
 (pdftex.def)             Requested size: 352.31538pt x 245.91814pt.
 
-Overfull \hbox (0.75331pt too wide) in paragraph at lines 633--634
+Overfull \hbox (0.75331pt too wide) in paragraph at lines 649--650
 []\OT1/cmr/m/n/12 Com os da-dos co-le-ta-dos du-rante o en-saio do tra-tor, faz
 -se possvel ge-rar in-formac~oes
  []
@@ -950,7 +945,7 @@ Package epstopdf Info: Source file: <images/rotacoes_m-s.eps>
 (epstopdf)                    size: 17209 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/rotacoes_m-s-eps-con
 verted-to.pdf images/rotacoes_m-s.eps>
-(epstopdf)             \includegraphics on input line 649.
+(epstopdf)             \includegraphics on input line 665.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/rotacoes_m-s-eps-converted-to.pdf, id=229, 444.66125pt x 178.6675pt>
@@ -958,7 +953,7 @@ File: images/rotacoes_m-s-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/rotacoes_m-s-eps-converted-to.pdf>
 Package pdftex.def Info: images/rotacoes_m-s-eps-converted-to.pdf used on input
- line 649.
+ line 665.
 (pdftex.def)             Requested size: 444.66016pt x 178.66705pt.
 Package epstopdf Info: Source file: <images/somatorio_rotacoes_dianteira.eps>
 (epstopdf)                    date: 2015-11-17 10:24:32
@@ -969,7 +964,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 12862 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/somatorio_rotacoes_d
 ianteira-eps-converted-to.pdf images/somatorio_rotacoes_dianteira.eps>
-(epstopdf)             \includegraphics on input line 658.
+(epstopdf)             \includegraphics on input line 674.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/somatorio_rotacoes_dianteira-eps-converted-to.pdf, id=230, 441.65pt x 2
@@ -978,7 +973,7 @@ File: images/somatorio_rotacoes_dianteira-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use images/somatorio_rotacoes_dianteira-eps-converted-to.pdf>
 Package pdftex.def Info: images/somatorio_rotacoes_dianteira-eps-converted-to.p
-df used on input line 658.
+df used on input line 674.
 (pdftex.def)             Requested size: 441.64891pt x 233.87315pt.
 
 [32 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/rotacoes_m-s-eps-
@@ -992,7 +987,7 @@ verted-to.pdf>
 (epstopdf)                    size: 12356 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/somatorio_rotacoes_t
 raseira-eps-converted-to.pdf images/somatorio_rotacoes_traseira.eps>
-(epstopdf)             \includegraphics on input line 665.
+(epstopdf)             \includegraphics on input line 681.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/somatorio_rotacoes_traseira-eps-converted-to.pdf, id=237, 441.65pt x 21
@@ -1001,7 +996,7 @@ File: images/somatorio_rotacoes_traseira-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/somatorio_rotacoes_traseira-eps-converted-to.pdf>
 Package pdftex.def Info: images/somatorio_rotacoes_traseira-eps-converted-to.pd
-f used on input line 665.
+f used on input line 681.
 (pdftex.def)             Requested size: 441.64891pt x 217.8132pt.
 
 [33 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/images/somatorio_rotacoe
@@ -1016,7 +1011,7 @@ f>
 (epstopdf)                    size: 10686 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/grafico_consumo-eps-
 converted-to.pdf images/grafico_consumo.eps>
-(epstopdf)             \includegraphics on input line 696.
+(epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/grafico_consumo-eps-converted-to.pdf, id=247, 478.78876pt x 173.64874pt
@@ -1024,10 +1019,10 @@ Package epstopdf Info: Output file is already uptodate.
 File: images/grafico_consumo-eps-converted-to.pdf Graphic file (type pdf)
  <use images/grafico_consumo-eps-converted-to.pdf>
 Package pdftex.def Info: images/grafico_consumo-eps-converted-to.pdf used on in
-put line 696.
+put line 712.
 (pdftex.def)             Requested size: 478.78758pt x 173.64832pt.
 
-Overfull \hbox (23.54347pt too wide) in paragraph at lines 696--697
+Overfull \hbox (23.54347pt too wide) in paragraph at lines 712--713
  [][] 
  []
 
@@ -1048,13 +1043,13 @@ ps-converted-to.pdf>] [35]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 <use Incremental-Absolute-Encoder-Datasheet.pdf>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf used on inp
-ut line 738.
+ut line 754.
 (pdftex.def)             Requested size: 605.25975pt x 785.93433pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf used on inp
-ut line 738.
+ut line 754.
 (pdftex.def)             Requested size: 605.25975pt x 785.93433pt.
 
 <Incremental-Absolute-Encoder-Datasheet.pdf, id=273, page=1, 605.26125pt x 785.
@@ -1062,13 +1057,13 @@ ut line 738.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 1>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page1 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 605.25975pt x 785.93433pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 1>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page1 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [40
 
@@ -1078,19 +1073,19 @@ File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 1>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page1 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 1>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page1 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 1>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page1 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [41 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1099,19 +1094,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 2>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page2 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 2>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page2 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 2>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page2 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [42 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1120,19 +1115,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 3>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page3 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 3>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page3 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 3>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page3 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [43 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1141,19 +1136,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 4>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page4 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 4>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page4 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 4>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page4 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [44 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1162,19 +1157,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 5>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page5 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 5>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page5 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 5>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page5 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [45 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1183,19 +1178,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 6>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page6 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 6>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page6 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 6>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page6 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [46 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1204,19 +1199,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 7>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page7 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 7>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page7 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 7>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page7 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [47 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1225,19 +1220,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 8>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page8 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 8>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page8 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 8>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page8 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [48 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1246,19 +1241,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 9>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page9 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 9>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page9 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 9>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page9 used
- on input line 738.
+ on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [49 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1267,19 +1262,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 10>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page10 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 10>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page10 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 10>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page10 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [50 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1288,19 +1283,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 11>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page11 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 11>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page11 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 11>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page11 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [51 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1309,19 +1304,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 12>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page12 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 12>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page12 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 12>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page12 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [52 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1330,19 +1325,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 13>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page13 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 13>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page13 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 13>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page13 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [53 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1351,19 +1346,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 14>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page14 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 14>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page14 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 14>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page14 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [54 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1372,19 +1367,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 15>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page15 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 15>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page15 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 15>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page15 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [55 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1393,19 +1388,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 16>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page16 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 16>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page16 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 16>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page16 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [56 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1414,19 +1409,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 17>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page17 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 17>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page17 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 17>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page17 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [57 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1435,19 +1430,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 18>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page18 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 18>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page18 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 18>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page18 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [58 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1456,19 +1451,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 19>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page19 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 19>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page19 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 19>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page19 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [59 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1477,19 +1472,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 20>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page20 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 20>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page20 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 20>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page20 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [60 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1498,19 +1493,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 21>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page21 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 21>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page21 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 21>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page21 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [61 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1519,19 +1514,19 @@ coder-Datasheet.pdf>]
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
  <use Incremental-Absolute-Encoder-Datasheet.pdf, page 22>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page22 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 22>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page22 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
 File: Incremental-Absolute-Encoder-Datasheet.pdf Graphic file (type pdf)
 
 <use Incremental-Absolute-Encoder-Datasheet.pdf, page 22>
 Package pdftex.def Info: Incremental-Absolute-Encoder-Datasheet.pdf, page22 use
-d on input line 738.
+d on input line 754.
 (pdftex.def)             Requested size: 597.7605pt x 776.19649pt.
  [62 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/Incremental-Absolute-En
 coder-Datasheet.pdf>]
@@ -1542,7 +1537,7 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 <fluxometro.pdf, id=434, 597.50829pt x 845.0471pt>
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf>
-Package pdftex.def Info: fluxometro.pdf used on input line 742.
+Package pdftex.def Info: fluxometro.pdf used on input line 758.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1551,7 +1546,7 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 <1.5> allowed
 File: fluxometro.pdf Graphic file (type pdf)
 <use fluxometro.pdf>
-Package pdftex.def Info: fluxometro.pdf used on input line 742.
+Package pdftex.def Info: fluxometro.pdf used on input line 758.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1567,11 +1562,11 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 1>
-Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page1 used on input line 758.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf, page 1>
-Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page1 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [63
 
@@ -1580,16 +1575,16 @@ Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 1>
-Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page1 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf, page 1>
-Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page1 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 1>
-Package pdftex.def Info: fluxometro.pdf, page1 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page1 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [64 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/fluxometro.pdf>]
 
@@ -1600,16 +1595,16 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 2>
-Package pdftex.def Info: fluxometro.pdf, page2 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page2 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf, page 2>
-Package pdftex.def Info: fluxometro.pdf, page2 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page2 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 2>
-Package pdftex.def Info: fluxometro.pdf, page2 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page2 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [65 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/fluxometro.pdf>]
 
@@ -1620,16 +1615,16 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 3>
-Package pdftex.def Info: fluxometro.pdf, page3 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page3 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf, page 3>
-Package pdftex.def Info: fluxometro.pdf, page3 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page3 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 3>
-Package pdftex.def Info: fluxometro.pdf, page3 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page3 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [66 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/fluxometro.pdf>]
 
@@ -1640,27 +1635,27 @@ a/fluxometro.pdf): PDF inclusion: found PDF version <1.6>, but at most version
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 4>
-Package pdftex.def Info: fluxometro.pdf, page4 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page4 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
  <use fluxometro.pdf, page 4>
-Package pdftex.def Info: fluxometro.pdf, page4 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page4 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: fluxometro.pdf Graphic file (type pdf)
 
 <use fluxometro.pdf, page 4>
-Package pdftex.def Info: fluxometro.pdf, page4 used on input line 742.
+Package pdftex.def Info: fluxometro.pdf, page4 used on input line 758.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [67 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/fluxometro.pdf>]
 <radar_vansco_speed_sensor.pdf, id=596, 614.295pt x 794.97pt>
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf>
-Package pdftex.def Info: radar_vansco_speed_sensor.pdf used on input line 746.
+Package pdftex.def Info: radar_vansco_speed_sensor.pdf used on input line 762.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
  <use radar_vansco_speed_sensor.pdf>
-Package pdftex.def Info: radar_vansco_speed_sensor.pdf used on input line 746.
+Package pdftex.def Info: radar_vansco_speed_sensor.pdf used on input line 762.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 <radar_vansco_speed_sensor.pdf, id=599, page=1, 614.295pt x 794.97pt>
@@ -1668,13 +1663,13 @@ File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 1>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page1 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 1>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page1 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [68
 
@@ -1684,19 +1679,19 @@ File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 1>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page1 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 1>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page1 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 1>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page1 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [69 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/radar_vansco_speed_sens
 or.pdf>]
@@ -1705,19 +1700,19 @@ File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 2>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page2 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 2>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page2 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 2>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page2 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [70 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/radar_vansco_speed_sens
 or.pdf>]
@@ -1726,19 +1721,19 @@ File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 3>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page3 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 3>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page3 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 3>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page3 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [71 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/radar_vansco_speed_sens
 or.pdf>]
@@ -1747,41 +1742,41 @@ File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 4>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page4 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 4>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page4 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: radar_vansco_speed_sensor.pdf Graphic file (type pdf)
 
 <use radar_vansco_speed_sensor.pdf, page 4>
 Package pdftex.def Info: radar_vansco_speed_sensor.pdf, page4 used on input lin
-e 746.
+e 762.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [72 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/radar_vansco_speed_sens
 or.pdf>]
 <MPX5010.pdf, id=712, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf>
-Package pdftex.def Info: MPX5010.pdf used on input line 750.
+Package pdftex.def Info: MPX5010.pdf used on input line 766.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf>
-Package pdftex.def Info: MPX5010.pdf used on input line 750.
+Package pdftex.def Info: MPX5010.pdf used on input line 766.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  <MPX5010.pdf, id=715, page=1, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 1>
-Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page1 used on input line 766.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 1>
-Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page1 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [73
 
@@ -1790,398 +1785,398 @@ Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 1>
-Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page1 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 1>
-Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page1 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 1>
-Package pdftex.def Info: MPX5010.pdf, page1 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page1 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [74 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=737, page=2, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 2>
-Package pdftex.def Info: MPX5010.pdf, page2 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page2 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 2>
-Package pdftex.def Info: MPX5010.pdf, page2 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page2 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 2>
-Package pdftex.def Info: MPX5010.pdf, page2 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page2 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [75 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=753, page=3, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 3>
-Package pdftex.def Info: MPX5010.pdf, page3 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page3 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 3>
-Package pdftex.def Info: MPX5010.pdf, page3 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page3 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 3>
-Package pdftex.def Info: MPX5010.pdf, page3 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page3 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [76 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=757, page=4, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 4>
-Package pdftex.def Info: MPX5010.pdf, page4 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page4 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 4>
-Package pdftex.def Info: MPX5010.pdf, page4 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page4 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 4>
-Package pdftex.def Info: MPX5010.pdf, page4 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page4 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [77 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=765, page=5, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 5>
-Package pdftex.def Info: MPX5010.pdf, page5 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page5 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 5>
-Package pdftex.def Info: MPX5010.pdf, page5 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page5 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 5>
-Package pdftex.def Info: MPX5010.pdf, page5 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page5 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [78 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=773, page=6, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 6>
-Package pdftex.def Info: MPX5010.pdf, page6 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page6 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 6>
-Package pdftex.def Info: MPX5010.pdf, page6 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page6 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 6>
-Package pdftex.def Info: MPX5010.pdf, page6 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page6 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [79 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=779, page=7, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 7>
-Package pdftex.def Info: MPX5010.pdf, page7 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page7 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 7>
-Package pdftex.def Info: MPX5010.pdf, page7 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page7 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 7>
-Package pdftex.def Info: MPX5010.pdf, page7 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page7 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [80 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=783, page=8, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 8>
-Package pdftex.def Info: MPX5010.pdf, page8 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page8 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 8>
-Package pdftex.def Info: MPX5010.pdf, page8 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page8 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 8>
-Package pdftex.def Info: MPX5010.pdf, page8 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page8 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [81 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=799, page=9, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 9>
-Package pdftex.def Info: MPX5010.pdf, page9 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page9 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 9>
-Package pdftex.def Info: MPX5010.pdf, page9 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page9 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 9>
-Package pdftex.def Info: MPX5010.pdf, page9 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page9 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [82 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>]
 <MPX5010.pdf, id=806, page=10, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 10>
-Package pdftex.def Info: MPX5010.pdf, page10 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page10 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 10>
-Package pdftex.def Info: MPX5010.pdf, page10 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page10 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 10>
-Package pdftex.def Info: MPX5010.pdf, page10 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page10 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [83 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=810, page=11, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 11>
-Package pdftex.def Info: MPX5010.pdf, page11 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page11 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 11>
-Package pdftex.def Info: MPX5010.pdf, page11 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page11 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 11>
-Package pdftex.def Info: MPX5010.pdf, page11 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page11 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [84 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=817, page=12, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 12>
-Package pdftex.def Info: MPX5010.pdf, page12 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page12 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 12>
-Package pdftex.def Info: MPX5010.pdf, page12 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page12 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 12>
-Package pdftex.def Info: MPX5010.pdf, page12 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page12 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [85 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=823, page=13, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 13>
-Package pdftex.def Info: MPX5010.pdf, page13 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page13 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 13>
-Package pdftex.def Info: MPX5010.pdf, page13 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page13 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 13>
-Package pdftex.def Info: MPX5010.pdf, page13 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page13 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [86 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=829, page=14, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 14>
-Package pdftex.def Info: MPX5010.pdf, page14 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page14 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 14>
-Package pdftex.def Info: MPX5010.pdf, page14 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page14 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 14>
-Package pdftex.def Info: MPX5010.pdf, page14 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page14 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [87 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=835, page=15, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 15>
-Package pdftex.def Info: MPX5010.pdf, page15 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page15 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 15>
-Package pdftex.def Info: MPX5010.pdf, page15 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page15 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 15>
-Package pdftex.def Info: MPX5010.pdf, page15 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page15 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [88 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=841, page=16, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 16>
-Package pdftex.def Info: MPX5010.pdf, page16 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page16 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 16>
-Package pdftex.def Info: MPX5010.pdf, page16 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page16 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 16>
-Package pdftex.def Info: MPX5010.pdf, page16 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page16 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [89 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=847, page=17, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 17>
-Package pdftex.def Info: MPX5010.pdf, page17 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page17 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 17>
-Package pdftex.def Info: MPX5010.pdf, page17 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page17 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 17>
-Package pdftex.def Info: MPX5010.pdf, page17 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page17 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [90 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=854, page=18, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 18>
-Package pdftex.def Info: MPX5010.pdf, page18 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page18 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 18>
-Package pdftex.def Info: MPX5010.pdf, page18 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page18 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 18>
-Package pdftex.def Info: MPX5010.pdf, page18 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page18 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [91 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=860, page=19, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 19>
-Package pdftex.def Info: MPX5010.pdf, page19 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page19 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 19>
-Package pdftex.def Info: MPX5010.pdf, page19 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page19 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 19>
-Package pdftex.def Info: MPX5010.pdf, page19 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page19 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [92 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=866, page=20, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 20>
-Package pdftex.def Info: MPX5010.pdf, page20 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page20 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 20>
-Package pdftex.def Info: MPX5010.pdf, page20 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page20 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 20>
-Package pdftex.def Info: MPX5010.pdf, page20 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page20 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [93 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=872, page=21, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 21>
-Package pdftex.def Info: MPX5010.pdf, page21 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page21 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 21>
-Package pdftex.def Info: MPX5010.pdf, page21 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page21 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 21>
-Package pdftex.def Info: MPX5010.pdf, page21 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page21 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [94 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=878, page=22, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 22>
-Package pdftex.def Info: MPX5010.pdf, page22 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page22 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 22>
-Package pdftex.def Info: MPX5010.pdf, page22 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page22 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 22>
-Package pdftex.def Info: MPX5010.pdf, page22 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page22 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [95 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=884, page=23, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 23>
-Package pdftex.def Info: MPX5010.pdf, page23 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page23 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 23>
-Package pdftex.def Info: MPX5010.pdf, page23 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page23 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 23>
-Package pdftex.def Info: MPX5010.pdf, page23 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page23 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [96 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <MPX5010.
 pdf, id=889, page=24, 614.295pt x 794.97pt>
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 24>
-Package pdftex.def Info: MPX5010.pdf, page24 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page24 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
  <use MPX5010.pdf, page 24>
-Package pdftex.def Info: MPX5010.pdf, page24 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page24 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: MPX5010.pdf Graphic file (type pdf)
 
 <use MPX5010.pdf, page 24>
-Package pdftex.def Info: MPX5010.pdf, page24 used on input line 750.
+Package pdftex.def Info: MPX5010.pdf, page24 used on input line 766.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [97 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/MPX5010.pdf>] <hx711_en
 glish.pdf, id=895, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf>
-Package pdftex.def Info: hx711_english.pdf used on input line 755.
+Package pdftex.def Info: hx711_english.pdf used on input line 771.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf>
-Package pdftex.def Info: hx711_english.pdf used on input line 755.
+Package pdftex.def Info: hx711_english.pdf used on input line 771.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 <hx711_english.pdf, id=898, page=1, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 1>
-Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page1 used on input line 771.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 1>
-Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page1 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [98
 
@@ -2190,152 +2185,152 @@ Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 1>
-Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page1 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 1>
-Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page1 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 1>
-Package pdftex.def Info: hx711_english.pdf, page1 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page1 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [99 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=930, page=2, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 2>
-Package pdftex.def Info: hx711_english.pdf, page2 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page2 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 2>
-Package pdftex.def Info: hx711_english.pdf, page2 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page2 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 2>
-Package pdftex.def Info: hx711_english.pdf, page2 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page2 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [100 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=935, page=3, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 3>
-Package pdftex.def Info: hx711_english.pdf, page3 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page3 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 3>
-Package pdftex.def Info: hx711_english.pdf, page3 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page3 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 3>
-Package pdftex.def Info: hx711_english.pdf, page3 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page3 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [101 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=939, page=4, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 4>
-Package pdftex.def Info: hx711_english.pdf, page4 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page4 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 4>
-Package pdftex.def Info: hx711_english.pdf, page4 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page4 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 4>
-Package pdftex.def Info: hx711_english.pdf, page4 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page4 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [102 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=944, page=5, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 5>
-Package pdftex.def Info: hx711_english.pdf, page5 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page5 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 5>
-Package pdftex.def Info: hx711_english.pdf, page5 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page5 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 5>
-Package pdftex.def Info: hx711_english.pdf, page5 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page5 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [103 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=953, page=6, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 6>
-Package pdftex.def Info: hx711_english.pdf, page6 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page6 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 6>
-Package pdftex.def Info: hx711_english.pdf, page6 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page6 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 6>
-Package pdftex.def Info: hx711_english.pdf, page6 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page6 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [104 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=963, page=7, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 7>
-Package pdftex.def Info: hx711_english.pdf, page7 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page7 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 7>
-Package pdftex.def Info: hx711_english.pdf, page7 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page7 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 7>
-Package pdftex.def Info: hx711_english.pdf, page7 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page7 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [105 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=967, page=8, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 8>
-Package pdftex.def Info: hx711_english.pdf, page8 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page8 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 8>
-Package pdftex.def Info: hx711_english.pdf, page8 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page8 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 8>
-Package pdftex.def Info: hx711_english.pdf, page8 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page8 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [106 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 <hx711_english.pdf, id=971, page=9, 597.23125pt x 845.1575pt>
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 9>
-Package pdftex.def Info: hx711_english.pdf, page9 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page9 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
  <use hx711_english.pdf, page 9>
-Package pdftex.def Info: hx711_english.pdf, page9 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page9 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: hx711_english.pdf Graphic file (type pdf)
 
 <use hx711_english.pdf, page 9>
-Package pdftex.def Info: hx711_english.pdf, page9 used on input line 755.
+Package pdftex.def Info: hx711_english.pdf, page9 used on input line 771.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [107 <C:/Users/joejonas/Documents/GitHub/tcc/monografia/hx711_english.pdf>]
 (C:\Users\joejonas\Documents\GitHub\tcc\monografia\Monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 6687 strings out of 493921
- 108983 string characters out of 3148877
- 163939 words of memory out of 3000000
- 9801 multiletter control sequences out of 15000+200000
+ 6692 strings out of 493921
+ 109090 string characters out of 3148877
+ 163972 words of memory out of 3000000
+ 9806 multiletter control sequences out of 15000+200000
  10955 words of font info for 38 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  44i,18n,46p,1481b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2347,7 +2342,7 @@ fonts/cm/cmr12.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/P
 rogram Files/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Monografia.pdf (120 pages, 3826096 bytes).
+Output written on Monografia.pdf (120 pages, 3827886 bytes).
 PDF statistics:
  1005 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
