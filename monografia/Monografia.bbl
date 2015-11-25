@@ -3,7 +3,7 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.3 }
+\abntbstabout{v-1.9.2 }
 
 \bibitem[ARDUINO 2015]{ARDUINOMEGA2015}
 \abntrefinfo{ARDUINO}{ARDUINO}{2015a}
@@ -28,6 +28,13 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 \abntrefinfo{Coelho et al.}{COELHO et al.}{2004}
 {COELHO, J.~C. et al. Agricultura de precis{\~a}o.
 \emph{Pref{\'a}cio, Lisboa}, 2004.}
+
+\bibitem[Eletr{\^o}nica 2015]{SABERELETRONICA2015}
+\abntrefinfo{Eletr{\^o}nica}{ELETR{\^O}NICA}{2015}
+{ELETR{\^O}NICA, R.~S. \emph{Todos os tipos de sensores}. 2015.
+Online, acessado em 24/Novembro/2015.
+Dispon{\'\i}vel em:
+  \url{http://www.sabereletronica.com.br/artigos/1532-todos-os-tipos-de-sensores}.}
 
 \bibitem[Farahani 2011]{farahani2011zigbee}
 \abntrefinfo{Farahani}{FARAHANI}{2011}
@@ -65,6 +72,13 @@ Dispon{\'\i}vel em: \url{http://www.arduino.cc/}.}
 {PIRES, J. L.~F. et al. \emph{Discutindo agricultura de precis{\~{a}}o-aspectos
   gerais}. [S.l.]: Embrapa Trigo, 2004.}
 
+\bibitem[Sensores 2015]{ultrassonico2015pulse}
+\abntrefinfo{Sensores}{SENSORES}{2015}
+{SENSORES, A.~S. em. \emph{Todos os tipos de sensores}. 2015.
+Online, acessado em 24/Novembro/2015.
+Dispon{\'\i}vel em:
+  \url{http://www.automatizesensores.com.br/ultrasonicos.html}.}
+
 \bibitem[SERRANO 2007]{serrano2007desempenho}
 \abntrefinfo{SERRANO}{SERRANO}{2007}
 {SERRANO, J. Desempenho de tratores agr{\'\i}colas em tra{\c{c}}{\~a}o.
@@ -90,11 +104,8 @@ Dispon{\'\i}vel em:
   aplica{\c{c}}{\~o}es.
 \emph{S{\~a}o Paulo}, v.~3, 2005.}
 
-\bibitem[UFRJ 2015]{UFRJZIGBEE}
-\abntrefinfo{UFRJ}{UFRJ}{2015}
-{UFRJ. \emph{ZigBee}. 2015.
-Online, acessado em 12/Novembro/2015.
-Dispon{\'\i}vel em:
-  \url{http://www.gta.ufrj.br/grad/10\_1/zigbee/dispositivos.html}.}
+\bibitem[VASQUES et al. 2012]{vasques2012zigbee}
+\abntrefinfo{VASQUES et al.}{VASQUES et al.}{2012}
+{VASQUES, B. et al. \emph{ZigBee}. 2012.}
 
 \end{thebibliography}

@@ -71,6 +71,8 @@ Aos meus orientadores Manfred e Luciano pela imensa sabedoria e pela paixão empe
 
 A todos os professores que direta ou indiretamente contribuiram para a minha formação. Que sempre me motivaram a ir além da zona de conforto em busca do conhecimento.
 
+Aos meus colegas de trabalho, Hideraldo Vilasboas Machado e Jamir de Macedo, por terem me auxiliado na revisão do trabalho.
+
 A todas as pessoas que me deram oportunidade de demonstrar o que sei e que reconheceram a minha dedicação. Permitindo-me mostrar o meu trabalho.
 
 Aos companheiros de turma que sempre estavam juntos durante esta jornada incrível que foi a nossa graduação.
@@ -106,6 +108,8 @@ A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem 
 % Abstract
 \abstract
 
+The performance analysis of agricultural tractors in Brazil is an activity that has received increasing attention in recent years. This is due to the difficulty that the tractors have to perform what is expected, because of the conditions they face in Brazil, such as fuel, soil, climate, among others. These conditions are different from those found in the country where the tractor was designed. Because of this, it is important to perform tests on tractors among the conditions to which this tractor will be subjected to review any problems that would impair the performance of the same. However, the collection of data from these trials is still made mostly manually. This decreases the accuracy of the collected data and may put people in distress, since the data collection operation is performed over the assay tractor. This work demonstrates the creation of a telemetry device for the tractor operating data, able to accurately collect this data and send them via RF (radio frequency) for their examination. The conclusion was that this device allows to obtain relevant data to perform accurately, and easily collect data that manual approach has difficulty, such as intake air flow, real fuel consumption, accurate movement of the wheels and tractor and all in relation to the timeline in periods of a few seconds.
+
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Abstract
 
@@ -121,11 +125,11 @@ A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem 
 
 \chapter{Introdução}\label{cap_intro}
 
-A Agricultura de Precisão, nos últimos anos, está em plena evolução e está se tornando muito competitiva, de tal forma que, exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo dos agricultores, que além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados \cite{Pires2004}.
+A Agricultura de Precisão, nos últimos anos, está em plena evolução e tem se tornando muito competitiva, de tal forma que, exige maiores níveis de especialização, capacidade de gerenciamento e profissionalismo dos agricultores, que além de administradores, cada vez mais necessitam assumir a função de pesquisadores em suas áreas, coletando informações, interagindo com novas técnicas e tomando decisões eficazes de manejo. A viabilidade da atividade e a lucratividade dependem de fatores controláveis e incontroláveis que definem a produção agrícola. Devido a isso, a aplicação dos recursos de forma eficiente é indispensável como garantia de sucesso. Isso demanda muito conhecimento e pesquisa sobre os fatores que interagem na lavoura e sobre como eles podem ser maximizados \cite{Pires2004}.
 
 A Agricultura de Precisão é um sistema de gerenciamento, onde seu crescimento se deve principalmente aos avanços tecnológicos envolvendo: sistema de posicionamento global (GPS), sensoriamento remoto, aplicação de insumos em taxas variáveis, sistema de informação geográfica (GIS) entre outros \cite{Pires2004}.
 
-Com todo este avanço da Agricultura de Precisão, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Porém, o Brasil ainda é o quinto maior produtor agrícola do mundo, com produção somando cerca de US{\$} 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais (Ícone). Com isso, fica atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão \cite{TENORIO2011}.
+Com todo este avanço da Agricultura de Precisão, o Brasil ainda não está no mesmo ritmo de países onde o investimento na pesquisa e desenvolvimento é levado mais a sério. Para se ter uma ideia, o Brasil é conhecido mundialmente pela sua vocação natural para a agricultura. Esta vocação se deve a vasta área territorial combinada com a oferta de sol e água, que são recursos fundamentais para as atividades agrícolas. Porém, o Brasil ainda é o quinto maior produtor agrícola do mundo, com produção somando cerca de US{\$} 100 bilhões, segundo dados do Instituto de Estudos do Comércio e Negociações Internacionais. Com isso, fica atrás da China, União Europeia, Estados Unidos e Índia. Em sexto colocado vem o Japão \cite{TENORIO2011}.
 
 Mesmo com todo o território e condição climática que o Brasil possui, o seu resultado é  muito próximo de países como Japão e Índia que possuem condições geográficas mais hostis para a agricultura.
 
@@ -251,7 +255,7 @@ O Arduino detecta o ambiente por meio de entradas provenientes dos mais variados
 
 A plataforma Arduino facilita muito a vida de intusiastas que não contemplam conhecimentos mais avançados na área de microcontroladores, pois ele já vem com o hardware preparado para o uso. A plataforma Arduino associa, principalmente, a facilidade de programação com a disponibilidade de inúmeros periféricos na forma de módulos.
 
-Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e internet das coisas por exemplo.
+Por meio de ligações simples, facilmente podemos conectá-lo a sensores, motores, leds, entre outros, isso faz com que ele seja muito conhecido e utilizado em pequenos e grandes projetos de automação e Internet das Coisas por exemplo.
 
 Uma das placas Arduino mais utilizadas em projetos maiores é o Arduino Mega 2560. Devido a quantidades de portas disponiveis para utilização e processamento necessário aliado ao custo. A Figura ~\ref{fig_megaFrente} mostra como é a placa Arduino Mega.
 
@@ -288,13 +292,13 @@ Na Figura ~\ref{fig_zigbee_network} vemos a disposição dos nós em uma rede ZigBe
   \centering
   \epsfig{file=rede_zigbee.eps}
   \caption{Rede ZigBee}
-  \cite{UFRJZIGBEE}
+  \cite{vasques2012zigbee}
   \label{fig_zigbee_network}
 \end{figure}
 
 \section{Comparação: ZigBee, Bluetooth e o Wi-Fi}
 
-Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O Wi-Fi (Padrão IEEE 802.11) trabalha com alta taxa de transferência (até 11Mbps) e este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (\textit{indoor}). O Bluetooth (Padrão IEEE 802.15.1), trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício comparado ao Bluetooth e ao Wi-Fi \cite{farahani2011zigbee}. Na Figura ~\ref{fig_comparacao_padroes_comunicacao} é possível visualizar as principais diferenças entre estes padrões.
+Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz. O Wi-Fi (Padrão IEEE 802.11b) trabalha com alta taxa de transferência (até 11Mbps) e este é utilizado normalmente em redes sem fio de Internet. Ele consegue alcance de transferência entre 30 e 100m em ambientes fechados (\textit{indoor}). O Bluetooth (Padrão IEEE 802.15.1), trabalha com baixa taxa de transferência, menos de 3Mbps e seu alcance em ambiente fechado varia entre 2 e 10m. Normalmente utilizado em fones de ouvido sem fio. Em comparação com estes, o ZigBee é o que tem a taxa de transferência e a complexidade menor, além de consumir pouca energia. Devido a essas características, o ZigBee é ótimo para transmitir e receber comandos e/ou coletar dados de sensores, tais como sensores de temperatura e umidade. Nesse caso, o ZigBee oferece o melhor custo benefício comparado ao Bluetooth e ao Wi-Fi \cite{farahani2011zigbee}. Na Figura ~\ref{fig_comparacao_padroes_comunicacao} é possível visualizar as principais diferenças entre estes padrões.
 
 \begin{figure}[h!]
   \centering
@@ -304,11 +308,17 @@ Estes três padrões de redes sem fio comumente trabalham na frequência de 2.4GHz.
   \label{fig_comparacao_padroes_comunicacao}
 \end{figure}
 
-\section{Sensores}
+\section{Sensores e Transdutores}
 
-Para o desenvolvimento do trabalho, se faz necessário o uso de sensores que serão responsáveis pelas medições dos dados de trabalho do trator. 
+O termo sensor é empregado para designar dispositivos sensíveis a alguma forma de energia do ambiente, que pode ser luminosa, térmica ou cinética, relacionando informações sobre uma grandeza a ser medida como temperatura, pressão, velocidade, corrente, aceleração, posição, etc. Os diversos tipos de sensores são classificados em dois tipos, os sensores analógicos e os digitais  \cite{thomazini2005sensores}.
 
-O termo sensor é empregado para designar dispositivos sensíveis a alguma forma de energia do ambiente, que pode ser luminosa, térmica ou cinética, relacionando informações sobre uma grandeza a ser medida como temperatura, pressão, velocidade, corrente, aceleração, posição, etc. \cite{bastos1997uso}.
+Os sensores analógicos podem assumir qualquer valor no seu sinal de saída ao longo do tempo, desde que esteja dentro da sua faixa de operação. Alguns exemplos de grandezas que podem ser medidas por sensores do tipo analógico são: pressão, temperatura, velocidade, umidade, vazão, força, ângulo, distância, torque e luminosidade \cite{thomazini2005sensores}. 
+
+Os sensores digitais, podem assumir apenas dois valores na sua saída ao longo do tempo, que podem ser interpretados como zero e um. Naturalmente, não existem grandezas físicas que assumem esses valores, mas eles são assim mostrados ao sistema de controle após serem convertidos pelo circuito eletrônico do transdutor. É utilizado, por exemplo, em detecão de passagem de objetos, encoders na determinação de distância ou velocidade, etc. \cite{thomazini2005sensores}.
+
+Transdutor é a denominação que recebe um dispositivo completo, ou seja, que contém o sensor, usado para transformar uma grandeza em outra qualquer que possa ser utilizada no dispositivo de controle. O transdutor pode ser considerado a interface entre as formas de energia do ambiente e o dispositivo de controle, pois ele transforma uma grandeza fisica em um sinal de tensão ou corrente que pode ser interpretado por um sistema de controle \cite{thomazini2005sensores}.
+
+Os termos ``sensor" e ``transdutor", muitas vezes são utilizados de maneira indistinta. Neste caso, o transdutor é o instrumento completo que engloba sensor e todos os circuitos de interface capazes de serem utilizados numa aplicação industrial \cite{thomazini2005sensores}.
 
 \subsection{Encoder}
 
@@ -323,6 +333,7 @@ Podem ser encontrados dois tipos de \textit{encoder} o incremental e o absoluto.
   \epsfig{file=encoders.eps}
   \caption{Diferença entre \textit{encoder} incremental e absoluto.}
   \label{fig_encoders}
+  \cite{SABERELETRONICA2015}
 \end{figure}
 
 \subsection{Termopar}
@@ -366,6 +377,7 @@ Na técnica pulso-eco a medida de distância é feita por meio da determinação de t
   \epsfig{file=pulso-eco.eps}
   \caption{Método pulso-eco.}
   \label{fig_UltrassonicoPulsoEco}
+  \cite{ultrassonico2015pulse}
 \end{figure}
 
 É necessária uma distância mínima entre o sensor e o objeto para que possam haver os ecos e os mesmos possam ser interpretados e calculados. O ângulo da superfície do objeto, rugosidade da superfície, mudanças na temperatura e umidade do ambiente. Os objetos podem ter qualquer forma refletiva, inclusive podem ser redondos \cite{bastos1997uso}.
@@ -442,6 +454,10 @@ Este tipo de medidor, tem como vantagens:
 
 \end{itemize}
 
+\subsection{Célula de Carga}
+
+
+
 \section{Conclusão}
 
 Durante este capítulo, foram descritos os conhecimentos básicos necessários para o desenvolvimento e entendimento do trabalho. No próximo capítulo serão esplanados os assuntos pertinentes ao desenvolvimento e aplicação do dispositivo.
@@ -502,7 +518,7 @@ E o segundo Arduino recebeu os sensores pertinentes ao funcionamento do trator, 
 
 O primeiro Arduino ficou apenas com os \textit{encoders}, pois estes trabalham por meio das portas de interrupção do Arduino. Dois dos \textit{encoders} geram 360 pulsos a cada revolução. Se somadas todas as interrupções que podem ser geradas por estes \textit{encoders} podemos ver que isso por sí pode exigir muito do Arduino. Os fluxômetros também são \textit{encoders}, porém, estes sofrem menos revoluções e com isso não afetam o segundo Arduino.
 
-Devido a isso, foram desenvolvidos dois softwares embarcados, sendo um para cada Arduino. Ambos serão descritos nas seções ~\ref{sec_analise} e ~\ref{sec_desenvolvimento}.
+Devido a isso, foram desenvolvidos dois softwares embarcados. Ambos serão descritos nas seções ~\ref{sec_analise} e ~\ref{sec_desenvolvimento}.
 
 \section{Análise do Software do Protótipo}\label{sec_analise}
 
@@ -543,7 +559,7 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
 
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
-O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee Series 2 (comunicação. Sendo dois no \textit{End Device} e um no Coordenador) e os sensores industriais utilizados. Estes sensores são compostos por:
+O desenvolvimento do protótipo foi dividido em dois cenário, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee Series 2 (comunicação. Sendo dois no \textit{End Device} e um no Coordenador), um módulo \textit{sniffer} (responsável por coletar os dados do XBee Coordenador e transmitir para o computador) e os sensores industriais utilizados. Estes sensores são compostos por:
 
 \begin{itemize}
 
@@ -552,7 +568,7 @@ O desenvolvimento do protótipo foi dividido em dois, sendo: hardware e software.
 \item 5x termopar: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento;
 \item 1x sensor de pressão: para medir o fluxo de entrada de ar na admissão;
 \item 1x célula de carga: para medir o peso que o trator está puxando na barra de tração;
-\item 1x ultrassonico: para medir a velocidade real do trator.
+\item 1x ultrassônico: para medir a velocidade real do trator.
 
 \end{itemize}
 
@@ -565,7 +581,7 @@ Para realizar a ligação de todos estes componentes, foi desenvolvida uma placa d
   \label{fig_circuito_eletronico}
 \end{figure}
 
-Um fator importante que deve ser levado em consideração é a integridade deste circuito. Uma vez que ele estará operando em um ambiente com bastante vibração, ruído e com possibilidade de respingos de água. Faz-se necessário prover uma forma de proteção. Devido a isso, foi desenvolvida uma caixa para alocação do circuito e ao mesmo tempo facilitar as conexões de cabos. A Figura ~\ref{fig_caixa_circuito_eletronico} mostra a caixa desenvolvida.
+Um fator importante que deve ser levado em consideração é a integridade deste circuito. Uma vez que ele estará operando em um ambiente com bastante vibração, ruído e com possibilidade de infiltração de água. Faz-se necessário prover uma forma de proteção. Devido a isso, foi desenvolvida uma caixa para alocação do circuito e ao mesmo tempo facilitar as conexões de cabos. A Figura ~\ref{fig_caixa_circuito_eletronico} mostra a caixa desenvolvida.
 
 \begin{figure}[H]
   \centering
@@ -674,7 +690,11 @@ Este capitulo apresentou as atividades de análise, desenvolvimento e teste do di
 
 \chapter{Conclusão}\label{cap_conclusao}
 
+Ao final do teste do dispositivo, ficou evidente que esse dispositivo permite, de forma precisa, a obtenção de dados pertinentes à operação do trator, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação a linha do tempo em períodos de poucos segundos.
 
+O dispositivo se mostrou capaz de atender ao objetivo deste projeto, de modo que, é capaz de captar os dados em tempo real e em seguida, enviá-los para análise durante o ensaio do trator. Além de acabar com a necessidade de trabalho manual de várias pessoas durante a coleta dos dados, coisa que se faz necessária nos métodos atuais de ensaio de tratores.
+
+Até o presente momento da finalização deste trabalho, o dispositivo encontra-se em uso no projeto para o qual o mesmo foi planejado. Diversos ensaios já foram realizados em tratores de diversos modelos e marcas. Com isso conclui-se que o resultado, de fato, atende o objetivo proposto inicialmente.
 
 %Referencias:
 \bibliographystyle{abntex2-alf}
