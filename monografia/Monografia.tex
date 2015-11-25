@@ -99,7 +99,7 @@ A todas as pessoas que doam seu tempo e sabedoria para fazer desse mundo um luga
 % Resumo
 \resumo
 
-A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem recebendo cada vez mais atenção nos últimos anos. Isto ocorre em função da dificuldade que os tratores têm em desempenhar o que é esperado, devido às condições que os mesmos enfrentam no Brasil, tais como: combustível, solo, clima, entre outros. Estas condições são diferentes das encontradas no país onde o trator foi projetado. Por causa disto, se torna importante a realização de ensaios nos tratores em meio as condições ao qual este trator será submetido para avaliar eventuais problemas que possam prejudicar o desempenho do mesmo. Porém, a coleta dos dados destes ensaios ainda é feita, em sua maioria, de forma manual. Isso diminui a precisão dos dados coletados e pode colocar pessoas em perigo, uma vez que a coleta dos dados da operação é feita durante o ensaio do trator. Este trabalho demonstra a criação de um dispositivo para telemetria dos dados de operação do trator, capaz de coletar com precisão estes dados e enviá-los por meio de \abrevpuc {RF} {rádio frequência} para a análise dos mesmos. A conclusão foi que esse dispositivo permite a obtenção de dados pertinentes à execução de forma precisa, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação à linha do tempo em períodos de poucos segundos.
+A análise de desempenho de tratores agrícolas, no Brasil é uma atividade que vem recebendo cada vez mais atenção nos últimos anos. Isto ocorre, em função da dificuldade que os tratores têm em desempenhar o que é esperado, devido às condições que os mesmos enfrentam no Brasil, tais como: combustível, solo, clima, entre outros. Estas condições são diferentes das encontradas no país onde o trator foi projetado. Por causa disto, se torna importante a realização de ensaios nos tratores, em meio às condições ao qual este trator será submetido para avaliar eventuais problemas que possam prejudicar o desempenho do mesmo. Porém, a coleta dos dados destes ensaios ainda é feita, em sua maioria, de forma manual. Isso diminui a precisão dos dados coletados e pode colocar pessoas em perigo, uma vez que a coleta dos dados da operação é feita durante o ensaio do trator. Este trabalho demonstra a criação de um dispositivo para telemetria dos dados de operação do trator, capaz de coletar com precisão estes dados e enviá-los por meio de \abrevpuc {RF} {rádio frequência} para a análise dos mesmos. A conclusão foi que esse dispositivo permite a obtenção de dados pertinentes à execução de forma precisa, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação à linha do tempo em períodos de poucos segundos.
 
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Resumo (Não esquecer de especificar o tipo do trator)
@@ -110,7 +110,7 @@ A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem 
 % Abstract
 \abstract
 
-The performance analysis of agricultural tractors in Brazil is an activity that has received increasing attention in recent years. This is due to the difficulty that the tractors have to perform what is expected, because of the conditions they face in Brazil, such as fuel, soil, climate, among others. These conditions are different from those found in the country where the tractor was designed. Because of this, it is important to perform tests on tractors among the conditions to which this tractor will be subjected to review any problems that would impair the performance of the same. However, the collection of data from these trials is still made mostly manually. This decreases the accuracy of the collected data and may put people in distress, since the data collection operation is performed over the assay tractor. This work demonstrates the creation of a telemetry device for the tractor operating data, able to accurately collect this data and send them via RF (radio frequency) for their examination. The conclusion was that this device allows obtaining relevant data to perform accurately, and easily collect data that manual approach has difficulty, such as intake air flow, real fuel consumption, accurate movement of the wheels and tractor and all in relation to the timeline in periods of a few seconds.
+The performance analysis of agricultural tractors in Brazil is an activity that has received increasing attention in recent years. This occurs due to the difficulty that the tractors have to perform what is expected, due to the conditions they face in Brazil, such as fuel, soil, climate, among others. These conditions are different from those found in the country where the tractor was designed. Because of this, it is important to perform tests on tractors, among the conditions to which this tractor will be subjected to review any problems that would impair the performance of the same. However, the collection of data from these assays is still made mostly manually. This decreases the accuracy of the collected data and may put people in distress, since the data collection operation is performed over the tractor assay. This work demonstrates the creation of a telemetry device for the tractor operating data, able to accurately collect this data and send them via RF (radio frequency) for their analysis. The conclusion was that this device allows obtaining relevant data to implement accurately, and easily collect data that manual approach has difficulty, such as intake air flow, real fuel consumption, accurate movement of the wheels and tractor and all in relation to the timeline in periods of a few seconds.
 
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Abstract
@@ -581,18 +581,23 @@ O diagrama de máquina de estados visa representar os estados dos programas duran
 
 \section{Desenvolvimento do Protótipo}\label{sec_desenvolvimento} 
 
-O desenvolvimento do protótipo foi dividido em dois cenário, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee Series 2 (comunicação. Sendo dois no \textit{End Device} e um no Coordenador), um módulo \textit{sniffer} (responsável por coletar os dados do XBee Coordenador e transmitir para o computador) e os sensores industriais utilizados. Estes sensores são compostos por:
+O desenvolvimento do protótipo foi dividido em dois cenário, sendo: hardware e software. As tecnologias principais do hardware são: 2x Arduino Mega 2560 (processamento dos dados), 3x XBee Series 2 (comunicação. Sendo dois no \textit{End Device} e um no Coordenador), um módulo \textit{sniffer} (responsável por coletar os dados do XBee Coordenador e transmitir para o computador) e os sensores e transdutores industriais utilizados. Abaixo, segue a lista dos sensores e transdutores utilizados para a coleta dos dados:
 
 \begin{itemize}
 
-\item 5x \textit{encoders}: para medir a velocidade em cada roda e na TDP. Pode-se encontrar a folha de dados do \textit{encoder} utilizado no ANEXO ~\ref{anx:anx_a};
-\item 2x fluxômetro: para medir o fluxo de combustível na entrada e no retorno do motor. Pode-se encontrar a folha de dados do fluxômetro utilizado no ANEXO ~\ref{anx:anx_b};
-\item 5x termopar: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento. Aqui foram utilizados termopares do tipo K;
-\item 1x ultrassônico: para medir a velocidade real do trator. Pode-se encontrar a folha de dados do ultrassônico utilizado no ANEXO ~\ref{anx:anx_c};
-\item 1x sensor de pressão: para medir o fluxo de entrada de ar na admissão. Utilizado sensor do tipo tubo de pitot, a folha de dados deste sensor pode ser encontrada no ANEXO ~\ref{anx:anx_d};
-\item 1x célula de carga: para medir o peso que o trator está puxando na barra de tração;
-\item 1x transdutor HX711: para ligação à célula de carga. Folha de dados disponível no ANEXO ~\ref{anx:anx_f}.
+\item 5x \textit{encoder} do tipo incremental: para medir a velocidade em cada roda e na TDP. Pode-se encontrar a folha de dados do \textit{encoder} utilizado no ANEXO ~\ref{anx:anx_a};
 
+\item 2x fluxômetro do tipo engrenagens ovais: para medir o fluxo de combustível na entrada e no retorno do motor. Pode-se encontrar a folha de dados do fluxômetro utilizado no ANEXO ~\ref{anx:anx_b};
+
+\item 5x termopar do tipo k: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento;
+
+\item 1x ultrassônico: para medir a velocidade real do trator. Pode-se encontrar a folha de dados do sensor ultrassônico utilizado no ANEXO ~\ref{anx:anx_c};
+
+\item 1x tubo de pitot: para medir o fluxo de entrada de ar na admissão. Pode-se encontrar a folha de dados do sensor de pressão no ANEXO ~\ref{anx:anx_d};
+
+\item 1x célula de carga do tipo s: para medir o peso que o trator está puxando na barra de tração. Pode-se encontrar a folha de dados da célula de carga utilizada no ANEXO ~\ref{anx:anx_e};
+
+\item 1x módulo HX711: para ligação à célula de carga. Folha de dados disponível no ANEXO ~\ref{anx:anx_f}.
 
 \end{itemize}
 
@@ -765,6 +770,9 @@ Como trabalho futuro, se mostra interessante o estudo de novos meios de realizar
 
 \includepdf[pages=-]{MPX5010.pdf}
 
+\chapter{Folha de Dados Célula de Carga}\label{anx:anx_e}
+
+\includepdf[pages=-]{celula_carga.pdf}
 
 \chapter{Folha de Dados Transdutor Célula de Carga}\label{anx:anx_f}
 

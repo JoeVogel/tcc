@@ -62,4 +62,6 @@
 \contentsline {beforechapter}{ANEXO~D}{73}
 \contentsline {chapter}{Folha de Dados Tubo de Pitot}{73}
 \contentsline {beforechapter}{ANEXO~E}{98}
-\contentsline {chapter}{Folha de Dados Transdutor C\'elula de Carga}{98}
+\contentsline {chapter}{Folha de Dados C\'elula de Carga}{98}
+\contentsline {beforechapter}{ANEXO~F}{102}
+\contentsline {chapter}{Folha de Dados Transdutor C\'elula de Carga}{102}
