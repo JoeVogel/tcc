@@ -1,10 +1,10 @@
 \select@language {brazil}
 \contentsline {chapter}{Agradecimentos}{ii}
 \contentsline {chapter}{Sum\'ario}{iii}
-\contentsline {chapter}{Lista de Figuras}{v}
-\contentsline {chapter}{Lista de Abrevia\c c\~oes}{vi}
-\contentsline {chapter}{Resumo}{vii}
-\contentsline {chapter}{Abstract}{viii}
+\contentsline {chapter}{Lista de Figuras}{vi}
+\contentsline {chapter}{Lista de Abrevia\c c\~oes}{vii}
+\contentsline {chapter}{Resumo}{viii}
+\contentsline {chapter}{Abstract}{ix}
 \contentsline {beforechapter}{Cap\'{\i }tulo~1}{1}
 \contentsline {chapter}{Introdu\c c\~ao}{1}
 \contentsline {section}{\numberline {1.1}Problema}{2}
@@ -27,25 +27,39 @@
 \contentsline {subsection}{\numberline {2.6.3}Ultrass\^onico}{14}
 \contentsline {subsection}{\numberline {2.6.4}Sensor de Vaz\~ao}{15}
 \contentsline {subsubsection}{\numberline {2.6.4.1}Press\~ao Diferencial}{15}
-\contentsline {subsubsection}{\numberline {2.6.4.2}Engrenagens Ovais}{16}
+\contentsline {subsubsection}{\numberline {2.6.4.2}Engrenagens Ovais}{17}
 \contentsline {subsection}{\numberline {2.6.5}C\'elula de Carga}{18}
-\contentsline {section}{\numberline {2.7}Conclus\~ao}{18}
-\contentsline {beforechapter}{Cap\'{\i }tulo~3}{19}
-\contentsline {chapter}{Desenvolvimento}{19}
-\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{19}
-\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{20}
-\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{20}
-\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{21}
-\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{22}
-\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{22}
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{26}
-\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{26}
-\contentsline {section}{\numberline {3.7}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{28}
-\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{30}
-\contentsline {section}{\numberline {3.9}Resultados do Teste}{30}
-\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{31}
-\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{33}
-\contentsline {section}{\numberline {3.10}Conclus\~ao}{33}
-\contentsline {beforechapter}{Cap\'{\i }tulo~4}{34}
-\contentsline {chapter}{Conclus\~ao}{34}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{35}
+\contentsline {section}{\numberline {2.7}Conclus\~ao}{19}
+\contentsline {beforechapter}{Cap\'{\i }tulo~3}{20}
+\contentsline {chapter}{Desenvolvimento}{20}
+\contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{20}
+\contentsline {section}{\numberline {3.2}Limita\c c\~oes}{21}
+\contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{21}
+\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{22}
+\contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{23}
+\contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{23}
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{27}
+\contentsline {section}{\numberline {3.6}Desenvolvimento do Prot\'otipo}{27}
+\contentsline {section}{\numberline {3.7}Comunica\c c\~ao entre Dispositivo Coletor e Coordenador}{29}
+\contentsline {section}{\numberline {3.8}Teste do Prot\'otipo durante Ensaio em Trator}{31}
+\contentsline {section}{\numberline {3.9}Resultados do Teste}{31}
+\contentsline {subsection}{\numberline {3.9.1}Avan\c co por Roda}{32}
+\contentsline {subsection}{\numberline {3.9.2}Consumo Hor\'ario de Combust\IeC {\'\i }vel}{34}
+\contentsline {section}{\numberline {3.10}Conclus\~ao}{35}
+\contentsline {beforechapter}{Cap\'{\i }tulo~4}{36}
+\contentsline {chapter}{Conclus\~ao}{36}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{37}
+\contentsline {chapter}{Anexos}{39}
+\setcounter {tocdepth}{2}
+\begingroup \let \l@chapter \l@section \let \l@section \l@subsection 
+\endgroup 
+\contentsline {beforechapter}{ANEXO~A}{40}
+\contentsline {chapter}{Folha de Dados Encoder}{40}
+\contentsline {beforechapter}{ANEXO~B}{63}
+\contentsline {chapter}{Folha de Dados Flux\^ometro}{63}
+\contentsline {beforechapter}{ANEXO~C}{68}
+\contentsline {chapter}{Folha de Dados Ultrass\^onico}{68}
+\contentsline {beforechapter}{ANEXO~D}{73}
+\contentsline {chapter}{Folha de Dados Tubo de Pitot}{73}
+\contentsline {beforechapter}{ANEXO~E}{98}
+\contentsline {chapter}{Folha de Dados Transdutor C\'elula de Carga}{98}

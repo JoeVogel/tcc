@@ -15,6 +15,8 @@
 \usepackage[Algoritmo]{algorithm}
 \usepackage{algorithmic}
 
+\usepackage{pdfpages}
+\usepackage[toc,page]{appendix}
 \graphicspath{ {images/} }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Hifenizacao
@@ -97,7 +99,7 @@ A todas as pessoas que doam seu tempo e sabedoria para fazer desse mundo um luga
 % Resumo
 \resumo
 
-A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem recebendo cada vez mais atenção nos últimos anos. Isto ocorre em função da dificuldade que os tratores tem em desempenhar o que é esperado, devido as condições que os mesmos enfrentam no Brasil, tais como: combustível, solo, clima, entre outros. Estas condições são diferentes das encontradas no país onde o trator foi projetado. Por causa disto, se torna importante a realização de ensaios nos tratores em meio as condições ao qual este trator será submetido para avaliar eventuais problemas que possam prejudicar o desempenho do mesmo. Porém, a coleta dos dados destes ensaios ainda é feita, em sua maioria, de forma manual. Isso diminui a precisão dos dados coletados e pode colocar pessoas em perigo, uma vez que a coleta dos dados da operação é feita durante o ensaio do trator. Este trabalho demonstra a criação de um dispositivo para telemetria dos dados de operação do trator, capaz de coletar com precisão estes dados e enviá-los por meio de \abrevpuc {RF} {rádio frequência} para a análise dos mesmos. A conclusão foi que esse dispositivo permite a obtenção de dados pertinentes a execução de forma precisa, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação a linha do tempo em períodos de poucos segundos.
+A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem recebendo cada vez mais atenção nos últimos anos. Isto ocorre em função da dificuldade que os tratores têm em desempenhar o que é esperado, devido às condições que os mesmos enfrentam no Brasil, tais como: combustível, solo, clima, entre outros. Estas condições são diferentes das encontradas no país onde o trator foi projetado. Por causa disto, se torna importante a realização de ensaios nos tratores em meio as condições ao qual este trator será submetido para avaliar eventuais problemas que possam prejudicar o desempenho do mesmo. Porém, a coleta dos dados destes ensaios ainda é feita, em sua maioria, de forma manual. Isso diminui a precisão dos dados coletados e pode colocar pessoas em perigo, uma vez que a coleta dos dados da operação é feita durante o ensaio do trator. Este trabalho demonstra a criação de um dispositivo para telemetria dos dados de operação do trator, capaz de coletar com precisão estes dados e enviá-los por meio de \abrevpuc {RF} {rádio frequência} para a análise dos mesmos. A conclusão foi que esse dispositivo permite a obtenção de dados pertinentes à execução de forma precisa, além de facilmente coletar dados que a abordagem manual tem dificuldade, tais como: vazão de ar da admissão, consumo real de combustível, movimentação exata das rodas e do trator e tudo isso em relação à linha do tempo em períodos de poucos segundos.
 
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Resumo (Não esquecer de especificar o tipo do trator)
@@ -108,7 +110,7 @@ A análise de desempenho de tratores agrícolas no Brasil é uma atividade que vem 
 % Abstract
 \abstract
 
-The performance analysis of agricultural tractors in Brazil is an activity that has received increasing attention in recent years. This is due to the difficulty that the tractors have to perform what is expected, because of the conditions they face in Brazil, such as fuel, soil, climate, among others. These conditions are different from those found in the country where the tractor was designed. Because of this, it is important to perform tests on tractors among the conditions to which this tractor will be subjected to review any problems that would impair the performance of the same. However, the collection of data from these trials is still made mostly manually. This decreases the accuracy of the collected data and may put people in distress, since the data collection operation is performed over the assay tractor. This work demonstrates the creation of a telemetry device for the tractor operating data, able to accurately collect this data and send them via RF (radio frequency) for their examination. The conclusion was that this device allows to obtain relevant data to perform accurately, and easily collect data that manual approach has difficulty, such as intake air flow, real fuel consumption, accurate movement of the wheels and tractor and all in relation to the timeline in periods of a few seconds.
+The performance analysis of agricultural tractors in Brazil is an activity that has received increasing attention in recent years. This is due to the difficulty that the tractors have to perform what is expected, because of the conditions they face in Brazil, such as fuel, soil, climate, among others. These conditions are different from those found in the country where the tractor was designed. Because of this, it is important to perform tests on tractors among the conditions to which this tractor will be subjected to review any problems that would impair the performance of the same. However, the collection of data from these trials is still made mostly manually. This decreases the accuracy of the collected data and may put people in distress, since the data collection operation is performed over the assay tractor. This work demonstrates the creation of a telemetry device for the tractor operating data, able to accurately collect this data and send them via RF (radio frequency) for their examination. The conclusion was that this device allows obtaining relevant data to perform accurately, and easily collect data that manual approach has difficulty, such as intake air flow, real fuel consumption, accurate movement of the wheels and tractor and all in relation to the timeline in periods of a few seconds.
 
 % \noindent para não criar parágrafo (Retirar se existir parágrafo)
 \noindent %Abstract
@@ -394,17 +396,23 @@ Não existe um só princípio de medição que possa atender a todas as condições. A 
 
 Os medidores de vazão por pressão diferencial são os mais utilizados, em virtude de sua simplicidade, seu custo e sua facilidade de manutenção \cite{thomazini2005sensores}.
 
-Um obstáculo, denominado elemento primário, introduzido em uma tubulação na qual escoa um fluído, causa uma queda de pressão que varia com a vazão, a densidade e a viscosidade. Mantendo os dois últimos fatores constantes, é possível calcular a vazão. Esses elementos são baseados no princípio fundamental da hidrodinâmica, o Teorema de Bernoulli. Dessa forma, pode-se calcular a vazão (${Q}$) pelo diferencial da pressão com a expressão: 
+Um obstáculo, denominado elemento primário, introduzido em uma tubulação na qual escoa um fluído, causa uma queda de pressão que varia com a vazão, a densidade e a viscosidade. Mantendo os dois últimos fatores constantes, é possível calcular a vazão. Esses elementos são baseados no princípio fundamental da hidrodinâmica, o Teorema de Bernoulli. Dessa forma, pode-se calcular a vazão (${Q}$) pelo diferencial da pressão com a Equação ~\ref{eq:eq_pressao}
 
-${Q = k\sqrt{\Delta p}}$
+\begin{equation} \label{eq:eq_pressao}
+	Q = k\sqrt{\Delta p}
+\end{equation}
 
 Onde (${k}$) é uma constante que depende do instrumento usado e das dimensões da tubulação, este pode ser obtido empiricamente e (${\Delta p}$) a variação da pressão devido ao instrumento de medição \cite{thomazini2005sensores}.
 
-O tubo de pitot é um dos tipos de elementos primários (dispositivos que permitem a medição de vazão) mais utilizados. Ele possibilita a medição direta da diferença entre pressão dinâmica e estática, bem como velocidade de fluxo e vazão. A precisão deste dispositivo depende da forma como ele próprio interage com o sistema, causando perturbações, como pode ser visualizado na Figura ~\ref{fig_tubo_pitot}. Com um tubo de pitot ideal e usando uma coluna de mercúrio para medir o diferencial das pressões, temos:
+O tubo de pitot é um dos tipos de elementos primários (dispositivos que permitem a medição de vazão) mais utilizados. Ele possibilita a medição direta da diferença entre pressão dinâmica e estática, bem como velocidade de fluxo e vazão. A precisão deste dispositivo depende da forma como ele próprio interage com o sistema, causando perturbações, como pode ser visualizado na Figura ~\ref{fig_tubo_pitot}. Com um tubo de pitot ideal e usando uma coluna de mercúrio para medir o diferencial das pressões, temos as Equações ~\ref{eq:eq_altura} e ~\ref{eq:eq_vazao}
 
-${h = {V^2 \over 2g}}$
+\begin{equation} \label{eq:eq_altura}
+	h = {V^2 \over 2g}
+\end{equation}
 
-${Q = VA}$
+\begin{equation} \label{eq:eq_vazao}
+	Q = VA
+\end{equation}
 
 Sendo: (${h}$) a altura; (${V}$) a velocidade do fluxo; (${A}$) a área da seção transversal do tubo; (${g}$) a aceleração da gravidade (9,8 ${m/s}$) e (${Q}$) a vazão (${m³/s}$) \cite{thomazini2005sensores}. 
 
@@ -438,25 +446,23 @@ Na \textbf{posição 2}, enquanto existe escoamento do fluído da câmara superior, 
 
 Na \textbf{posição 3}, uma mesma quantidade do fluído está retida entre o rotor B e o corpo do medidor. Enquanto houver vazão, as engrenagens vão se movimentar de forma proporcional à velocidade do fluxo. De tal forma, cada rotação do par de engrenagens desloca um volume exato e predeterminado de líquido dentro da câmara de medição do medidor. Com isso, o número de rotações das engrenagens ovais é diretamente proporcional ao volume medido \cite{thomazini2005sensores}.
 
-Este tipo de medidor, tem como vantagens:
-
-\begin{itemize}
-
-\item Alta confiabilidade;
-
-\item Longa vida útil de trabalho;
-
-\item Fácil manutenção;
-
-\item Suporta temperaturas de trabalho de até 290ºC;
-
-\item Trabalha sem restrições em alta pressão.
-
-\end{itemize}
+Este tipo de medidor, tem como vantagens: alta confiabilidade; longa vida útil de trabalho; fácil manutenção; suporta temperaturas de trabalho de até 290ºC; trabalha sem restrições em alta pressão \cite{thomazini2005sensores}.
 
 \subsection{Célula de Carga}
 
+São estruturas mecânicas, planejadas para receber esforços e deformar-se dentro do regime elástico para o qual foram projetadas. Essa deformação gera um sinal de saída linear e compatível com a carga aplicada. O funcionamento das células de carga se dá, em função da variação da resistência ôhmica de um extensômetro, quando submetido a uma deformação.  A Figura ~\ref{fig_celula_carga} demostra os detalhes de construção de uma célula de carga \cite{thomazini2005sensores}.
 
+\begin{figure}[h!]
+  \centering
+  \epsfig{file=celula_carga.eps}
+  \caption{Detalhes de construção.}
+  \label{fig_celula_carga}
+  \cite{thomazini2005sensores}
+\end{figure}
+
+O extensômetro elétrico de resistência é um elemento sensível que transforma pequenas variações de dimensões em variações equivalentes de sua resistência elétrica. Sua utilização constitui um meio de medir e registrar o fenômeno da deformação como sendo uma grandeza elétrica. Com isso, pode-se utilizar ele para medir deformações em diferentes estruturas, tais como: pontes, máquinas, locomotivas, navios e associado a um transdutor, possibilita a medição de pressão, tensão, força, aceleração, etc. \cite{thomazini2005sensores}.
+
+As características das células de carga são: alta precisão de medida; baixo custo; excelente resposta dinâmica; excelente linearidade; fácil de instalar; pode ser utilizado imerso em água ou em atmosfera de gás corrosivo, desde que se faça o tratamento adequado; possibilidade de efetuar medidas de distância \cite{thomazini2005sensores}.
 
 \section{Conclusão}
 
@@ -563,12 +569,14 @@ O desenvolvimento do protótipo foi dividido em dois cenário, sendo: hardware e s
 
 \begin{itemize}
 
-\item 5x \textit{encoders}: para medir a velocidade em cada roda e na TDP;
-\item 2x fluxômetro: para medir o fluxo de combustível na entrada e no retorno do motor;
-\item 5x termopar: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento;
-\item 1x sensor de pressão: para medir o fluxo de entrada de ar na admissão;
+\item 5x \textit{encoders}: para medir a velocidade em cada roda e na TDP. Pode-se encontrar a folha de dados do \textit{encoder} utilizado no ANEXO ~\ref{anx:anx_a};
+\item 2x fluxômetro: para medir o fluxo de combustível na entrada e no retorno do motor. Pode-se encontrar a folha de dados do fluxômetro utilizado no ANEXO ~\ref{anx:anx_b};
+\item 5x termopar: para medir temperatura do combustível na entrada e no retorno do motor, do ar da admissão, dos gases do escapamento e do liquido de arrefecimento. Aqui foram utilizados termopares do tipo K;
+\item 1x ultrassônico: para medir a velocidade real do trator. Pode-se encontrar a folha de dados do ultrassônico utilizado no ANEXO ~\ref{anx:anx_c};
+\item 1x sensor de pressão: para medir o fluxo de entrada de ar na admissão. Utilizado sensor do tipo tubo de pitot, a folha de dados deste sensor pode ser encontrada no ANEXO ~\ref{anx:anx_d};
 \item 1x célula de carga: para medir o peso que o trator está puxando na barra de tração;
-\item 1x ultrassônico: para medir a velocidade real do trator.
+\item 1x transdutor HX711: para ligação à célula de carga. Folha de dados disponível no ANEXO ~\ref{anx:anx_f}.
+
 
 \end{itemize}
 
@@ -611,7 +619,7 @@ Baseado nisso, o dispositivo coleta os dados dos sensores e então monta o pacote
 
 O protótipo foi desenvolvido para um projeto proveniente de uma parceria entre o Centro Universitário Católica de Santa Catarina (Brasil) e a Universidade Federal do Paraná (Brasil), para a automação da aquisição de dados de operação de tratores agrícolas para uso em ensaios. Desta forma, este dispositivo foi utilizado em conjunto com outros componentes de software  desenvolvidos por outros acadêmicos, estes componentes são: um programa \textit{middleware} (responsável por receber e persistir em um banco de dados os dados coletados) e uma aplicação \textit{WEB} (responsável por gerar e exibir gráficos a partir dos dados coletados).
 
-O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de simular peso na barra de tração, foi utilizado um cambão engatado em outro trator de porte maior responsável por frear e dessa forma simular o peso de arrasto. Na figura ~\ref{fig_trator_teste} podemos ver o trator em teste (esquerda) equipado com os sensores e ligado ao segundo trator (direita).
+O trator escolhido para o teste foi um T7 da marca New Holland. Como forma de simular peso na barra de tração, foi utilizado um cambão engatado em outro trator de porte maior responsável por frear e dessa forma simular o peso de arrasto. Na Figura ~\ref{fig_trator_teste} podemos ver o trator em teste (esquerda) equipado com os sensores e ligado ao segundo trator (direita).
 
 \begin{figure}[H]
   \centering
@@ -628,11 +636,13 @@ Com os dados coletados durante o ensaio do trator, faz-se possível gerar informa
 
 A medição dos dados de avanço do trator são feitas por meio de um \textit{encoder} ligado a cada roda. Dessa forma, podemos obter informações como: distância percorrida, períodos no qual ela patinou e velocidade.
 
-A fórmula para cálculo da velocidade em \abrevpuc{m/s}{metros por segundo} é: 
+A Equação ~\ref{eq:eq_ms_conversion} demonstra o cálculo da velocidade em \abrevpuc{m/s}{metros por segundo}. 
 
-${Np \over (Pr * Pe)}$
+\begin{equation} \label{eq:eq_ms_conversion}
+	V = {Np \over (Pr * Pe)}
+\end{equation}
 
-Onde ${Np}$ é o número de pulsos da leitura, ${Pr}$ é o número de pulsos por revolução e ${Pe}$ é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
+Onde (${V}$) é a velocidade em m/s, (${Np}$) é o número de pulsos da leitura, (${Pr}$) é o número de pulsos por revolução do \textit{encoder} e (${Pe}$) é o perímetro da roda. Na Figura ~\ref{fig_rotacao_por_roda} pode-se ver um gráfico com essa fórmula aplicada as quatro rodas do trator durante o teste.
 
 \begin{figure}[H]
   \centering
@@ -663,19 +673,23 @@ Os dados utilizados nestes gráficos foram coletados no módulo de \textit{encoder
 
 \subsection{Consumo Horário de Combustível}
 
-A medição de consumo do trator é feita com os valores das leituras do fluxômetro de entrada de combustível no motor e o de retorno de combustível. A fórmula para o cálculo dessa informação é: 
+A medição de consumo do trator é feita com os valores das leituras do fluxômetro de entrada de combustível no motor e o de retorno de combustível. A Equação ~\ref{eq:eq_consumo} demonstra esse cálculo. 
 
-${(FluxIn - FluxOut) * 3,6}$ 
+\begin{equation} \label{eq:eq_consumo}
+	C = (FluxIn - FluxOut) * 3,6
+\end{equation}
 
-Onde ${FluxIn}$ é o valor do fluxômetro de entrada, ${FluxOut}$ é o valor do fluxômetro de retorno e ${3,6}$ é referente a conversão de \abrevpuc{ml/s}{mililitros por segundo}  para \abrevpuc{l/h}{litros por hora}. A partir dessa fórmula é possível obter o consumo em l/h.
+Onde (${C}$) é o consumo em \abrevpuc{l/h}{litros por hora}, (${FluxIn}$) é o valor do fluxômetro de entrada, (${FluxOut}$) é o valor do fluxômetro de retorno e (${3,6}$) é referente a conversão de \abrevpuc{ml/s}{mililitros por segundo} para l/h.
 
-Como a coleta dessa informação é feita no módulo dos sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função que utilizamos foi:
+Como a coleta dessa informação é feita no módulo dos sensores e este foi configurado para fazer as leituras em intervalos de cinco segundos, a função a ser utilizada neste caso é descrita na Equação ~\ref{eq:eq_consumo_cinco_seg}
 
-${{(FluxIn - FluxOut) \over 5} * 3,6}$
+\begin{equation} \label{eq:eq_consumo_cinco_seg}
+	C = {{(FluxIn - FluxOut) \over 5} * 3,6}
+\end{equation}
 
 Onde a adição da divisão por cinco é para obter o consumo médio por segundo a cada leitura efetuada nos fluxômetros.
 
-Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que demonstra o consumo do trator durante a parcela de tempo selecionada do ensaio. A figura ~\ref{fig_grafico_consumo} representa este gráfico.
+Com a aplicação dessa fórmula sobre os dados coletados foi gerado o gráfico que demonstra o consumo do trator durante a parcela de tempo selecionada do ensaio. A Figura ~\ref{fig_grafico_consumo} representa este gráfico.
 
 \begin{figure}[H]
   \centering
@@ -696,15 +710,48 @@ O dispositivo se mostrou capaz de atender ao objetivo deste projeto, de modo que
 
 Até o presente momento da finalização deste trabalho, o dispositivo encontra-se em uso no projeto para o qual o mesmo foi planejado. Diversos ensaios já foram realizados em tratores de diversos modelos e marcas. Com isso conclui-se que o resultado, de fato, atende o objetivo proposto inicialmente.
 
+Como trabalho futuro, se mostra interessante o estudo de novos meios de realizar a comunicação entre o dispositivo final e o coordenador, em virtude do aumento do raio de alcance. Assim atuando na limitação deste projeto. O alcance do rádio utilizado é de até 120m, o que é uma boa distância, porém não o suficiente. Dessa forma, existe a possibilidade, do coletor ter que ficar em movimento para manter uma distância menor do que essa, pois nos ensaios de tratores, o trajeto pode ser maior do que 120m. E isso, implica na necessidade de um computador portátil ligado ao \textit{sniffer} do coletor.
+
 %Referencias:
 \bibliographystyle{abntex2-alf}
 \bibliography{Monografia}
 
-%\appendix
+\renewcommand{\appendixpagename}{Anexos}
+\renewcommand{\appendixtocname}{Anexos}
+\renewcommand{\appendixname}{ANEXO}
 
-%\chapter{Título do Apêndice}
+\begin{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\makeatletter
+\addtocontents{toc}{%
+\begingroup
+\let\protect\l@chapter\protect\l@section
+\let\protect\l@section\protect\l@subsection
+}
+\addtocontents{toc}{\endgroup}
+\end{appendices}
 
-%\section{Seção}
+\appendix
 
+\chapter{Folha de Dados Encoder}\label{anx:anx_a}
+
+\includepdf[pages=-]{Incremental-Absolute-Encoder-Datasheet.pdf}
+
+\chapter{Folha de Dados Fluxômetro}\label{anx:anx_b}
+
+\includepdf[pages=-]{fluxometro.pdf}
+
+\chapter{Folha de Dados Ultrassônico}\label{anx:anx_c}
+
+\includepdf[pages=-]{radar_vansco_speed_sensor.pdf}
+
+\chapter{Folha de Dados Tubo de Pitot}\label{anx:anx_d}
+
+\includepdf[pages=-]{MPX5010.pdf}
+
+
+\chapter{Folha de Dados Transdutor Célula de Carga}\label{anx:anx_f}
+
+\includepdf[pages=-]{hx711_english.pdf}
 
 \end{document}
