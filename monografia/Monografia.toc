@@ -35,7 +35,7 @@
 \contentsline {section}{\numberline {3.1}Import\^ancia do Sistema}{20}
 \contentsline {section}{\numberline {3.2}Limita\c c\~oes}{21}
 \contentsline {section}{\numberline {3.3}Vis\~ao Macro do Prot\'otipo}{21}
-\contentsline {section}{\numberline {3.4}Como Ser\'a Desenvolvido o Sistema}{22}
+\contentsline {section}{\numberline {3.4}Desenvolvimento do Sistema}{22}
 \contentsline {section}{\numberline {3.5}An\'alise do Software do Prot\'otipo}{23}
 \contentsline {subsection}{\numberline {3.5.1}Diagramas de Classe}{23}
 \contentsline {subsection}{\numberline {3.5.2}Diagrama de M\'aquina de Estados}{27}
