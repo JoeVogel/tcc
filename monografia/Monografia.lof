@@ -1,23 +1,23 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces GPS na Agricultura de Precis\~ao\relax }}{6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Componentes de um SIG (Sistema de Informa\c c\~ao Geogr\'afica)\relax }}{7}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Mega 2560 R3\relax }}{9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Rede ZigBee\relax }}{11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b.\relax }}{11}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferen\c ca entre \textit {encoder} incremental e absoluto.\relax }}{13}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Circuito de Seebeck\relax }}{14}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemplo de Termopar\relax }}{14}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces M\'etodo pulso-eco.\relax }}{15}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Tubo de Pitot.\relax }}{17}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Diagrama de funcionamento de um medidor de vaz\~ao por deslocamento positivo por engrenagens ovais.\relax }}{18}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Detalhes de constru\c c\~ao.\relax }}{19}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces GPS na Agricultura de Precis\~ao. Fonte: \cite {AGRICULTURAINVESTIGACION2015}\relax }}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Componentes de um SIG (Sistema de Informa\c c\~ao Geogr\'afica). Fonte: \cite {MARIANATALIA2015}\relax }}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Mega 2560 R3. Fonte: \cite {ARDUINOMEGA2015}\relax }}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Rede ZigBee. Fonte: \cite {vasques2012zigbee}\relax }}{11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Compara\c c\~ao entre o padr\~ao ZigBee como o Bluetooth e o IEEE 802.11b. Fonte: \cite {farahani2011zigbee}\relax }}{11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferen\c ca entre \textit {encoder} incremental e absoluto. Fonte: \cite {SABERELETRONICA2015}\relax }}{13}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Circuito de Seebeck. Fonte: \cite {thomazini2005sensores}\relax }}{14}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemplo de Termopar. Fonte: \cite {TERMOPARFUELTECH2015}\relax }}{14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces M\'etodo pulso-eco. Fonte: \cite {ultrassonico2015pulse}\relax }}{15}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Tubo de Pitot. Fonte: \cite {thomazini2005sensores}\relax }}{17}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Diagrama de funcionamento de um medidor de vaz\~ao por deslocamento positivo por engrenagens ovais. Fonte: \cite {thomazini2005sensores}\relax }}{18}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Detalhes de constru\c c\~ao. Fonte: \cite {thomazini2005sensores}\relax }}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura proposta\relax }}{22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de classe do m\'odulo de \textit {encoders}\relax }}{24}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de sensores\relax }}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de m\'aquina de estados\relax }}{27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura proposta.\relax }}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de classe do m\'odulo de \textit {encoders}.\relax }}{24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de classe do m\'odulo de sensores.\relax }}{26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de m\'aquina de estados.\relax }}{27}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Placa de circuito eletr\^onico.\relax }}{28}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa para prote\c c\~ao do circuito eletr\^onico.\relax }}{29}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces M\'etodo que preenche o pacote.\relax }}{30}
